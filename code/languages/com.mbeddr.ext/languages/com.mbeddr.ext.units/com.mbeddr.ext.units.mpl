@@ -69,6 +69,7 @@
         <module reference="a9d69647-0840-491e-bf39-2eb0805d2011(com.mbeddr.core.statements)" version="0" />
         <module reference="0d04a6cc-773e-4069-b9b0-11884b2ff1c8(com.mbeddr.ext.units)" version="0" />
         <module reference="4946b1ce-99f4-4894-90b6-e08eb8b6de40(com.mbeddr.ext.units#7696659106845773538)" version="0" />
+        <module reference="30d40e06-2249-4bd3-b8ab-109459f5021f(com.mbeddr.ext.units.runtime)" version="0" />
         <module reference="63e0e566-5131-447e-90e3-12ea330e1a00(com.mbeddr.mpsutil.blutil)" version="0" />
         <module reference="a482b416-d0c9-473f-8f67-725ed642b3f3(com.mbeddr.mpsutil.breadcrumb)" version="0" />
         <module reference="d09a16fb-1d68-4a92-a5a4-20b4b2f86a62(com.mbeddr.mpsutil.jung)" version="0" />
@@ -125,6 +126,7 @@
     <dependency reexport="false">ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)</dependency>
     <dependency reexport="false">7a5dda62-9140-4668-ab76-d5ed1746f2b2(jetbrains.mps.lang.typesystem)</dependency>
     <dependency reexport="false">20c6e580-bdc5-4067-8049-d7e3265a86de(jetbrains.mps.typesystemEngine)</dependency>
+    <dependency reexport="false">30d40e06-2249-4bd3-b8ab-109459f5021f(com.mbeddr.ext.units.runtime)</dependency>
   </dependencies>
   <usedDevKits>
     <usedDevKit>fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)</usedDevKit>
@@ -140,6 +142,8 @@
     <language id="0d04a6cc-773e-4069-b9b0-11884b2ff1c8" fqName="com.mbeddr.ext.units" version="1" />
     <language id="63e0e566-5131-447e-90e3-12ea330e1a00" fqName="com.mbeddr.mpsutil.blutil" version="1" />
     <language id="a482b416-d0c9-473f-8f67-725ed642b3f3" fqName="com.mbeddr.mpsutil.breadcrumb" version="0" />
+    <language id="9d69e719-78c8-4286-90db-fb19c107d049" fqName="com.mbeddr.mpsutil.grammarcells" version="0" />
+    <language id="b4f35ed8-45af-4efa-abe4-00ac26956e69" fqName="com.mbeddr.mpsutil.grammarcells.runtimelang" version="0" />
     <language id="b92f861d-0184-446d-b88b-6dcf0e070241" fqName="com.mbeddr.mpsutil.intentions" version="0" />
     <language id="47f075a6-558e-4640-a606-7ce0236c8023" fqName="com.mbeddr.mpsutil.interpreter" version="0" />
     <language id="d09a16fb-1d68-4a92-a5a4-20b4b2f86a62" fqName="com.mbeddr.mpsutil.jung" version="0" />
@@ -195,6 +199,7 @@
     <module reference="a9d69647-0840-491e-bf39-2eb0805d2011(com.mbeddr.core.statements)" version="0" />
     <module reference="b574d547-b77e-4fed-9f60-c349c4410765(com.mbeddr.ext.math)" version="0" />
     <module reference="0d04a6cc-773e-4069-b9b0-11884b2ff1c8(com.mbeddr.ext.units)" version="0" />
+    <module reference="30d40e06-2249-4bd3-b8ab-109459f5021f(com.mbeddr.ext.units.runtime)" version="0" />
     <module reference="63e0e566-5131-447e-90e3-12ea330e1a00(com.mbeddr.mpsutil.blutil)" version="0" />
     <module reference="a482b416-d0c9-473f-8f67-725ed642b3f3(com.mbeddr.mpsutil.breadcrumb)" version="0" />
     <module reference="d09a16fb-1d68-4a92-a5a4-20b4b2f86a62(com.mbeddr.mpsutil.jung)" version="0" />
@@ -227,6 +232,9 @@
     <module reference="7a5dda62-9140-4668-ab76-d5ed1746f2b2(jetbrains.mps.lang.typesystem)" version="0" />
     <module reference="20c6e580-bdc5-4067-8049-d7e3265a86de(jetbrains.mps.typesystemEngine)" version="0" />
   </dependencyVersions>
+  <runtime>
+    <dependency reexport="false">30d40e06-2249-4bd3-b8ab-109459f5021f(com.mbeddr.ext.units.runtime)</dependency>
+  </runtime>
   <extendedLanguages>
     <extendedLanguage>61c69711-ed61-4850-81d9-7714ff227fb0(com.mbeddr.core.expressions)</extendedLanguage>
     <extendedLanguage>6d11763d-483d-4b2b-8efc-09336c1b0001(com.mbeddr.core.modules)</extendedLanguage>
