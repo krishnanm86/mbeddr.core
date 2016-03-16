@@ -1883,9 +1883,6 @@
   <node concept="312cEu" id="5$bT90ZdOUA">
     <property role="TrG5h" value="HorizLineCell" />
     <property role="3GE5qa" value="cells.lines" />
-    <node concept="2AHcQZ" id="4U82Y3z1UU2" role="2AJF6D">
-      <ref role="2AI5Lk" to="wyt6:~Deprecated" resolve="Deprecated" />
-    </node>
     <node concept="3UR2Jj" id="4U82Y3z1UTZ" role="lGtFl">
       <node concept="TZ5HI" id="4U82Y3z1UU0" role="3nqlJM">
         <node concept="TZ5HA" id="4U82Y3z1UU1" role="3HnX3l">
@@ -1894,6 +1891,9 @@
           </node>
         </node>
       </node>
+    </node>
+    <node concept="2AHcQZ" id="4U82Y3z1UU2" role="2AJF6D">
+      <ref role="2AI5Lk" to="wyt6:~Deprecated" resolve="Deprecated" />
     </node>
     <node concept="3Tm1VV" id="5$bT90ZdOUE" role="1B3o_S" />
     <node concept="3uibUv" id="5$bT90ZdOUR" role="1zkMxy">
