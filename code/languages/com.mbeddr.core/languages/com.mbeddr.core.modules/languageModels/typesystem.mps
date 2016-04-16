@@ -8,7 +8,6 @@
     <use id="63e0e566-5131-447e-90e3-12ea330e1a00" name="com.mbeddr.mpsutil.blutil" version="-1" />
     <use id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core" version="-1" />
     <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="-1" />
-    <use id="b802a056-92a2-4fbc-902e-f8e5004c331f" name="org.eclipse.incquery.mps.base" version="0" />
     <use id="8c9a2720-9d21-4370-a226-819eb3e76e1e" name="org.eclipse.incquery.mps.sq" version="0" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
@@ -6990,11 +6989,11 @@
                           <node concept="17QB3L" id="7d9zFs_$RdB" role="1tU5fm" />
                           <node concept="3cpWs3" id="32AEfLiUmS6" role="33vP2m">
                             <node concept="Xl_RD" id="2GqtAvzatbu" role="3uHU7w">
-                              <property role="Xl_RC" value="!" />
+                              <property role="Xl_RC" value=" may not be initialized!" />
                             </node>
                             <node concept="3cpWs3" id="2GqtAvzas_A" role="3uHU7B">
                               <node concept="Xl_RD" id="2GqtAvzasoa" role="3uHU7B">
-                                <property role="Xl_RC" value="Reading from uninitialized variable " />
+                                <property role="Xl_RC" value="Variable " />
                               </node>
                               <node concept="2OqwBi" id="2GqtAvzasGh" role="3uHU7w">
                                 <node concept="2OqwBi" id="4zFXTqpMJhR" role="2Oq$k0">
@@ -7151,6 +7150,9 @@
                     <node concept="3cpWs8" id="56zXiDvf_Y_" role="3cqZAp">
                       <node concept="3cpWsn" id="56zXiDvf_YA" role="3cpWs9">
                         <property role="TrG5h" value="write" />
+                        <node concept="3uibUv" id="56zXiDvfA1L" role="1tU5fm">
+                          <ref role="3uigEE" to="dau9:~WriteInstruction" resolve="WriteInstruction" />
+                        </node>
                         <node concept="10QFUN" id="56zXiDvf_YD" role="33vP2m">
                           <node concept="3uibUv" id="56zXiDvfApd" role="10QFUM">
                             <ref role="3uigEE" to="dau9:~WriteInstruction" resolve="WriteInstruction" />
@@ -7158,9 +7160,6 @@
                           <node concept="37vLTw" id="56zXiDvf_YF" role="10QFUP">
                             <ref role="3cqZAo" node="2GqtAvyV0S1" resolve="instruction" />
                           </node>
-                        </node>
-                        <node concept="3uibUv" id="56zXiDvfA1L" role="1tU5fm">
-                          <ref role="3uigEE" to="dau9:~WriteInstruction" resolve="WriteInstruction" />
                         </node>
                       </node>
                     </node>
