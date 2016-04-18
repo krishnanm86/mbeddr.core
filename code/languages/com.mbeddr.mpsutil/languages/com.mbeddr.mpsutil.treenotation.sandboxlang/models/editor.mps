@@ -154,6 +154,9 @@
       <concept id="8433232831282901106" name="com.mbeddr.mpsutil.treenotation.structure.ShapeParameterDeclaration" flags="ng" index="15NUNA">
         <child id="8433232831282901107" name="type" index="15NUNB" />
       </concept>
+      <concept id="8796347991408045445" name="com.mbeddr.mpsutil.treenotation.structure.IncomingShapeStyle" flags="lg" index="3uywDx">
+        <child id="8796347991408045465" name="shape" index="3uywDX" />
+      </concept>
       <concept id="8796347991406413783" name="com.mbeddr.mpsutil.treenotation.structure.ThisNodeExpression" flags="ng" index="3u$I0N" />
       <concept id="8796347991406413716" name="com.mbeddr.mpsutil.treenotation.structure.ConditionalShape" flags="ng" index="3u$I1K">
         <child id="8796347991406416734" name="condition" index="3u$JiU" />
@@ -241,6 +244,14 @@
                       <ref role="3cqZAo" to="z60i:~Color.BLUE" resolve="BLUE" />
                     </node>
                   </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3uywDx" id="7CiTYi$AgY_" role="3F10Kt">
+              <node concept="1X_cmw" id="7CiTYi$AiL3" role="3uywDX">
+                <ref role="1X_clt" node="7k8R9gKN2ah" resolve="Circle" />
+                <node concept="3cmrfG" id="7CiTYi$AiL9" role="15NUvb">
+                  <property role="3cmrfH" value="13" />
                 </node>
               </node>
             </node>
