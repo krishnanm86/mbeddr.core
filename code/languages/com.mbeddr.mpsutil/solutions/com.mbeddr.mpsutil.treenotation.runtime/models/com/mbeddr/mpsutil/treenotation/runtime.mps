@@ -5190,7 +5190,7 @@
         <node concept="3clFbF" id="7GMtHW6tdZf" role="3cqZAp">
           <node concept="37vLTI" id="7GMtHW6tefL" role="3clFbG">
             <node concept="3cmrfG" id="7GMtHW6tenH" role="37vLTx">
-              <property role="3cmrfH" value="10" />
+              <property role="3cmrfH" value="13" />
             </node>
             <node concept="37vLTw" id="7GMtHW6teMU" role="37vLTJ">
               <ref role="3cqZAo" to="g51k:~EditorCell_Basic.myWidth" resolve="myWidth" />
@@ -5200,7 +5200,7 @@
         <node concept="3clFbF" id="7GMtHW6teCm" role="3cqZAp">
           <node concept="37vLTI" id="7GMtHW6tfbn" role="3clFbG">
             <node concept="3cmrfG" id="7GMtHW6tfjj" role="37vLTx">
-              <property role="3cmrfH" value="10" />
+              <property role="3cmrfH" value="13" />
             </node>
             <node concept="37vLTw" id="7GMtHW6teXj" role="37vLTJ">
               <ref role="3cqZAo" to="g51k:~EditorCell_Basic.myHeight" resolve="myHeight" />
@@ -6095,7 +6095,7 @@
                       <node concept="3clFbF" id="7CiTYi$xgkI" role="3cqZAp">
                         <node concept="37vLTI" id="7CiTYi$xgv$" role="3clFbG">
                           <node concept="3b6qkQ" id="7CiTYi$xgLl" role="37vLTx">
-                            <property role="$nhwW" value="0.2" />
+                            <property role="$nhwW" value="0.5" />
                           </node>
                           <node concept="37vLTw" id="7CiTYi$xgkG" role="37vLTJ">
                             <ref role="3cqZAo" node="7GMtHW6t7N$" resolve="opacity" />
