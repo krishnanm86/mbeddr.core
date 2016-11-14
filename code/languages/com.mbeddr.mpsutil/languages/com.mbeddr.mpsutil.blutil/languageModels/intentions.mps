@@ -3181,7 +3181,7 @@
                 <node concept="2c44tf" id="ednJFOitfL" role="37vLTx">
                   <node concept="2YIFZM" id="ednJFOiB6E" role="2c44tc">
                     <ref role="1Pybhc" to="2k9e:~MetaAdapterFactory" resolve="MetaAdapterFactory" />
-                    <ref role="37wK5l" to="2k9e:~MetaAdapterFactory.getContainmentLink(java.util.UUID,long,long,java.lang.String):org.jetbrains.mps.openapi.language.SContainmentLink" resolve="getContainmentLink" />
+                    <ref role="37wK5l" to="2k9e:~MetaAdapterFactory.getContainmentLink(long,long,long,long,java.lang.String):org.jetbrains.mps.openapi.language.SContainmentLink" resolve="getContainmentLink" />
                     <node concept="2YIFZM" id="ednJFOiGRf" role="37wK5m">
                       <ref role="37wK5l" to="33ny:~UUID.fromString(java.lang.String):java.util.UUID" resolve="fromString" />
                       <ref role="1Pybhc" to="33ny:~UUID" resolve="UUID" />
@@ -3319,8 +3319,8 @@
                 <node concept="37vLTI" id="ednJFOiYMK" role="3clFbG">
                   <node concept="2c44tf" id="ednJFOiYML" role="37vLTx">
                     <node concept="2YIFZM" id="ednJFOiZ3_" role="2c44tc">
-                      <ref role="37wK5l" to="2k9e:~MetaAdapterFactory.getReferenceLink(java.util.UUID,long,long,java.lang.String):org.jetbrains.mps.openapi.language.SReferenceLink" resolve="getReferenceLink" />
                       <ref role="1Pybhc" to="2k9e:~MetaAdapterFactory" resolve="MetaAdapterFactory" />
+                      <ref role="37wK5l" to="2k9e:~MetaAdapterFactory.getReferenceLink(long,long,long,long,java.lang.String):org.jetbrains.mps.openapi.language.SReferenceLink" resolve="getReferenceLink" />
                       <node concept="2YIFZM" id="ednJFOiZ3A" role="37wK5m">
                         <ref role="37wK5l" to="33ny:~UUID.fromString(java.lang.String):java.util.UUID" resolve="fromString" />
                         <ref role="1Pybhc" to="33ny:~UUID" resolve="UUID" />
