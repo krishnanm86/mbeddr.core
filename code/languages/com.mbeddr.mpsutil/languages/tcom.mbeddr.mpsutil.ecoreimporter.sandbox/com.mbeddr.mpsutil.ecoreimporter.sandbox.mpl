@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<language namespace="tcom.mbeddr.mpsutil.ecoreimporter.sandbox" uuid="717cf899-0117-4eeb-9421-d27701069eb7" languageVersion="0" moduleVersion="0">
+<language namespace="com.mbeddr.mpsutil.ecoreimporter.sandbox" uuid="717cf899-0117-4eeb-9421-d27701069eb7" languageVersion="0" moduleVersion="0">
   <models>
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="models" />
@@ -7,7 +7,7 @@
   </models>
   <accessoryModels />
   <generators>
-    <generator generatorUID="tcom.mbeddr.mpsutil.ecoreimporter.sandbox#5119305553232763689" uuid="4bdf90a0-4eb8-4e90-9745-6a9f7871f576">
+    <generator generatorUID="com.mbeddr.mpsutil.ecoreimporter.sandbox#5119305553232763689" uuid="4bdf90a0-4eb8-4e90-9745-6a9f7871f576">
       <models>
         <modelRoot contentPath="${module}" type="default">
           <sourceRoot path="${module}/generator/template" />
@@ -41,11 +41,11 @@
         <module reference="6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)" version="0" />
         <module reference="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea(MPS.Core)" version="0" />
         <module reference="8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)" version="0" />
+        <module reference="717cf899-0117-4eeb-9421-d27701069eb7(com.mbeddr.mpsutil.ecoreimporter.sandbox)" version="0" />
+        <module reference="4bdf90a0-4eb8-4e90-9745-6a9f7871f576(com.mbeddr.mpsutil.ecoreimporter.sandbox#5119305553232763689)" version="0" />
         <module reference="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" version="0" />
         <module reference="d7eb0a2a-bd50-4576-beae-e4a89db35f20(jetbrains.mps.lang.scopes.runtime)" version="0" />
         <module reference="c72da2b9-7cce-4447-8389-f407dc1158b7(jetbrains.mps.lang.structure)" version="0" />
-        <module reference="717cf899-0117-4eeb-9421-d27701069eb7(tcom.mbeddr.mpsutil.ecoreimporter.sandbox)" version="0" />
-        <module reference="4bdf90a0-4eb8-4e90-9745-6a9f7871f576(tcom.mbeddr.mpsutil.ecoreimporter.sandbox#5119305553232763689)" version="0" />
       </dependencyVersions>
       <mapping-priorities />
     </generator>
@@ -93,10 +93,10 @@
     <module reference="6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)" version="0" />
     <module reference="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea(MPS.Core)" version="0" />
     <module reference="8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)" version="0" />
+    <module reference="717cf899-0117-4eeb-9421-d27701069eb7(com.mbeddr.mpsutil.ecoreimporter.sandbox)" version="0" />
     <module reference="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" version="0" />
     <module reference="d7eb0a2a-bd50-4576-beae-e4a89db35f20(jetbrains.mps.lang.scopes.runtime)" version="0" />
     <module reference="c72da2b9-7cce-4447-8389-f407dc1158b7(jetbrains.mps.lang.structure)" version="0" />
-    <module reference="717cf899-0117-4eeb-9421-d27701069eb7(tcom.mbeddr.mpsutil.ecoreimporter.sandbox)" version="0" />
   </dependencyVersions>
   <extendedLanguages />
 </language>
