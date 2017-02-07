@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:e9c2b34f-871e-440c-ae4c-12004d4e9472(tcom.mbeddr.mpsutil.ecoreimporter.sandbox.generator.template.main@generator)">
+<model ref="r:e9c2b34f-871e-440c-ae4c-12004d4e9472(com.mbeddr.mpsutil.ecoreimporter.sandbox.generator.template.main@generator)">
   <persistence version="9" />
   <languages>
     <use id="717cf899-0117-4eeb-9421-d27701069eb7" name="tcom.mbeddr.mpsutil.ecoreimporter.sandbox" version="-1" />
