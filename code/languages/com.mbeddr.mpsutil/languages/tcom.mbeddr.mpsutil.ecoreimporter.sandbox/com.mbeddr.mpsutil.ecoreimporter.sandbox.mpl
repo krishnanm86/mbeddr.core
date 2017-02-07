@@ -43,7 +43,6 @@
         <module reference="8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)" version="0" />
         <module reference="717cf899-0117-4eeb-9421-d27701069eb7(com.mbeddr.mpsutil.ecoreimporter.sandbox)" version="0" />
         <module reference="4bdf90a0-4eb8-4e90-9745-6a9f7871f576(com.mbeddr.mpsutil.ecoreimporter.sandbox#5119305553232763689)" version="0" />
-        <module reference="77948de3-6ef9-452d-b392-d01403e4086f(com.mbeddr.mpsutil.ecoreimporter.util)" version="0" />
         <module reference="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" version="0" />
         <module reference="d7eb0a2a-bd50-4576-beae-e4a89db35f20(jetbrains.mps.lang.scopes.runtime)" version="0" />
         <module reference="c72da2b9-7cce-4447-8389-f407dc1158b7(jetbrains.mps.lang.structure)" version="0" />
@@ -53,7 +52,7 @@
   </generators>
   <sourcePath />
   <dependencies>
-    <dependency reexport="true">77948de3-6ef9-452d-b392-d01403e4086f(com.mbeddr.mpsutil.ecoreimporter.util)</dependency>
+    <dependency reexport="false">77948de3-6ef9-452d-b392-d01403e4086f(com.mbeddr.mpsutil.ecoreimporter.util)</dependency>
   </dependencies>
   <usedDevKits>
     <usedDevKit>2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)</usedDevKit>

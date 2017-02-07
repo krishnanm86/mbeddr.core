@@ -3363,6 +3363,16 @@
       <property role="DiZV1" value="false" />
       <property role="2aFKle" value="false" />
       <node concept="3clFbS" id="5B4V9ihfyCX" role="3clF47">
+        <node concept="3SKdUt" id="2AgFaoP0aaK" role="3cqZAp">
+          <node concept="3SKdUq" id="2AgFaoP0aaM" role="3SKWNk">
+            <property role="3SKdUp" value="The string type is used for any type that is not a primitive type in MPS but a permitted type in EMF." />
+          </node>
+        </node>
+        <node concept="3SKdUt" id="2AgFaoP0bXG" role="3cqZAp">
+          <node concept="3SKdUq" id="2AgFaoP0bXI" role="3SKWNk">
+            <property role="3SKdUp" value="A string node without an annotation implies the primitive type string in MPS" />
+          </node>
+        </node>
         <node concept="3cpWs8" id="5B4V9ihfzHz" role="3cqZAp">
           <node concept="3cpWsn" id="5B4V9ihfzHA" role="3cpWs9">
             <property role="TrG5h" value="retNode" />
@@ -3548,8 +3558,8 @@
                       <ref role="2pJxaS" to="hvgx:2AgFaoOYcZu" resolve="EMFDataTypeAnnotation" />
                       <node concept="2pIpSj" id="2AgFaoOZDgR" role="2pJxcM">
                         <ref role="2pIpSl" to="hvgx:2AgFaoOYGZJ" resolve="type" />
-                        <node concept="2pJPED" id="2AgFaoOZDgS" role="2pJxcZ">
-                          <ref role="2pJxaS" to="hvgx:2AgFaoOYAqZ" resolve="EBigDecimal" />
+                        <node concept="2pJPED" id="2AgFaoOZTKG" role="2pJxcZ">
+                          <ref role="2pJxaS" to="hvgx:2AgFaoOZhwW" resolve="EBooleanObject" />
                         </node>
                       </node>
                     </node>
@@ -3580,7 +3590,7 @@
                       <ref role="1PxDUh" to="iuoz:~EcorePackage" resolve="EcorePackage" />
                     </node>
                     <node concept="liA8E" id="2AgFaoOZDh3" role="2OqNvi">
-                      <ref role="37wK5l" to="iuoz:~EcorePackage.getEBigDecimal():org.eclipse.emf.ecore.EDataType" resolve="getEBigDecimal" />
+                      <ref role="37wK5l" to="iuoz:~EcorePackage.getEBooleanObject():org.eclipse.emf.ecore.EDataType" resolve="getEBooleanObject" />
                     </node>
                   </node>
                   <node concept="liA8E" id="2AgFaoOZDh4" role="2OqNvi">
@@ -3599,8 +3609,8 @@
                       <ref role="2pJxaS" to="hvgx:2AgFaoOYcZu" resolve="EMFDataTypeAnnotation" />
                       <node concept="2pIpSj" id="2AgFaoOZD_3" role="2pJxcM">
                         <ref role="2pIpSl" to="hvgx:2AgFaoOYGZJ" resolve="type" />
-                        <node concept="2pJPED" id="2AgFaoOZD_4" role="2pJxcZ">
-                          <ref role="2pJxaS" to="hvgx:2AgFaoOYAqZ" resolve="EBigDecimal" />
+                        <node concept="2pJPED" id="2AgFaoOZU3X" role="2pJxcZ">
+                          <ref role="2pJxaS" to="hvgx:2AgFaoOZhwY" resolve="EByte" />
                         </node>
                       </node>
                     </node>
@@ -3631,7 +3641,7 @@
                       <ref role="1PxDUh" to="iuoz:~EcorePackage" resolve="EcorePackage" />
                     </node>
                     <node concept="liA8E" id="2AgFaoOZD_f" role="2OqNvi">
-                      <ref role="37wK5l" to="iuoz:~EcorePackage.getEBigDecimal():org.eclipse.emf.ecore.EDataType" resolve="getEBigDecimal" />
+                      <ref role="37wK5l" to="iuoz:~EcorePackage.getEByte():org.eclipse.emf.ecore.EDataType" resolve="getEByte" />
                     </node>
                   </node>
                   <node concept="liA8E" id="2AgFaoOZD_g" role="2OqNvi">
@@ -3650,8 +3660,8 @@
                       <ref role="2pJxaS" to="hvgx:2AgFaoOYcZu" resolve="EMFDataTypeAnnotation" />
                       <node concept="2pIpSj" id="2AgFaoOZDAV" role="2pJxcM">
                         <ref role="2pIpSl" to="hvgx:2AgFaoOYGZJ" resolve="type" />
-                        <node concept="2pJPED" id="2AgFaoOZDAW" role="2pJxcZ">
-                          <ref role="2pJxaS" to="hvgx:2AgFaoOYAqZ" resolve="EBigDecimal" />
+                        <node concept="2pJPED" id="2AgFaoOZUAB" role="2pJxcZ">
+                          <ref role="2pJxaS" to="hvgx:2AgFaoOZhx0" resolve="EByteArray" />
                         </node>
                       </node>
                     </node>
@@ -3682,7 +3692,7 @@
                       <ref role="1PxDUh" to="iuoz:~EcorePackage" resolve="EcorePackage" />
                     </node>
                     <node concept="liA8E" id="2AgFaoOZDB7" role="2OqNvi">
-                      <ref role="37wK5l" to="iuoz:~EcorePackage.getEBigDecimal():org.eclipse.emf.ecore.EDataType" resolve="getEBigDecimal" />
+                      <ref role="37wK5l" to="iuoz:~EcorePackage.getEByteArray():org.eclipse.emf.ecore.EDataType" resolve="getEByteArray" />
                     </node>
                   </node>
                   <node concept="liA8E" id="2AgFaoOZDB8" role="2OqNvi">
@@ -3701,8 +3711,8 @@
                       <ref role="2pJxaS" to="hvgx:2AgFaoOYcZu" resolve="EMFDataTypeAnnotation" />
                       <node concept="2pIpSj" id="2AgFaoOZDY8" role="2pJxcM">
                         <ref role="2pIpSl" to="hvgx:2AgFaoOYGZJ" resolve="type" />
-                        <node concept="2pJPED" id="2AgFaoOZDY9" role="2pJxcZ">
-                          <ref role="2pJxaS" to="hvgx:2AgFaoOYAqZ" resolve="EBigDecimal" />
+                        <node concept="2pJPED" id="2AgFaoOZUVK" role="2pJxcZ">
+                          <ref role="2pJxaS" to="hvgx:2AgFaoOZhx2" resolve="EByteObject" />
                         </node>
                       </node>
                     </node>
@@ -3733,7 +3743,7 @@
                       <ref role="3cqZAo" to="iuoz:~EcorePackage.eINSTANCE" resolve="eINSTANCE" />
                     </node>
                     <node concept="liA8E" id="2AgFaoOZDYk" role="2OqNvi">
-                      <ref role="37wK5l" to="iuoz:~EcorePackage.getEBigDecimal():org.eclipse.emf.ecore.EDataType" resolve="getEBigDecimal" />
+                      <ref role="37wK5l" to="iuoz:~EcorePackage.getEByteObject():org.eclipse.emf.ecore.EDataType" resolve="getEByteObject" />
                     </node>
                   </node>
                   <node concept="liA8E" id="2AgFaoOZDYl" role="2OqNvi">
@@ -3752,8 +3762,8 @@
                       <ref role="2pJxaS" to="hvgx:2AgFaoOYcZu" resolve="EMFDataTypeAnnotation" />
                       <node concept="2pIpSj" id="2AgFaoOZE0C" role="2pJxcM">
                         <ref role="2pIpSl" to="hvgx:2AgFaoOYGZJ" resolve="type" />
-                        <node concept="2pJPED" id="2AgFaoOZE0D" role="2pJxcZ">
-                          <ref role="2pJxaS" to="hvgx:2AgFaoOYAqZ" resolve="EBigDecimal" />
+                        <node concept="2pJPED" id="2AgFaoOZVgS" role="2pJxcZ">
+                          <ref role="2pJxaS" to="hvgx:2AgFaoOZhx4" resolve="EChar" />
                         </node>
                       </node>
                     </node>
@@ -3784,7 +3794,7 @@
                       <ref role="3cqZAo" to="iuoz:~EcorePackage.eINSTANCE" resolve="eINSTANCE" />
                     </node>
                     <node concept="liA8E" id="2AgFaoOZE0O" role="2OqNvi">
-                      <ref role="37wK5l" to="iuoz:~EcorePackage.getEBigDecimal():org.eclipse.emf.ecore.EDataType" resolve="getEBigDecimal" />
+                      <ref role="37wK5l" to="iuoz:~EcorePackage.getEChar():org.eclipse.emf.ecore.EDataType" resolve="getEChar" />
                     </node>
                   </node>
                   <node concept="liA8E" id="2AgFaoOZE0P" role="2OqNvi">
@@ -3803,8 +3813,8 @@
                       <ref role="2pJxaS" to="hvgx:2AgFaoOYcZu" resolve="EMFDataTypeAnnotation" />
                       <node concept="2pIpSj" id="2AgFaoOZEpV" role="2pJxcM">
                         <ref role="2pIpSl" to="hvgx:2AgFaoOYGZJ" resolve="type" />
-                        <node concept="2pJPED" id="2AgFaoOZEpW" role="2pJxcZ">
-                          <ref role="2pJxaS" to="hvgx:2AgFaoOYAqZ" resolve="EBigDecimal" />
+                        <node concept="2pJPED" id="2AgFaoOZV$9" role="2pJxcZ">
+                          <ref role="2pJxaS" to="hvgx:2AgFaoOZhx6" resolve="ECharacterObject" />
                         </node>
                       </node>
                     </node>
@@ -3835,7 +3845,7 @@
                       <ref role="1PxDUh" to="iuoz:~EcorePackage" resolve="EcorePackage" />
                     </node>
                     <node concept="liA8E" id="2AgFaoOZEq7" role="2OqNvi">
-                      <ref role="37wK5l" to="iuoz:~EcorePackage.getEBigDecimal():org.eclipse.emf.ecore.EDataType" resolve="getEBigDecimal" />
+                      <ref role="37wK5l" to="iuoz:~EcorePackage.getECharacterObject():org.eclipse.emf.ecore.EDataType" resolve="getECharacterObject" />
                     </node>
                   </node>
                   <node concept="liA8E" id="2AgFaoOZEq8" role="2OqNvi">
@@ -3854,8 +3864,8 @@
                       <ref role="2pJxaS" to="hvgx:2AgFaoOYcZu" resolve="EMFDataTypeAnnotation" />
                       <node concept="2pIpSj" id="2AgFaoOZEN7" role="2pJxcM">
                         <ref role="2pIpSl" to="hvgx:2AgFaoOYGZJ" resolve="type" />
-                        <node concept="2pJPED" id="2AgFaoOZEN8" role="2pJxcZ">
-                          <ref role="2pJxaS" to="hvgx:2AgFaoOYAqZ" resolve="EBigDecimal" />
+                        <node concept="2pJPED" id="2AgFaoOZVTy" role="2pJxcZ">
+                          <ref role="2pJxaS" to="hvgx:2AgFaoOZhx8" resolve="EDate" />
                         </node>
                       </node>
                     </node>
@@ -3886,7 +3896,7 @@
                       <ref role="3cqZAo" to="iuoz:~EcorePackage.eINSTANCE" resolve="eINSTANCE" />
                     </node>
                     <node concept="liA8E" id="2AgFaoOZENj" role="2OqNvi">
-                      <ref role="37wK5l" to="iuoz:~EcorePackage.getEBigDecimal():org.eclipse.emf.ecore.EDataType" resolve="getEBigDecimal" />
+                      <ref role="37wK5l" to="iuoz:~EcorePackage.getEDate():org.eclipse.emf.ecore.EDataType" resolve="getEDate" />
                     </node>
                   </node>
                   <node concept="liA8E" id="2AgFaoOZENk" role="2OqNvi">
@@ -3905,8 +3915,8 @@
                       <ref role="2pJxaS" to="hvgx:2AgFaoOYcZu" resolve="EMFDataTypeAnnotation" />
                       <node concept="2pIpSj" id="2AgFaoOZFdl" role="2pJxcM">
                         <ref role="2pIpSl" to="hvgx:2AgFaoOYGZJ" resolve="type" />
-                        <node concept="2pJPED" id="2AgFaoOZFdm" role="2pJxcZ">
-                          <ref role="2pJxaS" to="hvgx:2AgFaoOYAqZ" resolve="EBigDecimal" />
+                        <node concept="2pJPED" id="2AgFaoOZWcN" role="2pJxcZ">
+                          <ref role="2pJxaS" to="hvgx:2AgFaoOZhxa" resolve="EDiagnosticChain" />
                         </node>
                       </node>
                     </node>
@@ -3937,7 +3947,7 @@
                       <ref role="1PxDUh" to="iuoz:~EcorePackage" resolve="EcorePackage" />
                     </node>
                     <node concept="liA8E" id="2AgFaoOZFdx" role="2OqNvi">
-                      <ref role="37wK5l" to="iuoz:~EcorePackage.getEBigDecimal():org.eclipse.emf.ecore.EDataType" resolve="getEBigDecimal" />
+                      <ref role="37wK5l" to="iuoz:~EcorePackage.getEDiagnosticChain():org.eclipse.emf.ecore.EDataType" resolve="getEDiagnosticChain" />
                     </node>
                   </node>
                   <node concept="liA8E" id="2AgFaoOZFdy" role="2OqNvi">
@@ -3956,8 +3966,8 @@
                       <ref role="2pJxaS" to="hvgx:2AgFaoOYcZu" resolve="EMFDataTypeAnnotation" />
                       <node concept="2pIpSj" id="2AgFaoOZFGx" role="2pJxcM">
                         <ref role="2pIpSl" to="hvgx:2AgFaoOYGZJ" resolve="type" />
-                        <node concept="2pJPED" id="2AgFaoOZFGy" role="2pJxcZ">
-                          <ref role="2pJxaS" to="hvgx:2AgFaoOYAqZ" resolve="EBigDecimal" />
+                        <node concept="2pJPED" id="2AgFaoOZWvV" role="2pJxcZ">
+                          <ref role="2pJxaS" to="hvgx:2AgFaoOZhxc" resolve="EDouble" />
                         </node>
                       </node>
                     </node>
@@ -3988,7 +3998,7 @@
                       <ref role="3cqZAo" to="iuoz:~EcorePackage.eINSTANCE" resolve="eINSTANCE" />
                     </node>
                     <node concept="liA8E" id="2AgFaoOZFGH" role="2OqNvi">
-                      <ref role="37wK5l" to="iuoz:~EcorePackage.getEBigDecimal():org.eclipse.emf.ecore.EDataType" resolve="getEBigDecimal" />
+                      <ref role="37wK5l" to="iuoz:~EcorePackage.getEDouble():org.eclipse.emf.ecore.EDataType" resolve="getEDouble" />
                     </node>
                   </node>
                   <node concept="liA8E" id="2AgFaoOZFGI" role="2OqNvi">
@@ -4007,8 +4017,8 @@
                       <ref role="2pJxaS" to="hvgx:2AgFaoOYcZu" resolve="EMFDataTypeAnnotation" />
                       <node concept="2pIpSj" id="2AgFaoOZGa7" role="2pJxcM">
                         <ref role="2pIpSl" to="hvgx:2AgFaoOYGZJ" resolve="type" />
-                        <node concept="2pJPED" id="2AgFaoOZGa8" role="2pJxcZ">
-                          <ref role="2pJxaS" to="hvgx:2AgFaoOYAqZ" resolve="EBigDecimal" />
+                        <node concept="2pJPED" id="2AgFaoOZWNc" role="2pJxcZ">
+                          <ref role="2pJxaS" to="hvgx:2AgFaoOZhxe" resolve="EDoubleObject" />
                         </node>
                       </node>
                     </node>
@@ -4039,7 +4049,7 @@
                       <ref role="1PxDUh" to="iuoz:~EcorePackage" resolve="EcorePackage" />
                     </node>
                     <node concept="liA8E" id="2AgFaoOZGaj" role="2OqNvi">
-                      <ref role="37wK5l" to="iuoz:~EcorePackage.getEBigDecimal():org.eclipse.emf.ecore.EDataType" resolve="getEBigDecimal" />
+                      <ref role="37wK5l" to="iuoz:~EcorePackage.getEDoubleObject():org.eclipse.emf.ecore.EDataType" resolve="getEDoubleObject" />
                     </node>
                   </node>
                   <node concept="liA8E" id="2AgFaoOZGak" role="2OqNvi">
@@ -4058,8 +4068,8 @@
                       <ref role="2pJxaS" to="hvgx:2AgFaoOYcZu" resolve="EMFDataTypeAnnotation" />
                       <node concept="2pIpSj" id="2AgFaoOZGFY" role="2pJxcM">
                         <ref role="2pIpSl" to="hvgx:2AgFaoOYGZJ" resolve="type" />
-                        <node concept="2pJPED" id="2AgFaoOZGFZ" role="2pJxcZ">
-                          <ref role="2pJxaS" to="hvgx:2AgFaoOYAqZ" resolve="EBigDecimal" />
+                        <node concept="2pJPED" id="2AgFaoOZX6s" role="2pJxcZ">
+                          <ref role="2pJxaS" to="hvgx:2AgFaoOZhxg" resolve="EEList" />
                         </node>
                       </node>
                     </node>
@@ -4090,7 +4100,7 @@
                       <ref role="3cqZAo" to="iuoz:~EcorePackage.eINSTANCE" resolve="eINSTANCE" />
                     </node>
                     <node concept="liA8E" id="2AgFaoOZGGa" role="2OqNvi">
-                      <ref role="37wK5l" to="iuoz:~EcorePackage.getEBigDecimal():org.eclipse.emf.ecore.EDataType" resolve="getEBigDecimal" />
+                      <ref role="37wK5l" to="iuoz:~EcorePackage.getEEList():org.eclipse.emf.ecore.EDataType" resolve="getEEList" />
                     </node>
                   </node>
                   <node concept="liA8E" id="2AgFaoOZGGb" role="2OqNvi">
@@ -4109,8 +4119,8 @@
                       <ref role="2pJxaS" to="hvgx:2AgFaoOYcZu" resolve="EMFDataTypeAnnotation" />
                       <node concept="2pIpSj" id="2AgFaoOZHap" role="2pJxcM">
                         <ref role="2pIpSl" to="hvgx:2AgFaoOYGZJ" resolve="type" />
-                        <node concept="2pJPED" id="2AgFaoOZHaq" role="2pJxcZ">
-                          <ref role="2pJxaS" to="hvgx:2AgFaoOYAqZ" resolve="EBigDecimal" />
+                        <node concept="2pJPED" id="2AgFaoOZXtG" role="2pJxcZ">
+                          <ref role="2pJxaS" to="hvgx:2AgFaoOZhxi" resolve="EEnumerator" />
                         </node>
                       </node>
                     </node>
@@ -4141,7 +4151,7 @@
                       <ref role="1PxDUh" to="iuoz:~EcorePackage" resolve="EcorePackage" />
                     </node>
                     <node concept="liA8E" id="2AgFaoOZHa_" role="2OqNvi">
-                      <ref role="37wK5l" to="iuoz:~EcorePackage.getEBigDecimal():org.eclipse.emf.ecore.EDataType" resolve="getEBigDecimal" />
+                      <ref role="37wK5l" to="iuoz:~EcorePackage.getEEnumerator():org.eclipse.emf.ecore.EDataType" resolve="getEEnumerator" />
                     </node>
                   </node>
                   <node concept="liA8E" id="2AgFaoOZHaA" role="2OqNvi">
@@ -4160,8 +4170,8 @@
                       <ref role="2pJxaS" to="hvgx:2AgFaoOYcZu" resolve="EMFDataTypeAnnotation" />
                       <node concept="2pIpSj" id="2AgFaoOZHLG" role="2pJxcM">
                         <ref role="2pIpSl" to="hvgx:2AgFaoOYGZJ" resolve="type" />
-                        <node concept="2pJPED" id="2AgFaoOZHLH" role="2pJxcZ">
-                          <ref role="2pJxaS" to="hvgx:2AgFaoOYAqZ" resolve="EBigDecimal" />
+                        <node concept="2pJPED" id="2AgFaoOZXKX" role="2pJxcZ">
+                          <ref role="2pJxaS" to="hvgx:2AgFaoOZhxk" resolve="EFeatureMap" />
                         </node>
                       </node>
                     </node>
@@ -4192,7 +4202,7 @@
                       <ref role="1PxDUh" to="iuoz:~EcorePackage" resolve="EcorePackage" />
                     </node>
                     <node concept="liA8E" id="2AgFaoOZHLS" role="2OqNvi">
-                      <ref role="37wK5l" to="iuoz:~EcorePackage.getEBigDecimal():org.eclipse.emf.ecore.EDataType" resolve="getEBigDecimal" />
+                      <ref role="37wK5l" to="iuoz:~EcorePackage.getEFeatureMap():org.eclipse.emf.ecore.EDataType" resolve="getEFeatureMap" />
                     </node>
                   </node>
                   <node concept="liA8E" id="2AgFaoOZHLT" role="2OqNvi">
@@ -4211,8 +4221,8 @@
                       <ref role="2pJxaS" to="hvgx:2AgFaoOYcZu" resolve="EMFDataTypeAnnotation" />
                       <node concept="2pIpSj" id="2AgFaoOZIj5" role="2pJxcM">
                         <ref role="2pIpSl" to="hvgx:2AgFaoOYGZJ" resolve="type" />
-                        <node concept="2pJPED" id="2AgFaoOZIj6" role="2pJxcZ">
-                          <ref role="2pJxaS" to="hvgx:2AgFaoOYAqZ" resolve="EBigDecimal" />
+                        <node concept="2pJPED" id="2AgFaoOZY4e" role="2pJxcZ">
+                          <ref role="2pJxaS" to="hvgx:2AgFaoOZhxm" resolve="EFeatureMapEntry" />
                         </node>
                       </node>
                     </node>
@@ -4243,7 +4253,7 @@
                       <ref role="1PxDUh" to="iuoz:~EcorePackage" resolve="EcorePackage" />
                     </node>
                     <node concept="liA8E" id="2AgFaoOZIjh" role="2OqNvi">
-                      <ref role="37wK5l" to="iuoz:~EcorePackage.getEBigDecimal():org.eclipse.emf.ecore.EDataType" resolve="getEBigDecimal" />
+                      <ref role="37wK5l" to="iuoz:~EcorePackage.getEFeatureMapEntry():org.eclipse.emf.ecore.EDataType" resolve="getEFeatureMapEntry" />
                     </node>
                   </node>
                   <node concept="liA8E" id="2AgFaoOZIji" role="2OqNvi">
@@ -4262,8 +4272,8 @@
                       <ref role="2pJxaS" to="hvgx:2AgFaoOYcZu" resolve="EMFDataTypeAnnotation" />
                       <node concept="2pIpSj" id="2AgFaoOZIOE" role="2pJxcM">
                         <ref role="2pIpSl" to="hvgx:2AgFaoOYGZJ" resolve="type" />
-                        <node concept="2pJPED" id="2AgFaoOZIOF" role="2pJxcZ">
-                          <ref role="2pJxaS" to="hvgx:2AgFaoOYAqZ" resolve="EBigDecimal" />
+                        <node concept="2pJPED" id="2AgFaoOZYIK" role="2pJxcZ">
+                          <ref role="2pJxaS" to="hvgx:2AgFaoOZhxq" resolve="EFloatObject" />
                         </node>
                       </node>
                     </node>
@@ -4294,7 +4304,7 @@
                       <ref role="1PxDUh" to="iuoz:~EcorePackage" resolve="EcorePackage" />
                     </node>
                     <node concept="liA8E" id="2AgFaoOZIOQ" role="2OqNvi">
-                      <ref role="37wK5l" to="iuoz:~EcorePackage.getEBigDecimal():org.eclipse.emf.ecore.EDataType" resolve="getEBigDecimal" />
+                      <ref role="37wK5l" to="iuoz:~EcorePackage.getEFloatObject():org.eclipse.emf.ecore.EDataType" resolve="getEFloatObject" />
                     </node>
                   </node>
                   <node concept="liA8E" id="2AgFaoOZIOR" role="2OqNvi">
@@ -4313,8 +4323,8 @@
                       <ref role="2pJxaS" to="hvgx:2AgFaoOYcZu" resolve="EMFDataTypeAnnotation" />
                       <node concept="2pIpSj" id="2AgFaoOZJr4" role="2pJxcM">
                         <ref role="2pIpSl" to="hvgx:2AgFaoOYGZJ" resolve="type" />
-                        <node concept="2pJPED" id="2AgFaoOZJr5" role="2pJxcZ">
-                          <ref role="2pJxaS" to="hvgx:2AgFaoOYAqZ" resolve="EBigDecimal" />
+                        <node concept="2pJPED" id="2AgFaoOZZ1R" role="2pJxcZ">
+                          <ref role="2pJxaS" to="hvgx:2AgFaoOZhxw" resolve="EIntegerObject" />
                         </node>
                       </node>
                     </node>
@@ -4345,7 +4355,7 @@
                       <ref role="1PxDUh" to="iuoz:~EcorePackage" resolve="EcorePackage" />
                     </node>
                     <node concept="liA8E" id="2AgFaoOZJrg" role="2OqNvi">
-                      <ref role="37wK5l" to="iuoz:~EcorePackage.getEBigDecimal():org.eclipse.emf.ecore.EDataType" resolve="getEBigDecimal" />
+                      <ref role="37wK5l" to="iuoz:~EcorePackage.getEIntegerObject():org.eclipse.emf.ecore.EDataType" resolve="getEIntegerObject" />
                     </node>
                   </node>
                   <node concept="liA8E" id="2AgFaoOZJrh" role="2OqNvi">
@@ -4364,8 +4374,8 @@
                       <ref role="2pJxaS" to="hvgx:2AgFaoOYcZu" resolve="EMFDataTypeAnnotation" />
                       <node concept="2pIpSj" id="2AgFaoOZJZx" role="2pJxcM">
                         <ref role="2pIpSl" to="hvgx:2AgFaoOYGZJ" resolve="type" />
-                        <node concept="2pJPED" id="2AgFaoOZJZy" role="2pJxcZ">
-                          <ref role="2pJxaS" to="hvgx:2AgFaoOYAqZ" resolve="EBigDecimal" />
+                        <node concept="2pJPED" id="2AgFaoOZZl8" role="2pJxcZ">
+                          <ref role="2pJxaS" to="hvgx:2AgFaoOZhxQ" resolve="EInvocationTargetException" />
                         </node>
                       </node>
                     </node>
@@ -4396,7 +4406,7 @@
                       <ref role="1PxDUh" to="iuoz:~EcorePackage" resolve="EcorePackage" />
                     </node>
                     <node concept="liA8E" id="2AgFaoOZJZH" role="2OqNvi">
-                      <ref role="37wK5l" to="iuoz:~EcorePackage.getEBigDecimal():org.eclipse.emf.ecore.EDataType" resolve="getEBigDecimal" />
+                      <ref role="37wK5l" to="iuoz:~EcorePackage.getEInvocationTargetException():org.eclipse.emf.ecore.EDataType" resolve="getEInvocationTargetException" />
                     </node>
                   </node>
                   <node concept="liA8E" id="2AgFaoOZJZI" role="2OqNvi">
@@ -4415,8 +4425,8 @@
                       <ref role="2pJxaS" to="hvgx:2AgFaoOYcZu" resolve="EMFDataTypeAnnotation" />
                       <node concept="2pIpSj" id="2AgFaoOZK$d" role="2pJxcM">
                         <ref role="2pIpSl" to="hvgx:2AgFaoOYGZJ" resolve="type" />
-                        <node concept="2pJPED" id="2AgFaoOZK$e" role="2pJxcZ">
-                          <ref role="2pJxaS" to="hvgx:2AgFaoOYAqZ" resolve="EBigDecimal" />
+                        <node concept="2pJPED" id="2AgFaoOZZEg" role="2pJxcZ">
+                          <ref role="2pJxaS" to="hvgx:2AgFaoOZhxs" resolve="EJavaClass" />
                         </node>
                       </node>
                     </node>
@@ -4447,7 +4457,7 @@
                       <ref role="1PxDUh" to="iuoz:~EcorePackage" resolve="EcorePackage" />
                     </node>
                     <node concept="liA8E" id="2AgFaoOZK$p" role="2OqNvi">
-                      <ref role="37wK5l" to="iuoz:~EcorePackage.getEBigDecimal():org.eclipse.emf.ecore.EDataType" resolve="getEBigDecimal" />
+                      <ref role="37wK5l" to="iuoz:~EcorePackage.getEJavaClass():org.eclipse.emf.ecore.EDataType" resolve="getEJavaClass" />
                     </node>
                   </node>
                   <node concept="liA8E" id="2AgFaoOZK$q" role="2OqNvi">
@@ -4466,8 +4476,8 @@
                       <ref role="2pJxaS" to="hvgx:2AgFaoOYcZu" resolve="EMFDataTypeAnnotation" />
                       <node concept="2pIpSj" id="2AgFaoOZLdM" role="2pJxcM">
                         <ref role="2pIpSl" to="hvgx:2AgFaoOYGZJ" resolve="type" />
-                        <node concept="2pJPED" id="2AgFaoOZLdN" role="2pJxcZ">
-                          <ref role="2pJxaS" to="hvgx:2AgFaoOYAqZ" resolve="EBigDecimal" />
+                        <node concept="2pJPED" id="2AgFaoOZZXx" role="2pJxcZ">
+                          <ref role="2pJxaS" to="hvgx:2AgFaoOZhxy" resolve="EJavaObject" />
                         </node>
                       </node>
                     </node>
@@ -4498,7 +4508,7 @@
                       <ref role="1PxDUh" to="iuoz:~EcorePackage" resolve="EcorePackage" />
                     </node>
                     <node concept="liA8E" id="2AgFaoOZLdY" role="2OqNvi">
-                      <ref role="37wK5l" to="iuoz:~EcorePackage.getEBigDecimal():org.eclipse.emf.ecore.EDataType" resolve="getEBigDecimal" />
+                      <ref role="37wK5l" to="iuoz:~EcorePackage.getEJavaObject():org.eclipse.emf.ecore.EDataType" resolve="getEJavaObject" />
                     </node>
                   </node>
                   <node concept="liA8E" id="2AgFaoOZLdZ" role="2OqNvi">
@@ -4517,8 +4527,8 @@
                       <ref role="2pJxaS" to="hvgx:2AgFaoOYcZu" resolve="EMFDataTypeAnnotation" />
                       <node concept="2pIpSj" id="2AgFaoOZLTQ" role="2pJxcM">
                         <ref role="2pIpSl" to="hvgx:2AgFaoOYGZJ" resolve="type" />
-                        <node concept="2pJPED" id="2AgFaoOZLTR" role="2pJxcZ">
-                          <ref role="2pJxaS" to="hvgx:2AgFaoOYAqZ" resolve="EBigDecimal" />
+                        <node concept="2pJPED" id="2AgFaoP00gL" role="2pJxcZ">
+                          <ref role="2pJxaS" to="hvgx:2AgFaoOZhx$" resolve="ELong" />
                         </node>
                       </node>
                     </node>
@@ -4549,7 +4559,7 @@
                       <ref role="3cqZAo" to="iuoz:~EcorePackage.eINSTANCE" resolve="eINSTANCE" />
                     </node>
                     <node concept="liA8E" id="2AgFaoOZLU2" role="2OqNvi">
-                      <ref role="37wK5l" to="iuoz:~EcorePackage.getEBigDecimal():org.eclipse.emf.ecore.EDataType" resolve="getEBigDecimal" />
+                      <ref role="37wK5l" to="iuoz:~EcorePackage.getELong():org.eclipse.emf.ecore.EDataType" resolve="getELong" />
                     </node>
                   </node>
                   <node concept="liA8E" id="2AgFaoOZLU3" role="2OqNvi">
@@ -4568,8 +4578,8 @@
                       <ref role="2pJxaS" to="hvgx:2AgFaoOYcZu" resolve="EMFDataTypeAnnotation" />
                       <node concept="2pIpSj" id="2AgFaoOZM_D" role="2pJxcM">
                         <ref role="2pIpSl" to="hvgx:2AgFaoOYGZJ" resolve="type" />
-                        <node concept="2pJPED" id="2AgFaoOZM_E" role="2pJxcZ">
-                          <ref role="2pJxaS" to="hvgx:2AgFaoOYAqZ" resolve="EBigDecimal" />
+                        <node concept="2pJPED" id="2AgFaoP00$2" role="2pJxcZ">
+                          <ref role="2pJxaS" to="hvgx:2AgFaoOZhxA" resolve="ELongObject" />
                         </node>
                       </node>
                     </node>
@@ -4600,7 +4610,7 @@
                       <ref role="3cqZAo" to="iuoz:~EcorePackage.eINSTANCE" resolve="eINSTANCE" />
                     </node>
                     <node concept="liA8E" id="2AgFaoOZM_P" role="2OqNvi">
-                      <ref role="37wK5l" to="iuoz:~EcorePackage.getEBigDecimal():org.eclipse.emf.ecore.EDataType" resolve="getEBigDecimal" />
+                      <ref role="37wK5l" to="iuoz:~EcorePackage.getELongObject():org.eclipse.emf.ecore.EDataType" resolve="getELongObject" />
                     </node>
                   </node>
                   <node concept="liA8E" id="2AgFaoOZM_Q" role="2OqNvi">
@@ -4619,8 +4629,8 @@
                       <ref role="2pJxaS" to="hvgx:2AgFaoOYcZu" resolve="EMFDataTypeAnnotation" />
                       <node concept="2pIpSj" id="2AgFaoOZNfG" role="2pJxcM">
                         <ref role="2pIpSl" to="hvgx:2AgFaoOYGZJ" resolve="type" />
-                        <node concept="2pJPED" id="2AgFaoOZNfH" role="2pJxcZ">
-                          <ref role="2pJxaS" to="hvgx:2AgFaoOYAqZ" resolve="EBigDecimal" />
+                        <node concept="2pJPED" id="2AgFaoP01rF" role="2pJxcZ">
+                          <ref role="2pJxaS" to="hvgx:2AgFaoOZhxE" resolve="EResource" />
                         </node>
                       </node>
                     </node>
@@ -4651,7 +4661,7 @@
                       <ref role="3cqZAo" to="iuoz:~EcorePackage.eINSTANCE" resolve="eINSTANCE" />
                     </node>
                     <node concept="liA8E" id="2AgFaoOZNfS" role="2OqNvi">
-                      <ref role="37wK5l" to="iuoz:~EcorePackage.getEBigDecimal():org.eclipse.emf.ecore.EDataType" resolve="getEBigDecimal" />
+                      <ref role="37wK5l" to="iuoz:~EcorePackage.getEResource():org.eclipse.emf.ecore.EDataType" resolve="getEResource" />
                     </node>
                   </node>
                   <node concept="liA8E" id="2AgFaoOZNfT" role="2OqNvi">
@@ -4670,8 +4680,8 @@
                       <ref role="2pJxaS" to="hvgx:2AgFaoOYcZu" resolve="EMFDataTypeAnnotation" />
                       <node concept="2pIpSj" id="2AgFaoOZNTT" role="2pJxcM">
                         <ref role="2pIpSl" to="hvgx:2AgFaoOYGZJ" resolve="type" />
-                        <node concept="2pJPED" id="2AgFaoOZNTU" role="2pJxcZ">
-                          <ref role="2pJxaS" to="hvgx:2AgFaoOYAqZ" resolve="EBigDecimal" />
+                        <node concept="2pJPED" id="2AgFaoP01ay" role="2pJxcZ">
+                          <ref role="2pJxaS" to="hvgx:2AgFaoOZhxG" resolve="EResourceSet" />
                         </node>
                       </node>
                     </node>
@@ -4702,7 +4712,7 @@
                       <ref role="1PxDUh" to="iuoz:~EcorePackage" resolve="EcorePackage" />
                     </node>
                     <node concept="liA8E" id="2AgFaoOZNU5" role="2OqNvi">
-                      <ref role="37wK5l" to="iuoz:~EcorePackage.getEBigDecimal():org.eclipse.emf.ecore.EDataType" resolve="getEBigDecimal" />
+                      <ref role="37wK5l" to="iuoz:~EcorePackage.getEResourceSet():org.eclipse.emf.ecore.EDataType" resolve="getEResourceSet" />
                     </node>
                   </node>
                   <node concept="liA8E" id="2AgFaoOZNU6" role="2OqNvi">
@@ -4721,8 +4731,8 @@
                       <ref role="2pJxaS" to="hvgx:2AgFaoOYcZu" resolve="EMFDataTypeAnnotation" />
                       <node concept="2pIpSj" id="2AgFaoOZOA1" role="2pJxcM">
                         <ref role="2pIpSl" to="hvgx:2AgFaoOYGZJ" resolve="type" />
-                        <node concept="2pJPED" id="2AgFaoOZOA2" role="2pJxcZ">
-                          <ref role="2pJxaS" to="hvgx:2AgFaoOYAqZ" resolve="EBigDecimal" />
+                        <node concept="2pJPED" id="2AgFaoP01IV" role="2pJxcZ">
+                          <ref role="2pJxaS" to="hvgx:2AgFaoOZhxI" resolve="EShort" />
                         </node>
                       </node>
                     </node>
@@ -4753,7 +4763,7 @@
                       <ref role="3cqZAo" to="iuoz:~EcorePackage.eINSTANCE" resolve="eINSTANCE" />
                     </node>
                     <node concept="liA8E" id="2AgFaoOZOAd" role="2OqNvi">
-                      <ref role="37wK5l" to="iuoz:~EcorePackage.getEBigDecimal():org.eclipse.emf.ecore.EDataType" resolve="getEBigDecimal" />
+                      <ref role="37wK5l" to="iuoz:~EcorePackage.getEShort():org.eclipse.emf.ecore.EDataType" resolve="getEShort" />
                     </node>
                   </node>
                   <node concept="liA8E" id="2AgFaoOZOAe" role="2OqNvi">
@@ -4772,8 +4782,8 @@
                       <ref role="2pJxaS" to="hvgx:2AgFaoOYcZu" resolve="EMFDataTypeAnnotation" />
                       <node concept="2pIpSj" id="2AgFaoOZPiW" role="2pJxcM">
                         <ref role="2pIpSl" to="hvgx:2AgFaoOYGZJ" resolve="type" />
-                        <node concept="2pJPED" id="2AgFaoOZPiX" role="2pJxcZ">
-                          <ref role="2pJxaS" to="hvgx:2AgFaoOYAqZ" resolve="EBigDecimal" />
+                        <node concept="2pJPED" id="2AgFaoP022c" role="2pJxcZ">
+                          <ref role="2pJxaS" to="hvgx:2AgFaoOZhxK" resolve="EShortObject" />
                         </node>
                       </node>
                     </node>
@@ -4804,7 +4814,7 @@
                       <ref role="3cqZAo" to="iuoz:~EcorePackage.eINSTANCE" resolve="eINSTANCE" />
                     </node>
                     <node concept="liA8E" id="2AgFaoOZPj8" role="2OqNvi">
-                      <ref role="37wK5l" to="iuoz:~EcorePackage.getEBigDecimal():org.eclipse.emf.ecore.EDataType" resolve="getEBigDecimal" />
+                      <ref role="37wK5l" to="iuoz:~EcorePackage.getEShortObject():org.eclipse.emf.ecore.EDataType" resolve="getEShortObject" />
                     </node>
                   </node>
                   <node concept="liA8E" id="2AgFaoOZPj9" role="2OqNvi">
@@ -4823,8 +4833,8 @@
                       <ref role="2pJxaS" to="hvgx:2AgFaoOYcZu" resolve="EMFDataTypeAnnotation" />
                       <node concept="2pIpSj" id="2AgFaoOZQ1a" role="2pJxcM">
                         <ref role="2pIpSl" to="hvgx:2AgFaoOYGZJ" resolve="type" />
-                        <node concept="2pJPED" id="2AgFaoOZQ1b" role="2pJxcZ">
-                          <ref role="2pJxaS" to="hvgx:2AgFaoOYAqZ" resolve="EBigDecimal" />
+                        <node concept="2pJPED" id="2AgFaoP02lt" role="2pJxcZ">
+                          <ref role="2pJxaS" to="hvgx:2AgFaoOZhxM" resolve="ETreeIterator" />
                         </node>
                       </node>
                     </node>
@@ -4855,7 +4865,7 @@
                       <ref role="1PxDUh" to="iuoz:~EcorePackage" resolve="EcorePackage" />
                     </node>
                     <node concept="liA8E" id="2AgFaoOZQ1m" role="2OqNvi">
-                      <ref role="37wK5l" to="iuoz:~EcorePackage.getEBigDecimal():org.eclipse.emf.ecore.EDataType" resolve="getEBigDecimal" />
+                      <ref role="37wK5l" to="iuoz:~EcorePackage.getETreeIterator():org.eclipse.emf.ecore.EDataType" resolve="getETreeIterator" />
                     </node>
                   </node>
                   <node concept="liA8E" id="2AgFaoOZQ1n" role="2OqNvi">
@@ -4868,27 +4878,27 @@
           <node concept="3eNFk2" id="2AgFaoOZQJt" role="3eNLev">
             <node concept="3clFbS" id="2AgFaoOZQJu" role="3eOfB_">
               <node concept="3clFbF" id="2AgFaoOZQJv" role="3cqZAp">
-                <node concept="37vLTI" id="2AgFaoOZQJw" role="3clFbG">
-                  <node concept="2pJPEk" id="2AgFaoOZQJx" role="37vLTx">
-                    <node concept="2pJPED" id="2AgFaoOZQJy" role="2pJPEn">
-                      <ref role="2pJxaS" to="hvgx:2AgFaoOYcZu" resolve="EMFDataTypeAnnotation" />
-                      <node concept="2pIpSj" id="2AgFaoOZQJz" role="2pJxcM">
-                        <ref role="2pIpSl" to="hvgx:2AgFaoOYGZJ" resolve="type" />
-                        <node concept="2pJPED" id="2AgFaoOZQJ$" role="2pJxcZ">
-                          <ref role="2pJxaS" to="hvgx:2AgFaoOYAqZ" resolve="EBigDecimal" />
+                <node concept="37vLTI" id="2AgFaoP03bC" role="3clFbG">
+                  <node concept="2OqwBi" id="2AgFaoP03GW" role="37vLTx">
+                    <node concept="1N_AGu" id="2AgFaoP03x7" role="2Oq$k0">
+                      <ref role="1N_AGt" to="tpck:fKAQMTA" resolve="integer" />
+                    </node>
+                    <node concept="liA8E" id="2AgFaoP03YP" role="2OqNvi">
+                      <ref role="37wK5l" to="mhbf:~SNodeReference.resolve(org.jetbrains.mps.openapi.module.SRepository):org.jetbrains.mps.openapi.model.SNode" resolve="resolve" />
+                      <node concept="2OqwBi" id="2AgFaoP05Zs" role="37wK5m">
+                        <node concept="2JrnkZ" id="2AgFaoP05P_" role="2Oq$k0">
+                          <node concept="37vLTw" id="2AgFaoP04jT" role="2JrQYb">
+                            <ref role="3cqZAo" node="7e2Ns984rDq" resolve="currentModel" />
+                          </node>
+                        </node>
+                        <node concept="liA8E" id="2AgFaoP06z0" role="2OqNvi">
+                          <ref role="37wK5l" to="mhbf:~SModel.getRepository():org.jetbrains.mps.openapi.module.SRepository" resolve="getRepository" />
                         </node>
                       </node>
                     </node>
                   </node>
-                  <node concept="2OqwBi" id="2AgFaoOZQJ_" role="37vLTJ">
-                    <node concept="37vLTw" id="2AgFaoOZQJA" role="2Oq$k0">
-                      <ref role="3cqZAo" node="7e2Ns988psj" resolve="propertyDeclaration" />
-                    </node>
-                    <node concept="3CFZ6_" id="2AgFaoOZQJB" role="2OqNvi">
-                      <node concept="3CFYIy" id="2AgFaoOZQJC" role="3CFYIz">
-                        <ref role="3CFYIx" to="hvgx:2AgFaoOYcZu" resolve="EMFDataTypeAnnotation" />
-                      </node>
-                    </node>
+                  <node concept="37vLTw" id="2AgFaoP02Sa" role="37vLTJ">
+                    <ref role="3cqZAo" node="5B4V9ihfzHA" resolve="retNode" />
                   </node>
                 </node>
               </node>
@@ -4906,7 +4916,7 @@
                       <ref role="1PxDUh" to="iuoz:~EcorePackage" resolve="EcorePackage" />
                     </node>
                     <node concept="liA8E" id="2AgFaoOZQJJ" role="2OqNvi">
-                      <ref role="37wK5l" to="iuoz:~EcorePackage.getEBigDecimal():org.eclipse.emf.ecore.EDataType" resolve="getEBigDecimal" />
+                      <ref role="37wK5l" to="iuoz:~EcorePackage.getEInt():org.eclipse.emf.ecore.EDataType" resolve="getEInt" />
                     </node>
                   </node>
                   <node concept="liA8E" id="2AgFaoOZQJK" role="2OqNvi">
@@ -4919,27 +4929,27 @@
           <node concept="3eNFk2" id="2AgFaoOZRvL" role="3eNLev">
             <node concept="3clFbS" id="2AgFaoOZRvM" role="3eOfB_">
               <node concept="3clFbF" id="2AgFaoOZRvN" role="3cqZAp">
-                <node concept="37vLTI" id="2AgFaoOZRvO" role="3clFbG">
-                  <node concept="2pJPEk" id="2AgFaoOZRvP" role="37vLTx">
-                    <node concept="2pJPED" id="2AgFaoOZRvQ" role="2pJPEn">
-                      <ref role="2pJxaS" to="hvgx:2AgFaoOYcZu" resolve="EMFDataTypeAnnotation" />
-                      <node concept="2pIpSj" id="2AgFaoOZRvR" role="2pJxcM">
-                        <ref role="2pIpSl" to="hvgx:2AgFaoOYGZJ" resolve="type" />
-                        <node concept="2pJPED" id="2AgFaoOZRvS" role="2pJxcZ">
-                          <ref role="2pJxaS" to="hvgx:2AgFaoOYAqZ" resolve="EBigDecimal" />
+                <node concept="37vLTI" id="2AgFaoP06F6" role="3clFbG">
+                  <node concept="2OqwBi" id="2AgFaoP06F7" role="37vLTx">
+                    <node concept="1N_AGu" id="2AgFaoP06F8" role="2Oq$k0">
+                      <ref role="1N_AGt" to="tpck:fKAQMTB" resolve="boolean" />
+                    </node>
+                    <node concept="liA8E" id="2AgFaoP06F9" role="2OqNvi">
+                      <ref role="37wK5l" to="mhbf:~SNodeReference.resolve(org.jetbrains.mps.openapi.module.SRepository):org.jetbrains.mps.openapi.model.SNode" resolve="resolve" />
+                      <node concept="2OqwBi" id="2AgFaoP06Fa" role="37wK5m">
+                        <node concept="2JrnkZ" id="2AgFaoP06Fb" role="2Oq$k0">
+                          <node concept="37vLTw" id="2AgFaoP06Fq" role="2JrQYb">
+                            <ref role="3cqZAo" node="7e2Ns984rDq" resolve="currentModel" />
+                          </node>
+                        </node>
+                        <node concept="liA8E" id="2AgFaoP06Fc" role="2OqNvi">
+                          <ref role="37wK5l" to="mhbf:~SModel.getRepository():org.jetbrains.mps.openapi.module.SRepository" resolve="getRepository" />
                         </node>
                       </node>
                     </node>
                   </node>
-                  <node concept="2OqwBi" id="2AgFaoOZRvT" role="37vLTJ">
-                    <node concept="37vLTw" id="2AgFaoOZRvU" role="2Oq$k0">
-                      <ref role="3cqZAo" node="7e2Ns988psj" resolve="propertyDeclaration" />
-                    </node>
-                    <node concept="3CFZ6_" id="2AgFaoOZRvV" role="2OqNvi">
-                      <node concept="3CFYIy" id="2AgFaoOZRvW" role="3CFYIz">
-                        <ref role="3CFYIx" to="hvgx:2AgFaoOYcZu" resolve="EMFDataTypeAnnotation" />
-                      </node>
-                    </node>
+                  <node concept="37vLTw" id="2AgFaoP06Fd" role="37vLTJ">
+                    <ref role="3cqZAo" node="5B4V9ihfzHA" resolve="retNode" />
                   </node>
                 </node>
               </node>
@@ -4957,7 +4967,7 @@
                       <ref role="3cqZAo" to="iuoz:~EcorePackage.eINSTANCE" resolve="eINSTANCE" />
                     </node>
                     <node concept="liA8E" id="2AgFaoOZRw3" role="2OqNvi">
-                      <ref role="37wK5l" to="iuoz:~EcorePackage.getEBigDecimal():org.eclipse.emf.ecore.EDataType" resolve="getEBigDecimal" />
+                      <ref role="37wK5l" to="iuoz:~EcorePackage.getEBoolean():org.eclipse.emf.ecore.EDataType" resolve="getEBoolean" />
                     </node>
                   </node>
                   <node concept="liA8E" id="2AgFaoOZRw4" role="2OqNvi">
@@ -4967,51 +4977,51 @@
               </node>
             </node>
           </node>
-          <node concept="3eNFk2" id="2AgFaoOZSkF" role="3eNLev">
-            <node concept="3clFbS" id="2AgFaoOZSkG" role="3eOfB_">
-              <node concept="3clFbF" id="2AgFaoOZSkH" role="3cqZAp">
-                <node concept="37vLTI" id="2AgFaoOZSkI" role="3clFbG">
-                  <node concept="2pJPEk" id="2AgFaoOZSkJ" role="37vLTx">
-                    <node concept="2pJPED" id="2AgFaoOZSkK" role="2pJPEn">
-                      <ref role="2pJxaS" to="hvgx:2AgFaoOYcZu" resolve="EMFDataTypeAnnotation" />
-                      <node concept="2pIpSj" id="2AgFaoOZSkL" role="2pJxcM">
-                        <ref role="2pIpSl" to="hvgx:2AgFaoOYGZJ" resolve="type" />
-                        <node concept="2pJPED" id="2AgFaoOZSkM" role="2pJxcZ">
-                          <ref role="2pJxaS" to="hvgx:2AgFaoOYAqZ" resolve="EBigDecimal" />
+          <node concept="3eNFk2" id="2AgFaoP0O4G" role="3eNLev">
+            <node concept="3clFbS" id="2AgFaoP0O4H" role="3eOfB_">
+              <node concept="3clFbF" id="2AgFaoP0O4I" role="3cqZAp">
+                <node concept="37vLTI" id="2AgFaoP0O4J" role="3clFbG">
+                  <node concept="2OqwBi" id="2AgFaoP0O4K" role="37vLTx">
+                    <node concept="1N_AGu" id="2AgFaoP0O4L" role="2Oq$k0">
+                      <ref role="1N_AGt" to="tpck:fKAOsGN" resolve="string" />
+                    </node>
+                    <node concept="liA8E" id="2AgFaoP0O4M" role="2OqNvi">
+                      <ref role="37wK5l" to="mhbf:~SNodeReference.resolve(org.jetbrains.mps.openapi.module.SRepository):org.jetbrains.mps.openapi.model.SNode" resolve="resolve" />
+                      <node concept="2OqwBi" id="2AgFaoP0O4N" role="37wK5m">
+                        <node concept="2JrnkZ" id="2AgFaoP0O4O" role="2Oq$k0">
+                          <node concept="37vLTw" id="2AgFaoP0O5b" role="2JrQYb">
+                            <ref role="3cqZAo" node="7e2Ns984rDq" resolve="currentModel" />
+                          </node>
+                        </node>
+                        <node concept="liA8E" id="2AgFaoP0O4P" role="2OqNvi">
+                          <ref role="37wK5l" to="mhbf:~SModel.getRepository():org.jetbrains.mps.openapi.module.SRepository" resolve="getRepository" />
                         </node>
                       </node>
                     </node>
                   </node>
-                  <node concept="2OqwBi" id="2AgFaoOZSkN" role="37vLTJ">
-                    <node concept="37vLTw" id="2AgFaoOZSkO" role="2Oq$k0">
-                      <ref role="3cqZAo" node="7e2Ns988psj" resolve="propertyDeclaration" />
-                    </node>
-                    <node concept="3CFZ6_" id="2AgFaoOZSkP" role="2OqNvi">
-                      <node concept="3CFYIy" id="2AgFaoOZSkQ" role="3CFYIz">
-                        <ref role="3CFYIx" to="hvgx:2AgFaoOYcZu" resolve="EMFDataTypeAnnotation" />
-                      </node>
-                    </node>
+                  <node concept="37vLTw" id="2AgFaoP0O4Q" role="37vLTJ">
+                    <ref role="3cqZAo" node="5B4V9ihfzHA" resolve="retNode" />
                   </node>
                 </node>
               </node>
             </node>
-            <node concept="2OqwBi" id="2AgFaoOZSkR" role="3eO9$A">
-              <node concept="37vLTw" id="2AgFaoOZSkS" role="2Oq$k0">
+            <node concept="2OqwBi" id="2AgFaoP0O4R" role="3eO9$A">
+              <node concept="37vLTw" id="2AgFaoP0O4S" role="2Oq$k0">
                 <ref role="3cqZAo" node="5B4V9ihfz1J" resolve="typeAsELiteral" />
               </node>
-              <node concept="liA8E" id="2AgFaoOZSkT" role="2OqNvi">
+              <node concept="liA8E" id="2AgFaoP0O4T" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
-                <node concept="2OqwBi" id="2AgFaoOZSkU" role="37wK5m">
-                  <node concept="2OqwBi" id="2AgFaoOZSkV" role="2Oq$k0">
-                    <node concept="10M0yZ" id="2AgFaoOZSkW" role="2Oq$k0">
+                <node concept="2OqwBi" id="2AgFaoP0O4U" role="37wK5m">
+                  <node concept="2OqwBi" id="2AgFaoP0O4V" role="2Oq$k0">
+                    <node concept="10M0yZ" id="2AgFaoP0O4W" role="2Oq$k0">
                       <ref role="3cqZAo" to="iuoz:~EcorePackage.eINSTANCE" resolve="eINSTANCE" />
                       <ref role="1PxDUh" to="iuoz:~EcorePackage" resolve="EcorePackage" />
                     </node>
-                    <node concept="liA8E" id="2AgFaoOZSkX" role="2OqNvi">
-                      <ref role="37wK5l" to="iuoz:~EcorePackage.getEBigDecimal():org.eclipse.emf.ecore.EDataType" resolve="getEBigDecimal" />
+                    <node concept="liA8E" id="2AgFaoP0O4X" role="2OqNvi">
+                      <ref role="37wK5l" to="iuoz:~EcorePackage.getEString():org.eclipse.emf.ecore.EDataType" resolve="getEString" />
                     </node>
                   </node>
-                  <node concept="liA8E" id="2AgFaoOZSkY" role="2OqNvi">
+                  <node concept="liA8E" id="2AgFaoP0O4Y" role="2OqNvi">
                     <ref role="37wK5l" to="iuoz:~ENamedElement.getName():java.lang.String" resolve="getName" />
                   </node>
                 </node>
