@@ -183,7 +183,7 @@
   </node>
   <node concept="sE7Ow" id="2CLKXjMmk70">
     <property role="TrG5h" value="importEcoreAction" />
-    <property role="2uzpH1" value="Import Ecore File :Itemis" />
+    <property role="2uzpH1" value="Import Ecore File" />
     <property role="ngHcd" value="E" />
     <node concept="tnohg" id="2CLKXjMmk71" role="tncku">
       <node concept="3clFbS" id="2CLKXjMmk72" role="2VODD2">

@@ -23,6 +23,7 @@
     <dependency reexport="false">77948de3-6ef9-452d-b392-d01403e4086f(com.mbeddr.mpsutil.ecoreimporter.util)</dependency>
     <dependency reexport="false">86ef8290-12bb-4ca7-947f-093788f263a9(jetbrains.mps.lang.project)</dependency>
     <dependency reexport="false">c6420b75-4569-420d-aaf7-9bc590ad7b2a(com.mbeddr.mpsutil.comparator)</dependency>
+    <dependency reexport="false">5da3f266-d744-4554-a337-854f76f37e5f(test.com.mbeddr.mpsutil.ecoreimporter.runtime)</dependency>
   </dependencies>
   <languageVersions>
     <language slang="l:3eada220-3310-4fd3-b794-ff924add7d8a:com.mbeddr.mpsutil.smodule" version="0" />
@@ -60,6 +61,7 @@
     <module reference="7866978e-a0f0-4cc7-81bc-4d213d9375e1(jetbrains.mps.lang.smodel)" version="1" />
     <module reference="c72da2b9-7cce-4447-8389-f407dc1158b7(jetbrains.mps.lang.structure)" version="0" />
     <module reference="9ded098b-ad6a-4657-bfd9-48636cfe8bc3(jetbrains.mps.lang.traceable)" version="0" />
+    <module reference="5da3f266-d744-4554-a337-854f76f37e5f(test.com.mbeddr.mpsutil.ecoreimporter.runtime)" version="0" />
   </dependencyVersions>
 </solution>
 

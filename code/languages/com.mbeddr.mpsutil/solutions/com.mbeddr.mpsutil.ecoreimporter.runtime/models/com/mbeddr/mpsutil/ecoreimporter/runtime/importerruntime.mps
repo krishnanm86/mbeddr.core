@@ -42,6 +42,7 @@
     <import index="twe9" ref="r:28e6d713-c3c3-493e-8d97-e9a2c49f28ce(jetbrains.mps.lang.structure.util)" />
     <import index="mhbf" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" />
     <import index="mqum" ref="r:ec874b45-e888-42e6-995a-a298cefdff55(com.mbeddr.cimport.comparator.code)" />
+    <import index="1m6n" ref="r:b1ac0874-61eb-418e-9fae-496749ebe212(test.com.mbeddr.mpsutil.ecoreimporter.runtime.testingframework@tests)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
   </imports>
   <registry>
@@ -833,6 +834,51 @@
             <ref role="37wK5l" node="3Oes53JyYRd" resolve="handleLazySuperTypes" />
           </node>
         </node>
+        <node concept="3clFbH" id="5D0nJiXW2L7" role="3cqZAp" />
+        <node concept="3SKdUt" id="5D0nJiXW4b4" role="3cqZAp">
+          <node concept="3SKdUq" id="5D0nJiXW4b6" role="3SKWNk">
+            <property role="3SKdUp" value="TODO: Remove the testing code here" />
+          </node>
+        </node>
+        <node concept="3clFbF" id="5D0nJiXWAlJ" role="3cqZAp">
+          <node concept="2OqwBi" id="5D0nJiXWAlG" role="3clFbG">
+            <node concept="10M0yZ" id="5D0nJiXWAlH" role="2Oq$k0">
+              <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
+              <ref role="3cqZAo" to="wyt6:~System.out" resolve="out" />
+            </node>
+            <node concept="liA8E" id="5D0nJiXWAlI" role="2OqNvi">
+              <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
+              <node concept="Xl_RD" id="5D0nJiXWB5o" role="37wK5m">
+                <property role="Xl_RC" value="Printing Test results for match " />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="5D0nJiXW5ON" role="3cqZAp">
+          <node concept="1rXfSq" id="5D0nJiXW5OL" role="3clFbG">
+            <ref role="37wK5l" node="5D0nJiXVNEy" resolve="testDifferencesMatch" />
+          </node>
+        </node>
+        <node concept="3clFbF" id="6m31kJuB4Mv" role="3cqZAp">
+          <node concept="2OqwBi" id="6m31kJuB4Mw" role="3clFbG">
+            <node concept="10M0yZ" id="6m31kJuB4Mx" role="2Oq$k0">
+              <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
+              <ref role="3cqZAo" to="wyt6:~System.out" resolve="out" />
+            </node>
+            <node concept="liA8E" id="6m31kJuB4My" role="2OqNvi">
+              <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
+              <node concept="Xl_RD" id="6m31kJuB4Mz" role="37wK5m">
+                <property role="Xl_RC" value="Printing Test results for No match " />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="6m31kJuB4MK" role="3cqZAp">
+          <node concept="1rXfSq" id="6m31kJuB4ML" role="3clFbG">
+            <ref role="37wK5l" node="6m31kJuB3yT" resolve="testDifferencesNoMatch" />
+          </node>
+        </node>
+        <node concept="3clFbH" id="6m31kJuB4hy" role="3cqZAp" />
       </node>
       <node concept="3cqZAl" id="5aPf7l4scx1" role="3clF45" />
       <node concept="37vLTG" id="5aPf7l4scx2" role="3clF46">
@@ -848,6 +894,83 @@
       <node concept="3Tm1VV" id="5aPf7l4scx0" role="1B3o_S" />
     </node>
     <node concept="2tJIrI" id="4fdn2FAdYkr" role="jymVt" />
+    <node concept="2YIFZL" id="5D0nJiXVNEy" role="jymVt">
+      <property role="TrG5h" value="testDifferencesMatch" />
+      <property role="od$2w" value="false" />
+      <property role="DiZV1" value="false" />
+      <property role="2aFKle" value="false" />
+      <node concept="3clFbS" id="5D0nJiXVNE_" role="3clF47">
+        <node concept="3cpWs8" id="5D0nJiXVOSM" role="3cqZAp">
+          <node concept="3cpWsn" id="5D0nJiXVOSP" role="3cpWs9">
+            <property role="TrG5h" value="mdlExpected" />
+            <node concept="H_c77" id="5D0nJiXVOSL" role="1tU5fm" />
+            <node concept="BaHAS" id="5D0nJiXVPfk" role="33vP2m">
+              <property role="BaHAW" value="test.com.mbeddr.mpsutil.ecoreimporter.runtime.testLanguageMatch.structure" />
+              <property role="BaGAP" value="" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="5D0nJiXVRi9" role="3cqZAp">
+          <node concept="2YIFZM" id="5D0nJiXVYBU" role="3clFbG">
+            <ref role="37wK5l" to="1m6n:5D0nJiXVV7F" resolve="getDifferences" />
+            <ref role="1Pybhc" to="1m6n:5D0nJiXT65I" resolve="EcoreImporterTestingUtil" />
+            <node concept="37vLTw" id="5D0nJiXW193" role="37wK5m">
+              <ref role="3cqZAo" node="5D0nJiXVOSP" resolve="mdlExpected" />
+            </node>
+            <node concept="37vLTw" id="5D0nJiXW1xl" role="37wK5m">
+              <ref role="3cqZAo" node="7e2Ns984rDq" resolve="currentModel" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="5D0nJiXW2$i" role="3cqZAp">
+          <node concept="2YIFZM" id="5D0nJiXW2Km" role="3clFbG">
+            <ref role="37wK5l" to="1m6n:5D0nJiXViOy" resolve="printDifferences" />
+            <ref role="1Pybhc" to="1m6n:5D0nJiXT65I" resolve="EcoreImporterTestingUtil" />
+          </node>
+        </node>
+      </node>
+      <node concept="3Tm6S6" id="5D0nJiXVMJu" role="1B3o_S" />
+      <node concept="3cqZAl" id="5D0nJiXVNEh" role="3clF45" />
+    </node>
+    <node concept="2YIFZL" id="6m31kJuB3yT" role="jymVt">
+      <property role="TrG5h" value="testDifferencesNoMatch" />
+      <property role="od$2w" value="false" />
+      <property role="DiZV1" value="false" />
+      <property role="2aFKle" value="false" />
+      <node concept="3clFbS" id="6m31kJuB3yU" role="3clF47">
+        <node concept="3cpWs8" id="6m31kJuB3yV" role="3cqZAp">
+          <node concept="3cpWsn" id="6m31kJuB3yW" role="3cpWs9">
+            <property role="TrG5h" value="mdlExpected" />
+            <node concept="H_c77" id="6m31kJuB3yX" role="1tU5fm" />
+            <node concept="BaHAS" id="6m31kJuB3yY" role="33vP2m">
+              <property role="BaHAW" value="test.com.mbeddr.mpsutil.ecoreimporter.runtime.testLanguageNoMatch.structure" />
+              <property role="BaGAP" value="" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="6m31kJuB3yZ" role="3cqZAp">
+          <node concept="2YIFZM" id="6m31kJuB3z0" role="3clFbG">
+            <ref role="1Pybhc" to="1m6n:5D0nJiXT65I" resolve="EcoreImporterTestingUtil" />
+            <ref role="37wK5l" to="1m6n:5D0nJiXVV7F" resolve="getDifferences" />
+            <node concept="37vLTw" id="6m31kJuB3z1" role="37wK5m">
+              <ref role="3cqZAo" node="6m31kJuB3yW" resolve="mdlExpected" />
+            </node>
+            <node concept="37vLTw" id="6m31kJuB3zi" role="37wK5m">
+              <ref role="3cqZAo" node="7e2Ns984rDq" resolve="currentModel" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="6m31kJuB3z2" role="3cqZAp">
+          <node concept="2YIFZM" id="6m31kJuB3z3" role="3clFbG">
+            <ref role="1Pybhc" to="1m6n:5D0nJiXT65I" resolve="EcoreImporterTestingUtil" />
+            <ref role="37wK5l" to="1m6n:5D0nJiXViOy" resolve="printDifferences" />
+          </node>
+        </node>
+      </node>
+      <node concept="3Tm6S6" id="6m31kJuB3z4" role="1B3o_S" />
+      <node concept="3cqZAl" id="6m31kJuB3z5" role="3clF45" />
+    </node>
+    <node concept="2tJIrI" id="6m31kJuB2TP" role="jymVt" />
     <node concept="2YIFZL" id="5rOZN7yQiNh" role="jymVt">
       <property role="TrG5h" value="addEclass" />
       <property role="od$2w" value="false" />
@@ -2251,30 +2374,6 @@
                 <ref role="37wK5l" to="33ny:~ArrayList.&lt;init&gt;()" resolve="ArrayList" />
                 <node concept="3uibUv" id="57e1799nSTA" role="1pMfVU">
                   <ref role="3uigEE" node="57e1799lZqn" resolve="LazyLinkDeclaration" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="2qmd2SL1pLi" role="3cqZAp">
-          <node concept="2OqwBi" id="2qmd2SL1pLf" role="3clFbG">
-            <node concept="10M0yZ" id="2qmd2SL1pLg" role="2Oq$k0">
-              <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
-              <ref role="3cqZAo" to="wyt6:~System.out" resolve="out" />
-            </node>
-            <node concept="liA8E" id="2qmd2SL1pLh" role="2OqNvi">
-              <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
-              <node concept="3cpWs3" id="2qmd2SL1rVO" role="37wK5m">
-                <node concept="2OqwBi" id="2qmd2SL1tyt" role="3uHU7w">
-                  <node concept="37vLTw" id="2qmd2SL1sho" role="2Oq$k0">
-                    <ref role="3cqZAo" node="5B4V9ihgbf_" resolve="classImpl" />
-                  </node>
-                  <node concept="liA8E" id="2qmd2SL1wa7" role="2OqNvi">
-                    <ref role="37wK5l" to="62x7:~ENamedElementImpl.getName():java.lang.String" resolve="getName" />
-                  </node>
-                </node>
-                <node concept="Xl_RD" id="2qmd2SL1qPm" role="3uHU7B">
-                  <property role="Xl_RC" value="Adding references for " />
                 </node>
               </node>
             </node>
@@ -5311,52 +5410,14 @@
                 </node>
               </node>
             </node>
-            <node concept="3cpWs8" id="1a1uQDXH4IP" role="3cqZAp">
-              <node concept="3cpWsn" id="1a1uQDXH4IQ" role="3cpWs9">
-                <property role="TrG5h" value="ecoreModel" />
-                <node concept="3uibUv" id="1a1uQDXH4IR" role="1tU5fm">
-                  <ref role="3uigEE" to="iuoz:~EPackage" resolve="EPackage" />
-                </node>
-                <node concept="2YIFZM" id="1a1uQDXH4IS" role="33vP2m">
-                  <ref role="1Pybhc" node="WAKHA7EgZh" resolve="ImporterUtils" />
-                  <ref role="37wK5l" node="WAKHA7EkR2" resolve="getEcoreModel" />
-                  <node concept="37vLTw" id="1a1uQDXH4IT" role="37wK5m">
-                    <ref role="3cqZAo" node="1a1uQDXH4II" resolve="ecoreFilename" />
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="3SKdUt" id="1a1uQDXHsEz" role="3cqZAp">
-              <node concept="3SKdUq" id="1a1uQDXHsE_" role="3SKWNk">
-                <property role="3SKdUp" value="EMF allows internal values to be non-unique. This flag is set to ensure the internal values are generated uniquely" />
-              </node>
-            </node>
-            <node concept="3clFbF" id="1a1uQDXH4J6" role="3cqZAp">
-              <node concept="37vLTI" id="1a1uQDXH4J7" role="3clFbG">
-                <node concept="3clFbT" id="1a1uQDXH4J8" role="37vLTx">
-                  <property role="3clFbU" value="true" />
-                </node>
-                <node concept="10M0yZ" id="1a1uQDXH4J9" role="37vLTJ">
-                  <ref role="3cqZAo" node="7e2Ns984X1R" resolve="genEnumInternalValues" />
-                  <ref role="1PxDUh" node="WAKHA7EgZh" resolve="ImporterUtils" />
-                </node>
-              </node>
-            </node>
-            <node concept="3clFbF" id="1a1uQDXH4Ja" role="3cqZAp">
-              <node concept="2YIFZM" id="1a1uQDXH4Jb" role="3clFbG">
-                <ref role="37wK5l" node="5VjZNMXgiNX" resolve="initMaps" />
-                <ref role="1Pybhc" node="WAKHA7EgZh" resolve="ImporterUtils" />
-              </node>
-            </node>
-            <node concept="3clFbF" id="1a1uQDXH4Jc" role="3cqZAp">
-              <node concept="2YIFZM" id="1a1uQDXH4Jd" role="3clFbG">
-                <ref role="1Pybhc" node="WAKHA7EgZh" resolve="ImporterUtils" />
-                <ref role="37wK5l" node="5aPf7l4scwX" resolve="importIntoMPS" />
-                <node concept="37vLTw" id="1a1uQDXH4Je" role="37wK5m">
+            <node concept="3clFbF" id="5D0nJiXT5kP" role="3cqZAp">
+              <node concept="1rXfSq" id="5D0nJiXT5kN" role="3clFbG">
+                <ref role="37wK5l" node="5D0nJiXT3P2" resolve="importEcoreFile" />
+                <node concept="37vLTw" id="5D0nJiXT5ES" role="37wK5m">
                   <ref role="3cqZAo" node="1a1uQDXH4Ig" resolve="currModel" />
                 </node>
-                <node concept="37vLTw" id="1a1uQDXH4Jf" role="37wK5m">
-                  <ref role="3cqZAo" node="1a1uQDXH4IQ" resolve="ecoreModel" />
+                <node concept="37vLTw" id="5D0nJiXT62e" role="37wK5m">
+                  <ref role="3cqZAo" node="1a1uQDXH4II" resolve="ecoreFilename" />
                 </node>
               </node>
             </node>
@@ -5422,6 +5483,74 @@
       <node concept="37vLTG" id="1a1uQDXHl9B" role="3clF46">
         <property role="TrG5h" value="mdl" />
         <node concept="H_c77" id="1a1uQDXHl9A" role="1tU5fm" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="5D0nJiXT3uk" role="jymVt" />
+    <node concept="2YIFZL" id="5D0nJiXT3P2" role="jymVt">
+      <property role="TrG5h" value="importEcoreFile" />
+      <property role="od$2w" value="false" />
+      <property role="DiZV1" value="false" />
+      <property role="2aFKle" value="false" />
+      <node concept="3clFbS" id="5D0nJiXT3P5" role="3clF47">
+        <node concept="3cpWs8" id="1a1uQDXH4IP" role="3cqZAp">
+          <node concept="3cpWsn" id="1a1uQDXH4IQ" role="3cpWs9">
+            <property role="TrG5h" value="ecoreModel" />
+            <node concept="3uibUv" id="1a1uQDXH4IR" role="1tU5fm">
+              <ref role="3uigEE" to="iuoz:~EPackage" resolve="EPackage" />
+            </node>
+            <node concept="2YIFZM" id="1a1uQDXH4IS" role="33vP2m">
+              <ref role="37wK5l" node="WAKHA7EkR2" resolve="getEcoreModel" />
+              <ref role="1Pybhc" node="WAKHA7EgZh" resolve="ImporterUtils" />
+              <node concept="37vLTw" id="5D0nJiXT4_o" role="37wK5m">
+                <ref role="3cqZAo" node="5D0nJiXT43E" resolve="ecorefileName" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3SKdUt" id="1a1uQDXHsEz" role="3cqZAp">
+          <node concept="3SKdUq" id="1a1uQDXHsE_" role="3SKWNk">
+            <property role="3SKdUp" value="EMF allows internal values to be non-unique. This flag is set to ensure the internal values are generated uniquely" />
+          </node>
+        </node>
+        <node concept="3clFbF" id="1a1uQDXH4J6" role="3cqZAp">
+          <node concept="37vLTI" id="1a1uQDXH4J7" role="3clFbG">
+            <node concept="3clFbT" id="1a1uQDXH4J8" role="37vLTx">
+              <property role="3clFbU" value="true" />
+            </node>
+            <node concept="10M0yZ" id="1a1uQDXH4J9" role="37vLTJ">
+              <ref role="1PxDUh" node="WAKHA7EgZh" resolve="ImporterUtils" />
+              <ref role="3cqZAo" node="7e2Ns984X1R" resolve="genEnumInternalValues" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="1a1uQDXH4Ja" role="3cqZAp">
+          <node concept="2YIFZM" id="1a1uQDXH4Jb" role="3clFbG">
+            <ref role="1Pybhc" node="WAKHA7EgZh" resolve="ImporterUtils" />
+            <ref role="37wK5l" node="5VjZNMXgiNX" resolve="initMaps" />
+          </node>
+        </node>
+        <node concept="3clFbF" id="1a1uQDXH4Jc" role="3cqZAp">
+          <node concept="2YIFZM" id="1a1uQDXH4Jd" role="3clFbG">
+            <ref role="37wK5l" node="5aPf7l4scwX" resolve="importIntoMPS" />
+            <ref role="1Pybhc" node="WAKHA7EgZh" resolve="ImporterUtils" />
+            <node concept="37vLTw" id="5D0nJiXT4Lo" role="37wK5m">
+              <ref role="3cqZAo" node="5D0nJiXT41r" resolve="mdl" />
+            </node>
+            <node concept="37vLTw" id="1a1uQDXH4Jf" role="37wK5m">
+              <ref role="3cqZAo" node="1a1uQDXH4IQ" resolve="ecoreModel" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="5D0nJiXT3Bk" role="1B3o_S" />
+      <node concept="3cqZAl" id="5D0nJiXT3OR" role="3clF45" />
+      <node concept="37vLTG" id="5D0nJiXT41r" role="3clF46">
+        <property role="TrG5h" value="mdl" />
+        <node concept="H_c77" id="5D0nJiXT41q" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="5D0nJiXT43E" role="3clF46">
+        <property role="TrG5h" value="ecorefileName" />
+        <node concept="17QB3L" id="5D0nJiXT49Z" role="1tU5fm" />
       </node>
     </node>
     <node concept="3Tm1VV" id="1a1uQDXH2Rq" role="1B3o_S" />
