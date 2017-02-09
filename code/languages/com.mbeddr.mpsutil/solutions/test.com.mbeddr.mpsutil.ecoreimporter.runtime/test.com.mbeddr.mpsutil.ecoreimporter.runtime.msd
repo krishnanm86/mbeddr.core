@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<solution name="test.com.mbeddr.mpsutil.ecoreimporter.runtime" uuid="5da3f266-d744-4554-a337-854f76f37e5f" moduleVersion="0" compileInMPS="true">
+<solution name="test.com.mbeddr.mpsutil.ecoreimporter.runtime" uuid="5da3f266-d744-4554-a337-854f76f37e5f" moduleVersion="0" pluginKind="PLUGIN_OTHER" compileInMPS="true">
   <models>
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="models" />
