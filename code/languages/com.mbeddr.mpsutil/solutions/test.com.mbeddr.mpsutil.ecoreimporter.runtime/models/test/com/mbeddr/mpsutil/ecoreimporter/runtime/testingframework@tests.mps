@@ -15,6 +15,7 @@
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" />
     <import index="tqvn" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel.tempmodel(MPS.Core/)" />
     <import index="tqvn" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel.tempmodel(MPS.Core/)" />
+    <import index="tp25" ref="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
   </imports>
   <registry>
@@ -23,6 +24,7 @@
         <property id="5097124989038916363" name="projectPath" index="2XOHcw" />
       </concept>
       <concept id="1216913645126" name="jetbrains.mps.lang.test.structure.NodesTestCase" flags="lg" index="1lH9Xt">
+        <child id="1216993439383" name="methods" index="1qtyYc" />
         <child id="1217501895093" name="testMethods" index="1SL9yI" />
       </concept>
       <concept id="1225978065297" name="jetbrains.mps.lang.test.structure.SimpleNodeTest" flags="ng" index="1LZb2c" />
@@ -80,6 +82,7 @@
         <child id="1068580123134" name="parameter" index="3clF46" />
         <child id="1068580123135" name="body" index="3clF47" />
       </concept>
+      <concept id="1068580123152" name="jetbrains.mps.baseLanguage.structure.EqualsExpression" flags="nn" index="3clFbC" />
       <concept id="1068580123155" name="jetbrains.mps.baseLanguage.structure.ExpressionStatement" flags="nn" index="3clFbF">
         <child id="1068580123156" name="expression" index="3clFbG" />
       </concept>
@@ -93,6 +96,9 @@
       <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT">
         <property id="1068580123138" name="value" index="3clFbU" />
       </concept>
+      <concept id="1068580320020" name="jetbrains.mps.baseLanguage.structure.IntegerConstant" flags="nn" index="3cmrfG">
+        <property id="1068580320021" name="value" index="3cmrfH" />
+      </concept>
       <concept id="1068581242878" name="jetbrains.mps.baseLanguage.structure.ReturnStatement" flags="nn" index="3cpWs6">
         <child id="1068581517676" name="expression" index="3cqZAk" />
       </concept>
@@ -103,6 +109,9 @@
       <concept id="1068581517677" name="jetbrains.mps.baseLanguage.structure.VoidType" flags="in" index="3cqZAl" />
       <concept id="1081516740877" name="jetbrains.mps.baseLanguage.structure.NotExpression" flags="nn" index="3fqX7Q">
         <child id="1081516765348" name="expression" index="3fr31v" />
+      </concept>
+      <concept id="1160998861373" name="jetbrains.mps.baseLanguage.structure.AssertStatement" flags="nn" index="1gVbGN">
+        <child id="1160998896846" name="condition" index="1gVkn0" />
       </concept>
       <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ng" index="1ndlxa">
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
@@ -122,6 +131,10 @@
         <reference id="1107535924139" name="classifier" index="3uigEE" />
         <child id="1109201940907" name="parameter" index="11_B2D" />
       </concept>
+      <concept id="1081773326031" name="jetbrains.mps.baseLanguage.structure.BinaryOperation" flags="nn" index="3uHJSO">
+        <child id="1081773367579" name="rightExpression" index="3uHU7w" />
+        <child id="1081773367580" name="leftExpression" index="3uHU7B" />
+      </concept>
       <concept id="1178549954367" name="jetbrains.mps.baseLanguage.structure.IVisible" flags="ng" index="1B3ioH">
         <child id="1178549979242" name="visibility" index="1B3o_S" />
       </concept>
@@ -139,6 +152,16 @@
       </concept>
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
       <concept id="1146644623116" name="jetbrains.mps.baseLanguage.structure.PrivateVisibility" flags="nn" index="3Tm6S6" />
+    </language>
+    <language id="443f4c36-fcf5-4eb6-9500-8d06ed259e3e" name="jetbrains.mps.baseLanguage.classifiers">
+      <concept id="1205752633985" name="jetbrains.mps.baseLanguage.classifiers.structure.ThisClassifierExpression" flags="nn" index="2WthIp" />
+      <concept id="1205756064662" name="jetbrains.mps.baseLanguage.classifiers.structure.IMemberOperation" flags="ng" index="2WEnae">
+        <reference id="1205756909548" name="member" index="2WH_rO" />
+      </concept>
+      <concept id="1205769003971" name="jetbrains.mps.baseLanguage.classifiers.structure.DefaultClassifierMethodDeclaration" flags="ng" index="2XrIbr" />
+      <concept id="1205769149993" name="jetbrains.mps.baseLanguage.classifiers.structure.DefaultClassifierMethodCallOperation" flags="nn" index="2XshWL">
+        <child id="1205770614681" name="actualArgument" index="2XxRq1" />
+      </concept>
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
       <concept id="559557797393017698" name="jetbrains.mps.lang.smodel.structure.ModelReferenceExpression" flags="nn" index="BaHAS">
@@ -195,7 +218,7 @@
       </node>
     </node>
     <node concept="2YIFZL" id="5D0nJiXVV7F" role="jymVt">
-      <property role="TrG5h" value="getDifferences" />
+      <property role="TrG5h" value="calculateDifferences" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
       <property role="2aFKle" value="false" />
@@ -618,35 +641,26 @@
     </node>
     <node concept="2tJIrI" id="5D0nJiXVGrm" role="jymVt" />
     <node concept="3Tm1VV" id="5D0nJiXT65J" role="1B3o_S" />
-  </node>
-  <node concept="312cEu" id="6m31kJuBKW8">
-    <property role="TrG5h" value="ExpectedModels" />
-    <node concept="Wx3nA" id="6m31kJuBMVi" role="jymVt">
-      <property role="TrG5h" value="mdlExpectedMatch" />
-      <property role="2dlcS1" value="false" />
-      <property role="3TUv4t" value="false" />
-      <property role="2dld4O" value="false" />
-      <node concept="H_c77" id="6m31kJuBMVl" role="1tU5fm" />
-      <node concept="BaHAS" id="6m31kJuBMVm" role="33vP2m">
-        <property role="BaHAW" value="test.com.mbeddr.mpsutil.ecoreimporter.runtime.testLanguageMatch.structure" />
-        <property role="BaGAP" value="" />
+    <node concept="2YIFZL" id="rt4C5nZIp3" role="jymVt">
+      <property role="DiZV1" value="false" />
+      <property role="od$2w" value="false" />
+      <property role="2aFKle" value="false" />
+      <property role="TrG5h" value="getNodeDifferences" />
+      <node concept="3clFbS" id="rt4C5nZIp4" role="3clF47">
+        <node concept="3clFbF" id="rt4C5nZIp5" role="3cqZAp">
+          <node concept="37vLTw" id="rt4C5nZIp2" role="3clFbG">
+            <ref role="3cqZAo" node="5D0nJiXVrWR" resolve="nodeDifferences" />
+          </node>
+        </node>
       </node>
-      <node concept="3Tm1VV" id="6m31kJuBMVk" role="1B3o_S" />
-    </node>
-    <node concept="Wx3nA" id="6m31kJuBMVM" role="jymVt">
-      <property role="TrG5h" value="mdlExpectedNoMatch" />
-      <property role="2dlcS1" value="false" />
-      <property role="3TUv4t" value="false" />
-      <property role="2dld4O" value="false" />
-      <node concept="H_c77" id="6m31kJuBMVN" role="1tU5fm" />
-      <node concept="BaHAS" id="6m31kJuBMVO" role="33vP2m">
-        <property role="BaHAW" value="test.com.mbeddr.mpsutil.ecoreimporter.runtime.testLanguageNoMatch.structure" />
-        <property role="BaGAP" value="" />
+      <node concept="3uibUv" id="rt4C5nZIp6" role="3clF45">
+        <ref role="3uigEE" to="33ny:~List" resolve="List" />
+        <node concept="3uibUv" id="rt4C5nZIp7" role="11_B2D">
+          <ref role="3uigEE" to="mqum:DYlgnA$re5" resolve="NodeDifference" />
+        </node>
       </node>
-      <node concept="3Tm1VV" id="6m31kJuBMVP" role="1B3o_S" />
+      <node concept="3Tm1VV" id="rt4C5nZIp8" role="1B3o_S" />
     </node>
-    <node concept="2tJIrI" id="6m31kJuBMVG" role="jymVt" />
-    <node concept="3Tm1VV" id="6m31kJuBKW9" role="1B3o_S" />
   </node>
   <node concept="1lH9Xt" id="6m31kJuBYtS">
     <property role="TrG5h" value="BasicTest" />
@@ -663,14 +677,90 @@
             </node>
           </node>
         </node>
+        <node concept="1gVbGN" id="rt4C5nZIJT" role="3cqZAp">
+          <node concept="3clFbC" id="rt4C5nZMXM" role="1gVkn0">
+            <node concept="3cmrfG" id="rt4C5nZNe4" role="3uHU7w">
+              <property role="3cmrfH" value="0" />
+            </node>
+            <node concept="2OqwBi" id="rt4C5nZKTz" role="3uHU7B">
+              <node concept="2OqwBi" id="rt4C5nZIP3" role="2Oq$k0">
+                <node concept="2WthIp" id="rt4C5nZIP6" role="2Oq$k0" />
+                <node concept="2XshWL" id="rt4C5nZIP8" role="2OqNvi">
+                  <ref role="2WH_rO" node="rt4C5nZiRg" resolve="getDifferences" />
+                  <node concept="37vLTw" id="rt4C5nZIY9" role="2XxRq1">
+                    <ref role="3cqZAo" node="6m31kJuBYFy" resolve="ecoreFile" />
+                  </node>
+                  <node concept="BaHAS" id="rt4C5nZJSc" role="2XxRq1">
+                    <property role="BaHAW" value="test.com.mbeddr.mpsutil.ecoreimporter.runtime.testLanguageMatch.structure" />
+                    <property role="BaGAP" value="" />
+                  </node>
+                </node>
+              </node>
+              <node concept="liA8E" id="rt4C5nZMge" role="2OqNvi">
+                <ref role="37wK5l" to="33ny:~List.size():int" resolve="size" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1LZb2c" id="rt4C5o0JdS" role="1SL9yI">
+      <property role="TrG5h" value="basicTestNoMatch" />
+      <node concept="3cqZAl" id="rt4C5o0JdT" role="3clF45" />
+      <node concept="3clFbS" id="rt4C5o0JdX" role="3clF47">
+        <node concept="3cpWs8" id="rt4C5o0JgL" role="3cqZAp">
+          <node concept="3cpWsn" id="rt4C5o0JgM" role="3cpWs9">
+            <property role="TrG5h" value="ecoreFile" />
+            <node concept="17QB3L" id="rt4C5o0JgN" role="1tU5fm" />
+            <node concept="Xl_RD" id="rt4C5o0JgO" role="33vP2m">
+              <property role="Xl_RC" value="C:\\Users\\knarasimhan\\workspace\\testEcoreModel\\tc2.ecore" />
+            </node>
+          </node>
+        </node>
+        <node concept="1gVbGN" id="rt4C5o0JgP" role="3cqZAp">
+          <node concept="3clFbC" id="rt4C5o0JgQ" role="1gVkn0">
+            <node concept="2OqwBi" id="rt4C5o0JgS" role="3uHU7B">
+              <node concept="2OqwBi" id="rt4C5o0JgT" role="2Oq$k0">
+                <node concept="2WthIp" id="rt4C5o0JgU" role="2Oq$k0" />
+                <node concept="2XshWL" id="rt4C5o0JgV" role="2OqNvi">
+                  <ref role="2WH_rO" node="rt4C5nZiRg" resolve="getDifferences" />
+                  <node concept="37vLTw" id="rt4C5o0JgW" role="2XxRq1">
+                    <ref role="3cqZAo" node="rt4C5o0JgM" resolve="ecoreFile" />
+                  </node>
+                  <node concept="BaHAS" id="rt4C5o0JgX" role="2XxRq1">
+                    <property role="BaHAW" value="test.com.mbeddr.mpsutil.ecoreimporter.runtime.testLanguageNoMatch.structure" />
+                    <property role="BaGAP" value="" />
+                  </node>
+                </node>
+              </node>
+              <node concept="liA8E" id="rt4C5o0JgY" role="2OqNvi">
+                <ref role="37wK5l" to="33ny:~List.size():int" resolve="size" />
+              </node>
+            </node>
+            <node concept="3cmrfG" id="rt4C5o0LsZ" role="3uHU7w">
+              <property role="3cmrfH" value="1" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2XrIbr" id="rt4C5nZiRg" role="1qtyYc">
+      <property role="TrG5h" value="getDifferences" />
+      <node concept="3uibUv" id="rt4C5nZiTN" role="3clF45">
+        <ref role="3uigEE" to="33ny:~List" resolve="List" />
+        <node concept="3uibUv" id="rt4C5nZiX4" role="11_B2D">
+          <ref role="3uigEE" to="mqum:DYlgnA$re5" resolve="NodeDifference" />
+        </node>
+      </node>
+      <node concept="3clFbS" id="rt4C5nZiRi" role="3clF47">
         <node concept="3cpWs8" id="6m31kJuBYF_" role="3cqZAp">
           <node concept="3cpWsn" id="6m31kJuBYFA" role="3cpWs9">
             <property role="TrG5h" value="importedModel" />
             <node concept="H_c77" id="6m31kJuBYFB" role="1tU5fm" />
             <node concept="2OqwBi" id="6m31kJuC88A" role="33vP2m">
               <node concept="2YIFZM" id="6m31kJuC82y" role="2Oq$k0">
-                <ref role="37wK5l" to="tqvn:~TemporaryModels.getInstance():jetbrains.mps.smodel.tempmodel.TemporaryModels" resolve="getInstance" />
                 <ref role="1Pybhc" to="tqvn:~TemporaryModels" resolve="TemporaryModels" />
+                <ref role="37wK5l" to="tqvn:~TemporaryModels.getInstance():jetbrains.mps.smodel.tempmodel.TemporaryModels" resolve="getInstance" />
               </node>
               <node concept="liA8E" id="6m31kJuC8mK" role="2OqNvi">
                 <ref role="37wK5l" to="tqvn:~TemporaryModels.create(boolean,jetbrains.mps.smodel.tempmodel.TempModuleOptions):org.jetbrains.mps.openapi.model.SModel" resolve="create" />
@@ -678,8 +768,8 @@
                   <property role="3clFbU" value="true" />
                 </node>
                 <node concept="2YIFZM" id="6m31kJuC8xe" role="37wK5m">
-                  <ref role="37wK5l" to="tqvn:~TempModuleOptions.forDefaultModule():jetbrains.mps.smodel.tempmodel.TempModuleOptions" resolve="forDefaultModule" />
                   <ref role="1Pybhc" to="tqvn:~TempModuleOptions" resolve="TempModuleOptions" />
+                  <ref role="37wK5l" to="tqvn:~TempModuleOptions.forDefaultModule():jetbrains.mps.smodel.tempmodel.TempModuleOptions" resolve="forDefaultModule" />
                 </node>
               </node>
             </node>
@@ -692,44 +782,37 @@
             <node concept="37vLTw" id="6m31kJuBYFF" role="37wK5m">
               <ref role="3cqZAo" node="6m31kJuBYFA" resolve="importedModel" />
             </node>
-            <node concept="37vLTw" id="6m31kJuBYFG" role="37wK5m">
-              <ref role="3cqZAo" node="6m31kJuBYFy" resolve="ecoreFile" />
+            <node concept="37vLTw" id="rt4C5nZjAP" role="37wK5m">
+              <ref role="3cqZAo" node="rt4C5nZiS4" resolve="ecoreFileName" />
             </node>
           </node>
         </node>
-        <node concept="3clFbF" id="6m31kJuCh9N" role="3cqZAp">
-          <node concept="2OqwBi" id="6m31kJuCh9K" role="3clFbG">
-            <node concept="10M0yZ" id="6m31kJuCh9L" role="2Oq$k0">
-              <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
-              <ref role="3cqZAo" to="wyt6:~System.out" resolve="out" />
-            </node>
-            <node concept="liA8E" id="6m31kJuCh9M" role="2OqNvi">
-              <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
-              <node concept="Xl_RD" id="6m31kJuChcq" role="37wK5m">
-                <property role="Xl_RC" value="Beginning tests" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="6m31kJuBYFH" role="3cqZAp">
-          <node concept="2YIFZM" id="6m31kJuBYFI" role="3clFbG">
+        <node concept="3clFbF" id="rt4C5nZF4L" role="3cqZAp">
+          <node concept="2YIFZM" id="rt4C5nZjTx" role="3clFbG">
             <ref role="1Pybhc" node="5D0nJiXT65I" resolve="EcoreImporterTestingUtil" />
-            <ref role="37wK5l" node="5D0nJiXVV7F" resolve="getDifferences" />
-            <node concept="10M0yZ" id="6m31kJuBYFJ" role="37wK5m">
-              <ref role="3cqZAo" node="6m31kJuBMVi" resolve="mdlExpectedMatch" />
-              <ref role="1PxDUh" node="6m31kJuBKW8" resolve="ExpectedModels" />
+            <ref role="37wK5l" node="5D0nJiXVV7F" resolve="calculateDifferences" />
+            <node concept="37vLTw" id="rt4C5nZk3F" role="37wK5m">
+              <ref role="3cqZAo" node="rt4C5nZiSY" resolve="expectedModel" />
             </node>
-            <node concept="37vLTw" id="6m31kJuBYFK" role="37wK5m">
+            <node concept="37vLTw" id="rt4C5nZkf0" role="37wK5m">
               <ref role="3cqZAo" node="6m31kJuBYFA" resolve="importedModel" />
             </node>
           </node>
         </node>
-        <node concept="3clFbF" id="6m31kJuBYFL" role="3cqZAp">
-          <node concept="2YIFZM" id="6m31kJuBYFM" role="3clFbG">
+        <node concept="3cpWs6" id="rt4C5nZFcn" role="3cqZAp">
+          <node concept="2YIFZM" id="rt4C5nZIz9" role="3cqZAk">
+            <ref role="37wK5l" node="rt4C5nZIp3" resolve="getNodeDifferences" />
             <ref role="1Pybhc" node="5D0nJiXT65I" resolve="EcoreImporterTestingUtil" />
-            <ref role="37wK5l" node="5D0nJiXViOy" resolve="printDifferences" />
           </node>
         </node>
+      </node>
+      <node concept="37vLTG" id="rt4C5nZiS4" role="3clF46">
+        <property role="TrG5h" value="ecoreFileName" />
+        <node concept="17QB3L" id="rt4C5nZiS3" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="rt4C5nZiSY" role="3clF46">
+        <property role="TrG5h" value="expectedModel" />
+        <node concept="H_c77" id="rt4C5nZiTh" role="1tU5fm" />
       </node>
     </node>
   </node>
