@@ -28,6 +28,7 @@
       <modulePath path="$PROJECT_DIR$/languages/com.mbeddr.mpsutil.datepicker.sandbox/com.mbeddr.mpsutil.datepicker.sandbox.mpl" folder="staging.datePicker" />
       <modulePath path="$PROJECT_DIR$/languages/com.mbeddr.mpsutil.datepicker/com.mbeddr.mpsutil.datepicker.mpl" folder="staging.datePicker" />
       <modulePath path="$PROJECT_DIR$/languages/com.mbeddr.mpsutil.dependenciesdiagram/com.mbeddr.mpsutil.dependenciesdiagram.mpl" folder="rest.dependenciesdiagram" />
+      <modulePath path="$PROJECT_DIR$/languages/com.mbeddr.mpsutil.ecoreimporter.testing/com.mbeddr.mpsutil.ecoreimporter.testing.mpl" folder="rest.ecoreimporter.testing" />
       <modulePath path="$PROJECT_DIR$/languages/com.mbeddr.mpsutil.ecoreimporter.util/com.mbeddr.mpsutil.ecoreimporter.util.mpl" folder="rest.ecoreimporter.importer" />
       <modulePath path="$PROJECT_DIR$/languages/com.mbeddr.mpsutil.editingGuide.execution.lang/com.mbeddr.mpsutil.editingGuide.execution.lang.mpl" folder="staging.editingGuide" />
       <modulePath path="$PROJECT_DIR$/languages/com.mbeddr.mpsutil.editingGuide/com.mbeddr.mpsutil.editingGuide.mpl" folder="staging.editingGuide" />
@@ -128,7 +129,7 @@
       <modulePath path="$PROJECT_DIR$/solutions/com.mbeddr.mpsutil.datepicker.runtime/com.mbeddr.mpsutil.datepicker.runtime.msd" folder="staging.datePicker" />
       <modulePath path="$PROJECT_DIR$/solutions/com.mbeddr.mpsutil.datepicker.sandbox.demo/com.mbeddr.mpsutil.datepicker.sandbox.demo.msd" folder="staging.datePicker" />
       <modulePath path="$PROJECT_DIR$/solutions/com.mbeddr.mpsutil.dependenciesdiagram.sandbox/com.mbeddr.mpsutil.dependenciesdiagram.sandbox.msd" folder="rest.dependenciesdiagram" />
-      <modulePath path="$PROJECT_DIR$/solutions/com.mbeddr.mpsutil.ecoreimporter.eit/com.mbeddr.mpsutil.ecoreimporter.testing.msd" folder="rest.ecoreimporter" />
+      <modulePath path="$PROJECT_DIR$/solutions/com.mbeddr.mpsutil.ecoreimporter.eit/com.mbeddr.mpsutil.ecoreimporter.testing.runtime.msd" folder="rest.ecoreimporter.testing" />
       <modulePath path="$PROJECT_DIR$/solutions/com.mbeddr.mpsutil.ecoreimporter.runtime/com.mbeddr.mpsutil.ecoreimporter.runtime.msd" folder="rest.ecoreimporter.importer" />
       <modulePath path="$PROJECT_DIR$/solutions/com.mbeddr.mpsutil.ecoreimporter.ui/com.mbeddr.mpsutil.ecoreimporter.ui.msd" folder="rest.ecoreimporter.importer" />
       <modulePath path="$PROJECT_DIR$/solutions/com.mbeddr.mpsutil.editingGuide.execution/com.mbeddr.mpsutil.editingGuide.execution.msd" folder="staging.editingGuide" />
