@@ -110,6 +110,7 @@
       <modulePath path="$PROJECT_DIR$/languages/tcom.mbeddr.mpsutil.ecoreimporter.sandbox/com.mbeddr.mpsutil.ecoreimporter.sandbox.mpl" folder="rest.ecoreimporter" />
       <modulePath path="$PROJECT_DIR$/languages/test.com.mbeddr.mpsutil.ecoreimporter.runtime.testLanguage1/test.com.mbeddr.mpsutil.ecoreimporter.runtime.testLanguageMatch.mpl" folder="rest.ecoreimporter.tests.referenceLanguages" />
       <modulePath path="$PROJECT_DIR$/languages/test.com.mbeddr.mpsutil.ecoreimporter.runtime.testLanguageNoMatch/test.com.mbeddr.mpsutil.ecoreimporter.runtime.testLanguageNoMatch.mpl" folder="rest.ecoreimporter.tests.referenceLanguages" />
+      <modulePath path="$PROJECT_DIR$/languages/test.com.mbeddr.mpsutil.ecoreimporter.runtime.testlanguageNoMatch2/test.com.mbeddr.mpsutil.ecoreimporter.runtime.testlanguageNoMatch2.mpl" folder="rest.ecoreimporter.tests.referenceLanguages" />
       <modulePath path="$PROJECT_DIR$/solutions/com.mbeddr.mpsutil.actionsfilter.runtime/com.mbeddr.mpsutil.actionsfilter.runtime.msd" folder="staging.actionsfilter" />
       <modulePath path="$PROJECT_DIR$/solutions/com.mbeddr.mpsutil.breadcrumb.runtime/com.mbeddr.mpsutil.breadcrumb.runtime.msd" folder="rest.breadcrumb" />
       <modulePath path="$PROJECT_DIR$/solutions/com.mbeddr.mpsutil.buildutil.runtime/com.mbeddr.mpsutil.buildutil.runtime.msd" folder="rest.buildutil" />
