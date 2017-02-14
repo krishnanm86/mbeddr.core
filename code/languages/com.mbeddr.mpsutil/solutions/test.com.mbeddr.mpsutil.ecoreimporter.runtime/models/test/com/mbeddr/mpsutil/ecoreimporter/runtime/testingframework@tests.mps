@@ -401,5 +401,110 @@
       </node>
     </node>
   </node>
+  <node concept="1lH9Xt" id="7FLq2$J$Brq">
+    <property role="TrG5h" value="ParentChildTests" />
+    <node concept="1LZb2c" id="7FLq2$J$Brr" role="1SL9yI">
+      <property role="TrG5h" value="testClassInterface" />
+      <node concept="3cqZAl" id="7FLq2$J$Brs" role="3clF45" />
+      <node concept="3clFbS" id="7FLq2$J$Brt" role="3clF47">
+        <node concept="1uQa1g" id="7FLq2$J$Bru" role="3cqZAp">
+          <node concept="3NXOOs" id="7FLq2$J$Brv" role="1uyAOo">
+            <property role="1RwFax" value="true" />
+            <property role="3kgbRO" value="false" />
+            <property role="3N1Lgt" value="test_Ecore_Files/class_interface.ecore" />
+          </node>
+          <node concept="BaHAS" id="7FLq2$J$Brw" role="1uyDA$">
+            <property role="BaHAW" value="test.com.mbeddr.mpsutil.ecoreimporter.runtime.classInterface.structure" />
+            <property role="BaGAP" value="" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1LZb2c" id="7FLq2$J$Brx" role="1SL9yI">
+      <property role="TrG5h" value="testClassMultipleInterface" />
+      <node concept="3cqZAl" id="7FLq2$J$Bry" role="3clF45" />
+      <node concept="3clFbS" id="7FLq2$J$Brz" role="3clF47">
+        <node concept="1uQa1g" id="7FLq2$J$Br$" role="3cqZAp">
+          <node concept="3NXOOs" id="7FLq2$J$Br_" role="1uyAOo">
+            <property role="1RwFax" value="true" />
+            <property role="3kgbRO" value="false" />
+            <property role="3N1Lgt" value="test_Ecore_Files/class_multiple_interface.ecore" />
+          </node>
+          <node concept="BaHAS" id="7FLq2$J$BrA" role="1uyDA$">
+            <property role="BaHAW" value="test.com.mbeddr.mpsutil.ecoreimporter.runtime.classMultipleInterface.structure" />
+            <property role="BaGAP" value="" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1LZb2c" id="7FLq2$J$BrB" role="1SL9yI">
+      <property role="TrG5h" value="testClassMultipleInterfaceSuperClass" />
+      <node concept="3cqZAl" id="7FLq2$J$BrC" role="3clF45" />
+      <node concept="3clFbS" id="7FLq2$J$BrD" role="3clF47">
+        <node concept="1uQa1g" id="7FLq2$J$BrE" role="3cqZAp">
+          <node concept="3NXOOs" id="7FLq2$J$BrF" role="1uyAOo">
+            <property role="1RwFax" value="true" />
+            <property role="3kgbRO" value="false" />
+            <property role="3N1Lgt" value="test_Ecore_Files/class_multiple_interface_superclass.ecore" />
+          </node>
+          <node concept="BaHAS" id="7FLq2$J$BrG" role="1uyDA$">
+            <property role="BaHAW" value="test.com.mbeddr.mpsutil.ecoreimporter.runtime.classMultipleInterfaceSuperclass.structure" />
+            <property role="BaGAP" value="" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1LZb2c" id="7FLq2$J$BrH" role="1SL9yI">
+      <property role="TrG5h" value="testMultipleInheritance" />
+      <node concept="3cqZAl" id="7FLq2$J$BrI" role="3clF45" />
+      <node concept="3clFbS" id="7FLq2$J$BrJ" role="3clF47">
+        <node concept="1uQa1g" id="7FLq2$J$BrK" role="3cqZAp">
+          <node concept="3NXOOs" id="7FLq2$J$BrL" role="1uyAOo">
+            <property role="1RwFax" value="true" />
+            <property role="3kgbRO" value="false" />
+            <property role="3N1Lgt" value="test_Ecore_Files/multiple_inheritance.ecore" />
+          </node>
+          <node concept="BaHAS" id="7FLq2$J$BrM" role="1uyDA$">
+            <property role="BaHAW" value="test.com.mbeddr.mpsutil.ecoreimporter.runtime.multipleInheritance.structure" />
+            <property role="BaGAP" value="" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1LZb2c" id="7FLq2$J$BrN" role="1SL9yI">
+      <property role="TrG5h" value="testMultipleInterfaceInheritance" />
+      <node concept="3cqZAl" id="7FLq2$J$BrO" role="3clF45" />
+      <node concept="3clFbS" id="7FLq2$J$BrP" role="3clF47">
+        <node concept="1uQa1g" id="7FLq2$J$BrQ" role="3cqZAp">
+          <node concept="3NXOOs" id="7FLq2$J$BrR" role="1uyAOo">
+            <property role="1RwFax" value="true" />
+            <property role="3kgbRO" value="false" />
+            <property role="3N1Lgt" value="test_Ecore_Files/multiple_inheritance_interface.ecore" />
+          </node>
+          <node concept="BaHAS" id="7FLq2$J$BrS" role="1uyDA$">
+            <property role="BaHAW" value="test.com.mbeddr.mpsutil.ecoreimporter.runtime.multipleInterfaceInheritance.structure" />
+            <property role="BaGAP" value="" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1LZb2c" id="7FLq2$J$BrT" role="1SL9yI">
+      <property role="TrG5h" value="testSuperClass" />
+      <node concept="3cqZAl" id="7FLq2$J$BrU" role="3clF45" />
+      <node concept="3clFbS" id="7FLq2$J$BrV" role="3clF47">
+        <node concept="1uQa1g" id="7FLq2$J$BrW" role="3cqZAp">
+          <node concept="3NXOOs" id="7FLq2$J$BrX" role="1uyAOo">
+            <property role="1RwFax" value="true" />
+            <property role="3kgbRO" value="false" />
+            <property role="3N1Lgt" value="test_Ecore_Files/super_class.ecore" />
+          </node>
+          <node concept="BaHAS" id="7FLq2$J$BrY" role="1uyDA$">
+            <property role="BaHAW" value="test.com.mbeddr.mpsutil.ecoreimporter.runtime.superClass.structure" />
+            <property role="BaGAP" value="" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 
