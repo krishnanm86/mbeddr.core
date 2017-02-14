@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:493efdec-9007-4cc8-90f5-866c12c9339f(test.com.mbeddr.mpsutil.ecoreimporter.runtime.testLanguageNoMatch.generator.template.main@generator)">
+<model ref="r:493efdec-9007-4cc8-90f5-866c12c9339f(test.com.mbeddr.mpsutil.ecoreimporter.runtime.testFailDifferentNumberOfChildrentc2.generator.template.main@generator)">
   <persistence version="9" />
   <languages>
     <use id="c220e21b-ebd4-4924-84ab-4c2dac9c325f" name="test.com.mbeddr.mpsutil.ecoreimporter.runtime.testLanguageNoMatch" version="-1" />

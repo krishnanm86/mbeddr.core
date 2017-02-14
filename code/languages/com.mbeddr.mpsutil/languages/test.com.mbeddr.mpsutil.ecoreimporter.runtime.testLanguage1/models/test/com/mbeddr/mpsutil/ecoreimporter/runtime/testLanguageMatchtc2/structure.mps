@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:fb5b30d6-00a3-46e7-96e2-c03227033d2f(test.com.mbeddr.mpsutil.ecoreimporter.runtime.testlanguageNoMatch2.structure)">
+<model ref="r:03aba134-0b7a-4e08-94c5-25f2ebc4d5c8(test.com.mbeddr.mpsutil.ecoreimporter.runtime.testLanguageMatchtc2.structure)">
   <persistence version="9" />
   <languages>
     <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="3" />
@@ -167,7 +167,7 @@
     <ref role="1TJDcQ" node="7CVN7FEkFWm" resolve="SuperClass1" />
     <node concept="1TJgyi" id="7CVN7FEkFWe" role="1TKVEl">
       <property role="IQ2nx" value="8807858324542504718" />
-      <property role="TrG5h" value="newAttribute1Class2" />
+      <property role="TrG5h" value="newAttribute2Class2" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
     <node concept="PrWs8" id="7CVN7FEkFW$" role="PzmwI">

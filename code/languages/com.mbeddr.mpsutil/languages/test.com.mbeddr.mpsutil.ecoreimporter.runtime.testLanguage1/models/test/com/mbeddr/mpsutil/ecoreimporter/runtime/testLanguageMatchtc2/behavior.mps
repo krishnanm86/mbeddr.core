@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:b5437dd1-1d99-4755-a6c6-98c7f3d51704(test.com.mbeddr.mpsutil.ecoreimporter.runtime.testLanguageNoMatch.editor)">
+<model ref="r:dc839def-c866-475c-8d57-3beb26bda90e(test.com.mbeddr.mpsutil.ecoreimporter.runtime.testLanguageMatchtc2.behavior)">
   <persistence version="9" />
   <languages>
-    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="4" />
+    <use id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior" version="0" />
     <devkit ref="2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)" />
   </languages>
   <imports />

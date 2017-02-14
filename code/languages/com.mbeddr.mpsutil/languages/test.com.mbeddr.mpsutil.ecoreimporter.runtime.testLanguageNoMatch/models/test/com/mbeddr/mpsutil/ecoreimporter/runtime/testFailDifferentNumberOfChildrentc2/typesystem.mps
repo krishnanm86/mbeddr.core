@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:a75afb77-9080-48e0-9523-7bd156e85eaa(test.com.mbeddr.mpsutil.ecoreimporter.runtime.testLanguageMatch.typesystem)">
+<model ref="r:395d1b74-f627-4ee4-9c52-b9ed5d378977(test.com.mbeddr.mpsutil.ecoreimporter.runtime.testFailDifferentNumberOfChildrentc2.typesystem)">
   <persistence version="9" />
   <languages>
     <use id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem" version="0" />

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<language namespace="test.com.mbeddr.mpsutil.ecoreimporter.runtime.testLanguageMatch" uuid="417cb36b-55c0-4052-a46e-a6fb92801958" languageVersion="0" moduleVersion="0">
+<language namespace="test.com.mbeddr.mpsutil.ecoreimporter.runtime.testLanguageMatchtc2" uuid="417cb36b-55c0-4052-a46e-a6fb92801958" languageVersion="0" moduleVersion="0">
   <models>
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="models" />
@@ -7,7 +7,7 @@
   </models>
   <accessoryModels />
   <generators>
-    <generator generatorUID="test.com.mbeddr.mpsutil.ecoreimporter.runtime.testLanguageMatch#7314696043194888473" uuid="da51642e-8420-46e7-a3e5-3fd8be8c6d89">
+    <generator generatorUID="test.com.mbeddr.mpsutil.ecoreimporter.runtime.testLanguageMatchtc2#7314696043194888473" uuid="da51642e-8420-46e7-a3e5-3fd8be8c6d89">
       <models>
         <modelRoot contentPath="${module}" type="default">
           <sourceRoot path="${module}/generator/template" />
@@ -44,8 +44,8 @@
         <module reference="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" version="0" />
         <module reference="d7eb0a2a-bd50-4576-beae-e4a89db35f20(jetbrains.mps.lang.scopes.runtime)" version="0" />
         <module reference="c72da2b9-7cce-4447-8389-f407dc1158b7(jetbrains.mps.lang.structure)" version="0" />
-        <module reference="417cb36b-55c0-4052-a46e-a6fb92801958(test.com.mbeddr.mpsutil.ecoreimporter.runtime.testLanguageMatch)" version="0" />
-        <module reference="da51642e-8420-46e7-a3e5-3fd8be8c6d89(test.com.mbeddr.mpsutil.ecoreimporter.runtime.testLanguageMatch#7314696043194888473)" version="0" />
+        <module reference="417cb36b-55c0-4052-a46e-a6fb92801958(test.com.mbeddr.mpsutil.ecoreimporter.runtime.testLanguageMatchtc2)" version="0" />
+        <module reference="da51642e-8420-46e7-a3e5-3fd8be8c6d89(test.com.mbeddr.mpsutil.ecoreimporter.runtime.testLanguageMatchtc2#7314696043194888473)" version="0" />
       </dependencyVersions>
       <mapping-priorities />
     </generator>
@@ -97,7 +97,7 @@
     <module reference="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" version="0" />
     <module reference="d7eb0a2a-bd50-4576-beae-e4a89db35f20(jetbrains.mps.lang.scopes.runtime)" version="0" />
     <module reference="c72da2b9-7cce-4447-8389-f407dc1158b7(jetbrains.mps.lang.structure)" version="0" />
-    <module reference="417cb36b-55c0-4052-a46e-a6fb92801958(test.com.mbeddr.mpsutil.ecoreimporter.runtime.testLanguageMatch)" version="0" />
+    <module reference="417cb36b-55c0-4052-a46e-a6fb92801958(test.com.mbeddr.mpsutil.ecoreimporter.runtime.testLanguageMatchtc2)" version="0" />
   </dependencyVersions>
   <extendedLanguages />
 </language>

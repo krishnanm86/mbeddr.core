@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:7c735595-4d92-4f45-9e65-7794a2a411b3(test.com.mbeddr.mpsutil.ecoreimporter.runtime.testlanguageNoMatch2.editor)">
+<model ref="r:7c735595-4d92-4f45-9e65-7794a2a411b3(test.com.mbeddr.mpsutil.ecoreimporter.runtime.testFailDifferentPropertyNametc2.editor)">
   <persistence version="9" />
   <languages>
     <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="4" />
