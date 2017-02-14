@@ -27,6 +27,12 @@
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
       <concept id="1068581517677" name="jetbrains.mps.baseLanguage.structure.VoidType" flags="in" index="3cqZAl" />
+      <concept id="6329021646629104957" name="jetbrains.mps.baseLanguage.structure.TextCommentPart" flags="nn" index="3SKdUq">
+        <property id="6329021646629104958" name="text" index="3SKdUp" />
+      </concept>
+      <concept id="6329021646629104954" name="jetbrains.mps.baseLanguage.structure.SingleLineComment" flags="nn" index="3SKdUt">
+        <child id="6329021646629175155" name="commentPart" index="3SKWNk" />
+      </concept>
     </language>
     <language id="d3a0fd26-445a-466c-900e-10444ddfed52" name="com.mbeddr.mpsutil.filepicker">
       <concept id="6156524541422549000" name="com.mbeddr.mpsutil.filepicker.structure.AbstractPicker" flags="ng" index="3N1QpV">
@@ -60,6 +66,11 @@
       <property role="TrG5h" value="testMatch" />
       <node concept="3cqZAl" id="7FLq2$J$EAF" role="3clF45" />
       <node concept="3clFbS" id="7FLq2$J$EAG" role="3clF47">
+        <node concept="3SKdUt" id="7FLq2$J$GtH" role="3cqZAp">
+          <node concept="3SKdUq" id="7FLq2$J$GtJ" role="3SKWNk">
+            <property role="3SKdUp" value="Class with multiple varying properties, which inherits multiple classes , implements multiple interfaces and refers to multiple other classes" />
+          </node>
+        </node>
         <node concept="1uQa1g" id="7FLq2$J$EAH" role="3cqZAp">
           <node concept="3NXOOs" id="7FLq2$J$EAI" role="1uyAOo">
             <property role="1RwFax" value="true" />
@@ -80,6 +91,11 @@
       <property role="TrG5h" value="testEnumInterface" />
       <node concept="3cqZAl" id="7FLq2$J$_PR" role="3clF45" />
       <node concept="3clFbS" id="7FLq2$J$_PS" role="3clF47">
+        <node concept="3SKdUt" id="7FLq2$J$Gvf" role="3cqZAp">
+          <node concept="3SKdUq" id="7FLq2$J$Gvh" role="3SKWNk">
+            <property role="3SKdUp" value="Simple class implementing an interface , having a property of a type of an existing enum" />
+          </node>
+        </node>
         <node concept="1uQa1g" id="7FLq2$J$_PT" role="3cqZAp">
           <node concept="3NXOOs" id="7FLq2$J$_PU" role="1uyAOo">
             <property role="1RwFax" value="true" />
@@ -97,6 +113,11 @@
       <property role="TrG5h" value="testEnumNoUniqueInternalValue" />
       <node concept="3cqZAl" id="7FLq2$J$A9A" role="3clF45" />
       <node concept="3clFbS" id="7FLq2$J$A9B" role="3clF47">
+        <node concept="3SKdUt" id="7FLq2$J$Gx1" role="3cqZAp">
+          <node concept="3SKdUq" id="7FLq2$J$Gx3" role="3SKWNk">
+            <property role="3SKdUp" value="Populate enum without internal values for a simple enum" />
+          </node>
+        </node>
         <node concept="1uQa1g" id="7FLq2$J$A9C" role="3cqZAp">
           <node concept="3NXOOs" id="7FLq2$J$A9D" role="1uyAOo">
             <property role="1RwFax" value="true" />
@@ -114,6 +135,11 @@
       <property role="TrG5h" value="testEnumSuperClass" />
       <node concept="3cqZAl" id="7FLq2$J$AaE" role="3clF45" />
       <node concept="3clFbS" id="7FLq2$J$AaF" role="3clF47">
+        <node concept="3SKdUt" id="7FLq2$J$GxF" role="3cqZAp">
+          <node concept="3SKdUq" id="7FLq2$J$GxH" role="3SKWNk">
+            <property role="3SKdUp" value="Simple class with a super class , having a property of a type of an existing enum" />
+          </node>
+        </node>
         <node concept="1uQa1g" id="7FLq2$J$AaG" role="3cqZAp">
           <node concept="3NXOOs" id="7FLq2$J$AaH" role="1uyAOo">
             <property role="1RwFax" value="true" />
@@ -131,6 +157,11 @@
       <property role="TrG5h" value="testSimpleClassEnumProperty" />
       <node concept="3cqZAl" id="7FLq2$J$AbI" role="3clF45" />
       <node concept="3clFbS" id="7FLq2$J$AbJ" role="3clF47">
+        <node concept="3SKdUt" id="7FLq2$J$Gyl" role="3cqZAp">
+          <node concept="3SKdUq" id="7FLq2$J$Gyn" role="3SKWNk">
+            <property role="3SKdUp" value="Simple class with one property of an existing enum type" />
+          </node>
+        </node>
         <node concept="1uQa1g" id="7FLq2$J$AbK" role="3cqZAp">
           <node concept="3NXOOs" id="7FLq2$J$AbL" role="1uyAOo">
             <property role="1RwFax" value="true" />
@@ -148,6 +179,11 @@
       <property role="TrG5h" value="testSimpleClassVaryingPropertyWithEnum" />
       <node concept="3cqZAl" id="7FLq2$J$ARm" role="3clF45" />
       <node concept="3clFbS" id="7FLq2$J$ARn" role="3clF47">
+        <node concept="3SKdUt" id="7FLq2$J$Gzn" role="3cqZAp">
+          <node concept="3SKdUq" id="7FLq2$J$Gzp" role="3SKWNk">
+            <property role="3SKdUp" value="Simple class with 4 properties (2 primitive types, 2 enum types)" />
+          </node>
+        </node>
         <node concept="1uQa1g" id="7FLq2$J$ARo" role="3cqZAp">
           <node concept="3NXOOs" id="7FLq2$J$ARp" role="1uyAOo">
             <property role="1RwFax" value="true" />
@@ -165,6 +201,11 @@
       <property role="TrG5h" value="testSimpleEnum" />
       <node concept="3cqZAl" id="7FLq2$J$ASM" role="3clF45" />
       <node concept="3clFbS" id="7FLq2$J$ASN" role="3clF47">
+        <node concept="3SKdUt" id="7FLq2$J$G$1" role="3cqZAp">
+          <node concept="3SKdUq" id="7FLq2$J$G$3" role="3SKWNk">
+            <property role="3SKdUp" value="Simple Enum with 3 values" />
+          </node>
+        </node>
         <node concept="1uQa1g" id="7FLq2$J$ASO" role="3cqZAp">
           <node concept="3NXOOs" id="7FLq2$J$ASP" role="1uyAOo">
             <property role="1RwFax" value="true" />
@@ -185,6 +226,11 @@
       <property role="TrG5h" value="testClassInterface" />
       <node concept="3cqZAl" id="7FLq2$J$Brs" role="3clF45" />
       <node concept="3clFbS" id="7FLq2$J$Brt" role="3clF47">
+        <node concept="3SKdUt" id="7FLq2$J$G_N" role="3cqZAp">
+          <node concept="3SKdUq" id="7FLq2$J$G_P" role="3SKWNk">
+            <property role="3SKdUp" value="Simple class which implements a simple interface" />
+          </node>
+        </node>
         <node concept="1uQa1g" id="7FLq2$J$Bru" role="3cqZAp">
           <node concept="3NXOOs" id="7FLq2$J$Brv" role="1uyAOo">
             <property role="1RwFax" value="true" />
@@ -202,6 +248,11 @@
       <property role="TrG5h" value="testClassMultipleInterface" />
       <node concept="3cqZAl" id="7FLq2$J$Bry" role="3clF45" />
       <node concept="3clFbS" id="7FLq2$J$Brz" role="3clF47">
+        <node concept="3SKdUt" id="7FLq2$J$GAt" role="3cqZAp">
+          <node concept="3SKdUq" id="7FLq2$J$GAv" role="3SKWNk">
+            <property role="3SKdUp" value="Simple class which implements 3 interfaces" />
+          </node>
+        </node>
         <node concept="1uQa1g" id="7FLq2$J$Br$" role="3cqZAp">
           <node concept="3NXOOs" id="7FLq2$J$Br_" role="1uyAOo">
             <property role="1RwFax" value="true" />
@@ -219,6 +270,11 @@
       <property role="TrG5h" value="testClassMultipleInterfaceSuperClass" />
       <node concept="3cqZAl" id="7FLq2$J$BrC" role="3clF45" />
       <node concept="3clFbS" id="7FLq2$J$BrD" role="3clF47">
+        <node concept="3SKdUt" id="7FLq2$J$GB7" role="3cqZAp">
+          <node concept="3SKdUq" id="7FLq2$J$GB9" role="3SKWNk">
+            <property role="3SKdUp" value="Simple class which extends one superclass and 3 interfaces" />
+          </node>
+        </node>
         <node concept="1uQa1g" id="7FLq2$J$BrE" role="3cqZAp">
           <node concept="3NXOOs" id="7FLq2$J$BrF" role="1uyAOo">
             <property role="1RwFax" value="true" />
@@ -236,6 +292,11 @@
       <property role="TrG5h" value="testMultipleInheritance" />
       <node concept="3cqZAl" id="7FLq2$J$BrI" role="3clF45" />
       <node concept="3clFbS" id="7FLq2$J$BrJ" role="3clF47">
+        <node concept="3SKdUt" id="7FLq2$J$GBL" role="3cqZAp">
+          <node concept="3SKdUq" id="7FLq2$J$GBN" role="3SKWNk">
+            <property role="3SKdUp" value="Simple class which extends 3 super classes" />
+          </node>
+        </node>
         <node concept="1uQa1g" id="7FLq2$J$BrK" role="3cqZAp">
           <node concept="3NXOOs" id="7FLq2$J$BrL" role="1uyAOo">
             <property role="1RwFax" value="true" />
@@ -253,6 +314,11 @@
       <property role="TrG5h" value="testMultipleInterfaceInheritance" />
       <node concept="3cqZAl" id="7FLq2$J$BrO" role="3clF45" />
       <node concept="3clFbS" id="7FLq2$J$BrP" role="3clF47">
+        <node concept="3SKdUt" id="7FLq2$J$GEa" role="3cqZAp">
+          <node concept="3SKdUq" id="7FLq2$J$GEc" role="3SKWNk">
+            <property role="3SKdUp" value="Simple class which extends 3 super classes and 3 other interfaces" />
+          </node>
+        </node>
         <node concept="1uQa1g" id="7FLq2$J$BrQ" role="3cqZAp">
           <node concept="3NXOOs" id="7FLq2$J$BrR" role="1uyAOo">
             <property role="1RwFax" value="true" />
@@ -270,6 +336,11 @@
       <property role="TrG5h" value="testSuperClass" />
       <node concept="3cqZAl" id="7FLq2$J$BrU" role="3clF45" />
       <node concept="3clFbS" id="7FLq2$J$BrV" role="3clF47">
+        <node concept="3SKdUt" id="7FLq2$J$GEO" role="3cqZAp">
+          <node concept="3SKdUq" id="7FLq2$J$GEQ" role="3SKWNk">
+            <property role="3SKdUp" value="Simple class which contains a super class relationship" />
+          </node>
+        </node>
         <node concept="1uQa1g" id="7FLq2$J$BrW" role="3cqZAp">
           <node concept="3NXOOs" id="7FLq2$J$BrX" role="1uyAOo">
             <property role="1RwFax" value="true" />
@@ -290,6 +361,11 @@
       <property role="TrG5h" value="testMultipleReference" />
       <node concept="3cqZAl" id="7FLq2$J$DJM" role="3clF45" />
       <node concept="3clFbS" id="7FLq2$J$DJN" role="3clF47">
+        <node concept="3SKdUt" id="7FLq2$J$GG2" role="3cqZAp">
+          <node concept="3SKdUq" id="7FLq2$J$GG4" role="3SKWNk">
+            <property role="3SKdUp" value="Simple class with multiple reference to other classes" />
+          </node>
+        </node>
         <node concept="1uQa1g" id="7FLq2$J$DJO" role="3cqZAp">
           <node concept="3NXOOs" id="7FLq2$J$DJP" role="1uyAOo">
             <property role="1RwFax" value="true" />
@@ -304,9 +380,14 @@
       </node>
     </node>
     <node concept="1LZb2c" id="7FLq2$J$DJR" role="1SL9yI">
-      <property role="TrG5h" value="testClassNonMpsTypes" />
+      <property role="TrG5h" value="testClassReference" />
       <node concept="3cqZAl" id="7FLq2$J$DJS" role="3clF45" />
       <node concept="3clFbS" id="7FLq2$J$DJT" role="3clF47">
+        <node concept="3SKdUt" id="7FLq2$J$GGS" role="3cqZAp">
+          <node concept="3SKdUq" id="7FLq2$J$GGU" role="3SKWNk">
+            <property role="3SKdUp" value="Simple class with a reference to another class" />
+          </node>
+        </node>
         <node concept="1uQa1g" id="7FLq2$J$DJU" role="3cqZAp">
           <node concept="3NXOOs" id="7FLq2$J$DJV" role="1uyAOo">
             <property role="1RwFax" value="true" />
@@ -321,9 +402,14 @@
       </node>
     </node>
     <node concept="1LZb2c" id="7FLq2$J$DJX" role="1SL9yI">
-      <property role="TrG5h" value="testSimpleClassOneProperty" />
+      <property role="TrG5h" value="testClassReferenceChild" />
       <node concept="3cqZAl" id="7FLq2$J$DJY" role="3clF45" />
       <node concept="3clFbS" id="7FLq2$J$DJZ" role="3clF47">
+        <node concept="3SKdUt" id="7FLq2$J$GHI" role="3cqZAp">
+          <node concept="3SKdUq" id="7FLq2$J$GHK" role="3SKWNk">
+            <property role="3SKdUp" value="Simple class which has a super class and also refers to another class" />
+          </node>
+        </node>
         <node concept="1uQa1g" id="7FLq2$J$DK0" role="3cqZAp">
           <node concept="3NXOOs" id="7FLq2$J$DK1" role="1uyAOo">
             <property role="1RwFax" value="true" />
@@ -344,6 +430,11 @@
       <property role="TrG5h" value="testEmptyClass" />
       <node concept="3cqZAl" id="7FLq2$J$AMc" role="3clF45" />
       <node concept="3clFbS" id="7FLq2$J$AMd" role="3clF47">
+        <node concept="3SKdUt" id="7FLq2$J$GIS" role="3cqZAp">
+          <node concept="3SKdUq" id="7FLq2$J$GIU" role="3SKWNk">
+            <property role="3SKdUp" value="Simple class with just a name" />
+          </node>
+        </node>
         <node concept="1uQa1g" id="7FLq2$J$AMe" role="3cqZAp">
           <node concept="3NXOOs" id="7FLq2$J$AMf" role="1uyAOo">
             <property role="1RwFax" value="true" />
@@ -361,6 +452,11 @@
       <property role="TrG5h" value="testClassNonMpsTypes" />
       <node concept="3cqZAl" id="7FLq2$J$AMi" role="3clF45" />
       <node concept="3clFbS" id="7FLq2$J$AMj" role="3clF47">
+        <node concept="3SKdUt" id="7FLq2$J$GJE" role="3cqZAp">
+          <node concept="3SKdUq" id="7FLq2$J$GJG" role="3SKWNk">
+            <property role="3SKdUp" value="Simple class with 8 properties, each of them from ecore permissible types that dont belong to the MPS type" />
+          </node>
+        </node>
         <node concept="1uQa1g" id="7FLq2$J$AMk" role="3cqZAp">
           <node concept="3NXOOs" id="7FLq2$J$AMl" role="1uyAOo">
             <property role="1RwFax" value="true" />
@@ -378,6 +474,11 @@
       <property role="TrG5h" value="testSimpleClassOneProperty" />
       <node concept="3cqZAl" id="7FLq2$J$AMo" role="3clF45" />
       <node concept="3clFbS" id="7FLq2$J$AMp" role="3clF47">
+        <node concept="3SKdUt" id="7FLq2$J$GKc" role="3cqZAp">
+          <node concept="3SKdUq" id="7FLq2$J$GKe" role="3SKWNk">
+            <property role="3SKdUp" value="Simple class with one property" />
+          </node>
+        </node>
         <node concept="1uQa1g" id="7FLq2$J$AMq" role="3cqZAp">
           <node concept="3NXOOs" id="7FLq2$J$AMr" role="1uyAOo">
             <property role="1RwFax" value="true" />
@@ -395,6 +496,11 @@
       <property role="TrG5h" value="testSimpleClassMultipleProperty" />
       <node concept="3cqZAl" id="7FLq2$J$AMu" role="3clF45" />
       <node concept="3clFbS" id="7FLq2$J$AMv" role="3clF47">
+        <node concept="3SKdUt" id="7FLq2$J$GKY" role="3cqZAp">
+          <node concept="3SKdUq" id="7FLq2$J$GL0" role="3SKWNk">
+            <property role="3SKdUp" value="Class with 3 properties each of one primitive type" />
+          </node>
+        </node>
         <node concept="1uQa1g" id="7FLq2$J$AMw" role="3cqZAp">
           <node concept="3NXOOs" id="7FLq2$J$AMx" role="1uyAOo">
             <property role="1RwFax" value="true" />
