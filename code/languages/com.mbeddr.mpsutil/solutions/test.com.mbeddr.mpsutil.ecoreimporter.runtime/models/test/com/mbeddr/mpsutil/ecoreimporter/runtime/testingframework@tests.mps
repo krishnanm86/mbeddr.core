@@ -29,10 +29,8 @@
         <property id="5097124989038916363" name="projectPath" index="2XOHcw" />
       </concept>
       <concept id="1216913645126" name="jetbrains.mps.lang.test.structure.NodesTestCase" flags="lg" index="1lH9Xt">
-        <child id="1217501822150" name="nodesToCheck" index="1SKRRt" />
         <child id="1217501895093" name="testMethods" index="1SL9yI" />
       </concept>
-      <concept id="1216989428737" name="jetbrains.mps.lang.test.structure.TestNode" flags="ng" index="1qefOq" />
       <concept id="1225978065297" name="jetbrains.mps.lang.test.structure.SimpleNodeTest" flags="ng" index="1LZb2c" />
     </language>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -228,70 +226,174 @@
     <property role="2XOHcw" value="c:\\mbeddr.core\\code\\languages\\com.mbeddr.mpsutil" />
   </node>
   <node concept="1lH9Xt" id="7FLq2$J$_PP">
-    <property role="TrG5h" value="SimpleClassTests" />
-    <node concept="1qefOq" id="7FLq2$J$_YK" role="1SKRRt" />
+    <property role="TrG5h" value="EnumTests" />
     <node concept="1LZb2c" id="7FLq2$J$_PQ" role="1SL9yI">
-      <property role="TrG5h" value="testEmptyClass" />
+      <property role="TrG5h" value="testEnumInterface" />
       <node concept="3cqZAl" id="7FLq2$J$_PR" role="3clF45" />
       <node concept="3clFbS" id="7FLq2$J$_PS" role="3clF47">
         <node concept="1uQa1g" id="7FLq2$J$_PT" role="3cqZAp">
           <node concept="3NXOOs" id="7FLq2$J$_PU" role="1uyAOo">
             <property role="1RwFax" value="true" />
             <property role="3kgbRO" value="false" />
-            <property role="3N1Lgt" value="test_Ecore_Files/empty_class.ecore" />
+            <property role="3N1Lgt" value="test_Ecore_Files/enum_Interface.ecore" />
           </node>
           <node concept="BaHAS" id="7FLq2$J$_PV" role="1uyDA$">
-            <property role="BaHAW" value="test.com.mbeddr.mpsutil.ecoreimporter.runtime.emptyClass.structure" />
+            <property role="BaHAW" value="test.com.mbeddr.mpsutil.ecoreimporter.runtime.enumInterface.structure" />
             <property role="BaGAP" value="" />
           </node>
         </node>
       </node>
     </node>
     <node concept="1LZb2c" id="7FLq2$J$A9_" role="1SL9yI">
-      <property role="TrG5h" value="testClassNonMpsTypes" />
+      <property role="TrG5h" value="testEnumNoUniqueInternalValue" />
       <node concept="3cqZAl" id="7FLq2$J$A9A" role="3clF45" />
       <node concept="3clFbS" id="7FLq2$J$A9B" role="3clF47">
         <node concept="1uQa1g" id="7FLq2$J$A9C" role="3cqZAp">
           <node concept="3NXOOs" id="7FLq2$J$A9D" role="1uyAOo">
             <property role="1RwFax" value="true" />
             <property role="3kgbRO" value="false" />
-            <property role="3N1Lgt" value="test_Ecore_Files/class_nonmpstypes.ecore" />
+            <property role="3N1Lgt" value="test_Ecore_Files/enum_no_unique_internal_value.ecore" />
           </node>
           <node concept="BaHAS" id="7FLq2$J$A9E" role="1uyDA$">
-            <property role="BaHAW" value="test.com.mbeddr.mpsutil.ecoreimporter.runtime.classNonMpsTypes.structure" />
+            <property role="BaHAW" value="test.com.mbeddr.mpsutil.ecoreimporter.runtime.enumNoUniqueInternalValue.structure" />
             <property role="BaGAP" value="" />
           </node>
         </node>
       </node>
     </node>
     <node concept="1LZb2c" id="7FLq2$J$AaD" role="1SL9yI">
-      <property role="TrG5h" value="testSimpleClassOneProperty" />
+      <property role="TrG5h" value="testEnumSuperClass" />
       <node concept="3cqZAl" id="7FLq2$J$AaE" role="3clF45" />
       <node concept="3clFbS" id="7FLq2$J$AaF" role="3clF47">
         <node concept="1uQa1g" id="7FLq2$J$AaG" role="3cqZAp">
           <node concept="3NXOOs" id="7FLq2$J$AaH" role="1uyAOo">
             <property role="1RwFax" value="true" />
             <property role="3kgbRO" value="false" />
-            <property role="3N1Lgt" value="test_Ecore_Files/simple_class_one_property.ecore" />
+            <property role="3N1Lgt" value="test_Ecore_Files/enum_super_class.ecore" />
           </node>
           <node concept="BaHAS" id="7FLq2$J$AaI" role="1uyDA$">
-            <property role="BaHAW" value="test.com.mbeddr.mpsutil.ecoreimporter.runtime.simpleClassOneProperty.structure" />
+            <property role="BaHAW" value="test.com.mbeddr.mpsutil.ecoreimporter.runtime.enumSuperClass.structure" />
             <property role="BaGAP" value="" />
           </node>
         </node>
       </node>
     </node>
     <node concept="1LZb2c" id="7FLq2$J$AbH" role="1SL9yI">
-      <property role="TrG5h" value="testSimpleClassMultipleProperty" />
+      <property role="TrG5h" value="testSimpleClassEnumProperty" />
       <node concept="3cqZAl" id="7FLq2$J$AbI" role="3clF45" />
       <node concept="3clFbS" id="7FLq2$J$AbJ" role="3clF47">
         <node concept="1uQa1g" id="7FLq2$J$AbK" role="3cqZAp">
           <node concept="3NXOOs" id="7FLq2$J$AbL" role="1uyAOo">
             <property role="1RwFax" value="true" />
             <property role="3kgbRO" value="false" />
-            <property role="3N1Lgt" value="test_Ecore_Files/simple_class_multiple_property.ecore" />
+            <property role="3N1Lgt" value="test_Ecore_Files/simple_class_enum_property.ecore" />
           </node>
           <node concept="BaHAS" id="7FLq2$J$AbM" role="1uyDA$">
+            <property role="BaHAW" value="test.com.mbeddr.mpsutil.ecoreimporter.runtime.simpleClassEnumProperty.structure" />
+            <property role="BaGAP" value="" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1LZb2c" id="7FLq2$J$ARl" role="1SL9yI">
+      <property role="TrG5h" value="testSimpleClassVaryingPropertyWithEnum" />
+      <node concept="3cqZAl" id="7FLq2$J$ARm" role="3clF45" />
+      <node concept="3clFbS" id="7FLq2$J$ARn" role="3clF47">
+        <node concept="1uQa1g" id="7FLq2$J$ARo" role="3cqZAp">
+          <node concept="3NXOOs" id="7FLq2$J$ARp" role="1uyAOo">
+            <property role="1RwFax" value="true" />
+            <property role="3kgbRO" value="false" />
+            <property role="3N1Lgt" value="test_Ecore_Files/simple_class_varying_property_withenum.ecore" />
+          </node>
+          <node concept="BaHAS" id="7FLq2$J$ARq" role="1uyDA$">
+            <property role="BaHAW" value="test.com.mbeddr.mpsutil.ecoreimporter.runtime.simpleClassVaryingPropertyWithEnum.structure" />
+            <property role="BaGAP" value="" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1LZb2c" id="7FLq2$J$ASL" role="1SL9yI">
+      <property role="TrG5h" value="testSimpleEnum" />
+      <node concept="3cqZAl" id="7FLq2$J$ASM" role="3clF45" />
+      <node concept="3clFbS" id="7FLq2$J$ASN" role="3clF47">
+        <node concept="1uQa1g" id="7FLq2$J$ASO" role="3cqZAp">
+          <node concept="3NXOOs" id="7FLq2$J$ASP" role="1uyAOo">
+            <property role="1RwFax" value="true" />
+            <property role="3kgbRO" value="false" />
+            <property role="3N1Lgt" value="test_Ecore_Files/simple_enum.ecore" />
+          </node>
+          <node concept="BaHAS" id="7FLq2$J$ASQ" role="1uyDA$">
+            <property role="BaHAW" value="test.com.mbeddr.mpsutil.ecoreimporter.runtime.simpleEnum.structure" />
+            <property role="BaGAP" value="" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1lH9Xt" id="7FLq2$J$AM9">
+    <property role="TrG5h" value="SimpleClassTests" />
+    <node concept="1LZb2c" id="7FLq2$J$AMb" role="1SL9yI">
+      <property role="TrG5h" value="testEmptyClass" />
+      <node concept="3cqZAl" id="7FLq2$J$AMc" role="3clF45" />
+      <node concept="3clFbS" id="7FLq2$J$AMd" role="3clF47">
+        <node concept="1uQa1g" id="7FLq2$J$AMe" role="3cqZAp">
+          <node concept="3NXOOs" id="7FLq2$J$AMf" role="1uyAOo">
+            <property role="1RwFax" value="true" />
+            <property role="3kgbRO" value="false" />
+            <property role="3N1Lgt" value="test_Ecore_Files/empty_class.ecore" />
+          </node>
+          <node concept="BaHAS" id="7FLq2$J$AMg" role="1uyDA$">
+            <property role="BaHAW" value="test.com.mbeddr.mpsutil.ecoreimporter.runtime.emptyClass.structure" />
+            <property role="BaGAP" value="" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1LZb2c" id="7FLq2$J$AMh" role="1SL9yI">
+      <property role="TrG5h" value="testClassNonMpsTypes" />
+      <node concept="3cqZAl" id="7FLq2$J$AMi" role="3clF45" />
+      <node concept="3clFbS" id="7FLq2$J$AMj" role="3clF47">
+        <node concept="1uQa1g" id="7FLq2$J$AMk" role="3cqZAp">
+          <node concept="3NXOOs" id="7FLq2$J$AMl" role="1uyAOo">
+            <property role="1RwFax" value="true" />
+            <property role="3kgbRO" value="false" />
+            <property role="3N1Lgt" value="test_Ecore_Files/class_nonmpstypes.ecore" />
+          </node>
+          <node concept="BaHAS" id="7FLq2$J$AMm" role="1uyDA$">
+            <property role="BaHAW" value="test.com.mbeddr.mpsutil.ecoreimporter.runtime.classNonMpsTypes.structure" />
+            <property role="BaGAP" value="" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1LZb2c" id="7FLq2$J$AMn" role="1SL9yI">
+      <property role="TrG5h" value="testSimpleClassOneProperty" />
+      <node concept="3cqZAl" id="7FLq2$J$AMo" role="3clF45" />
+      <node concept="3clFbS" id="7FLq2$J$AMp" role="3clF47">
+        <node concept="1uQa1g" id="7FLq2$J$AMq" role="3cqZAp">
+          <node concept="3NXOOs" id="7FLq2$J$AMr" role="1uyAOo">
+            <property role="1RwFax" value="true" />
+            <property role="3kgbRO" value="false" />
+            <property role="3N1Lgt" value="test_Ecore_Files/simple_class_one_property.ecore" />
+          </node>
+          <node concept="BaHAS" id="7FLq2$J$AMs" role="1uyDA$">
+            <property role="BaHAW" value="test.com.mbeddr.mpsutil.ecoreimporter.runtime.simpleClassOneProperty.structure" />
+            <property role="BaGAP" value="" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1LZb2c" id="7FLq2$J$AMt" role="1SL9yI">
+      <property role="TrG5h" value="testSimpleClassMultipleProperty" />
+      <node concept="3cqZAl" id="7FLq2$J$AMu" role="3clF45" />
+      <node concept="3clFbS" id="7FLq2$J$AMv" role="3clF47">
+        <node concept="1uQa1g" id="7FLq2$J$AMw" role="3cqZAp">
+          <node concept="3NXOOs" id="7FLq2$J$AMx" role="1uyAOo">
+            <property role="1RwFax" value="true" />
+            <property role="3kgbRO" value="false" />
+            <property role="3N1Lgt" value="test_Ecore_Files/simple_class_multiple_property.ecore" />
+          </node>
+          <node concept="BaHAS" id="7FLq2$J$AMy" role="1uyDA$">
             <property role="BaHAW" value="test.com.mbeddr.mpsutil.ecoreimporter.runtime.simpleClassMultipleProperty.structure" />
             <property role="BaGAP" value="" />
           </node>
