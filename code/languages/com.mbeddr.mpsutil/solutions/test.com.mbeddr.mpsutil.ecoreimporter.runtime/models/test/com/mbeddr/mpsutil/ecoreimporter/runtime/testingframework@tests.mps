@@ -506,5 +506,59 @@
       </node>
     </node>
   </node>
+  <node concept="1lH9Xt" id="7FLq2$J$DJK">
+    <property role="TrG5h" value="ReferenceTests" />
+    <node concept="1LZb2c" id="7FLq2$J$DJL" role="1SL9yI">
+      <property role="TrG5h" value="testMultipleReference" />
+      <node concept="3cqZAl" id="7FLq2$J$DJM" role="3clF45" />
+      <node concept="3clFbS" id="7FLq2$J$DJN" role="3clF47">
+        <node concept="1uQa1g" id="7FLq2$J$DJO" role="3cqZAp">
+          <node concept="3NXOOs" id="7FLq2$J$DJP" role="1uyAOo">
+            <property role="1RwFax" value="true" />
+            <property role="3kgbRO" value="false" />
+            <property role="3N1Lgt" value="test_Ecore_Files/class_multiple_reference.ecore" />
+          </node>
+          <node concept="BaHAS" id="7FLq2$J$DJQ" role="1uyDA$">
+            <property role="BaHAW" value="test.com.mbeddr.mpsutil.ecoreimporter.runtime.classMultipleReference.structure" />
+            <property role="BaGAP" value="" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1LZb2c" id="7FLq2$J$DJR" role="1SL9yI">
+      <property role="TrG5h" value="testClassNonMpsTypes" />
+      <node concept="3cqZAl" id="7FLq2$J$DJS" role="3clF45" />
+      <node concept="3clFbS" id="7FLq2$J$DJT" role="3clF47">
+        <node concept="1uQa1g" id="7FLq2$J$DJU" role="3cqZAp">
+          <node concept="3NXOOs" id="7FLq2$J$DJV" role="1uyAOo">
+            <property role="1RwFax" value="true" />
+            <property role="3kgbRO" value="false" />
+            <property role="3N1Lgt" value="test_Ecore_Files/class_reference.ecore" />
+          </node>
+          <node concept="BaHAS" id="7FLq2$J$DJW" role="1uyDA$">
+            <property role="BaHAW" value="test.com.mbeddr.mpsutil.ecoreimporter.runtime.classReference.structure" />
+            <property role="BaGAP" value="" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1LZb2c" id="7FLq2$J$DJX" role="1SL9yI">
+      <property role="TrG5h" value="testSimpleClassOneProperty" />
+      <node concept="3cqZAl" id="7FLq2$J$DJY" role="3clF45" />
+      <node concept="3clFbS" id="7FLq2$J$DJZ" role="3clF47">
+        <node concept="1uQa1g" id="7FLq2$J$DK0" role="3cqZAp">
+          <node concept="3NXOOs" id="7FLq2$J$DK1" role="1uyAOo">
+            <property role="1RwFax" value="true" />
+            <property role="3kgbRO" value="false" />
+            <property role="3N1Lgt" value="test_Ecore_Files/class_reference_child.ecore" />
+          </node>
+          <node concept="BaHAS" id="7FLq2$J$DK2" role="1uyDA$">
+            <property role="BaHAW" value="test.com.mbeddr.mpsutil.ecoreimporter.runtime.classReferenceChild.structure" />
+            <property role="BaGAP" value="" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 
