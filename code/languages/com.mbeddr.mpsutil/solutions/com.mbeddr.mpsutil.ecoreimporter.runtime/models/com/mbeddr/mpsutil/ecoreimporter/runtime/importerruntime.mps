@@ -266,6 +266,9 @@
       <concept id="1171323947159" name="jetbrains.mps.lang.smodel.structure.Model_NodesOperation" flags="nn" index="2SmgA7">
         <child id="1758937410080001570" name="conceptArgument" index="1dBWTz" />
       </concept>
+      <concept id="4040588429969021681" name="jetbrains.mps.lang.smodel.structure.ModuleReferenceExpression" flags="nn" index="3rM5sP">
+        <property id="4040588429969021683" name="moduleId" index="3rM5sR" />
+      </concept>
       <concept id="1180636770613" name="jetbrains.mps.lang.smodel.structure.SNodeCreator" flags="nn" index="3zrR0B">
         <child id="1180636770616" name="createdType" index="3zrR0E" />
       </concept>
@@ -298,6 +301,10 @@
       </concept>
     </language>
     <language id="3eada220-3310-4fd3-b794-ff924add7d8a" name="com.mbeddr.mpsutil.smodule">
+      <concept id="3692959419668261915" name="com.mbeddr.mpsutil.smodule.structure.LanguageRef" flags="ng" index="2o0AGt" />
+      <concept id="3692959419668261840" name="com.mbeddr.mpsutil.smodule.structure.AddLanguageOperation" flags="ng" index="2o0ANm">
+        <child id="3692959419668268396" name="langs" index="2o0C9E" />
+      </concept>
       <concept id="3692959419668350227" name="com.mbeddr.mpsutil.smodule.structure.AddDependencyOperation" flags="ng" index="2o0W8l">
         <child id="2606527653379377356" name="modelsExpr" index="oLjvr" />
       </concept>
@@ -720,6 +727,18 @@
               <node concept="BaHAS" id="3n44SzMKGVs" role="oLjvr">
                 <property role="BaHAW" value="com.mbeddr.mpsutil.ecoreimporter.util.structure" />
                 <property role="BaGAP" value="" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="7FLq2$JyLOn" role="3cqZAp">
+          <node concept="2OqwBi" id="7FLq2$JyMAT" role="3clFbG">
+            <node concept="37vLTw" id="7FLq2$JyLOl" role="2Oq$k0">
+              <ref role="3cqZAo" node="7e2Ns984rDq" resolve="currentModel" />
+            </node>
+            <node concept="2o0ANm" id="7FLq2$JyNi5" role="2OqNvi">
+              <node concept="2o0AGt" id="7FLq2$JyNi7" role="2o0C9E">
+                <property role="3rM5sR" value="77948de3-6ef9-452d-b392-d01403e4086f" />
               </node>
             </node>
           </node>

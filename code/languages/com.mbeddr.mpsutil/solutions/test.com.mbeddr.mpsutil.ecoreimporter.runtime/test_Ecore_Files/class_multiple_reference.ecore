@@ -6,13 +6,14 @@
     <eStructuralFeatures xsi:type="ecore:EReference" name="ref1" eType="#//testRefClass1"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="testRefClass1">
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="attr1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="testRef1attr1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="testRefClass2">
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="attr1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="testRef2attr1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="testClass2">
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="attr1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="ref2" upperBound="-1" eType="#//testRefClass2"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="testclass2attr1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="testRef2" upperBound="-1"
+        eType="#//testRefClass2"/>
   </eClassifiers>
 </ecore:EPackage>

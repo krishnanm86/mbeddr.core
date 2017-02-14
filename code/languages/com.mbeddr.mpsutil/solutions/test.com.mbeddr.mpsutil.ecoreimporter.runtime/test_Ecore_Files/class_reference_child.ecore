@@ -6,9 +6,9 @@
     <eStructuralFeatures xsi:type="ecore:EReference" name="ref1" eType="#//testRefClass1"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="testRefClass1">
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="attr1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="testRefClass1attr1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="testSuperClass">
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="attr1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="attr2" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
   </eClassifiers>
 </ecore:EPackage>
