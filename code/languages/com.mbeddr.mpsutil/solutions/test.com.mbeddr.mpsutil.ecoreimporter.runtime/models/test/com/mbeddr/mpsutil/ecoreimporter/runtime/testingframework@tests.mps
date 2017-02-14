@@ -560,5 +560,25 @@
       </node>
     </node>
   </node>
+  <node concept="1lH9Xt" id="7FLq2$J$EAD">
+    <property role="TrG5h" value="AllInOneTest" />
+    <node concept="1LZb2c" id="7FLq2$J$EAE" role="1SL9yI">
+      <property role="TrG5h" value="testMatch" />
+      <node concept="3cqZAl" id="7FLq2$J$EAF" role="3clF45" />
+      <node concept="3clFbS" id="7FLq2$J$EAG" role="3clF47">
+        <node concept="1uQa1g" id="7FLq2$J$EAH" role="3cqZAp">
+          <node concept="3NXOOs" id="7FLq2$J$EAI" role="1uyAOo">
+            <property role="1RwFax" value="true" />
+            <property role="3kgbRO" value="false" />
+            <property role="3N1Lgt" value="test_Ecore_Files/all_in_one.ecore" />
+          </node>
+          <node concept="BaHAS" id="7FLq2$J$EAJ" role="1uyDA$">
+            <property role="BaHAW" value="test.com.mbeddr.mpsutil.ecoreimporter.runtime.allInOne.structure" />
+            <property role="BaGAP" value="" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 
