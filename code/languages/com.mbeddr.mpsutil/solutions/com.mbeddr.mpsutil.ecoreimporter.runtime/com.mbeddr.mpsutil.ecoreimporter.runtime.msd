@@ -5,11 +5,6 @@
       <sourceRoot path="${module}/models" />
     </modelRoot>
   </models>
-  <stubModelEntries>
-    <stubModelEntry path="${mbeddr.github.core.home}/code/languages/com.mbeddr.mpsutil/solutions/com.mbeddr.mpsutil.ecoretransformationutils.stubs/org.eclipse.emf.common_2.10.1.v20150123-0348.jar" />
-    <stubModelEntry path="${mbeddr.github.core.home}/code/languages/com.mbeddr.mpsutil/solutions/com.mbeddr.mpsutil.ecoretransformationutils.stubs/org.eclipse.emf.ecore.xmi_2.10.2.v20150123-0348.jar" />
-    <stubModelEntry path="${mbeddr.github.core.home}/code/languages/com.mbeddr.mpsutil/solutions/com.mbeddr.mpsutil.ecoretransformationutils.stubs/org.eclipse.emf.ecore_2.10.2.v20150123-0348.jar" />
-  </stubModelEntries>
   <sourcePath />
   <dependencies>
     <dependency reexport="true">6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)</dependency>
