@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="ASCII"?>
-<testClass1 testInt="1"/>
+<testReferenceClass testBool="true"/>
