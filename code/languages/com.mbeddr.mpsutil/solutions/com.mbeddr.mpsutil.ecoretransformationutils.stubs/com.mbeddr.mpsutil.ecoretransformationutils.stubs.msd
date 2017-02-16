@@ -5,15 +5,15 @@
       <sourceRoot location="models" />
     </modelRoot>
     <modelRoot contentPath="${module}" type="java_classes">
-      <sourceRoot location="org.eclipse.emf.common_2.10.1.v20150123-0348.jar" />
-      <sourceRoot location="org.eclipse.emf.ecore.xmi_2.10.2.v20150123-0348.jar" />
-      <sourceRoot location="org.eclipse.emf.ecore_2.10.2.v20150123-0348.jar" />
+      <sourceRoot location="lib/org.eclipse.emf.common_2.10.1.v20150123-0348.jar" />
+      <sourceRoot location="lib/org.eclipse.emf.ecore.xmi_2.10.2.v20150123-0348.jar" />
+      <sourceRoot location="lib/org.eclipse.emf.ecore_2.10.2.v20150123-0348.jar" />
     </modelRoot>
   </models>
   <stubModelEntries>
-    <stubModelEntry path="${module}/org.eclipse.emf.common_2.10.1.v20150123-0348.jar" />
-    <stubModelEntry path="${module}/org.eclipse.emf.ecore.xmi_2.10.2.v20150123-0348.jar" />
-    <stubModelEntry path="${module}/org.eclipse.emf.ecore_2.10.2.v20150123-0348.jar" />
+    <stubModelEntry path="${module}/lib/org.eclipse.emf.common_2.10.1.v20150123-0348.jar" />
+    <stubModelEntry path="${module}/lib/org.eclipse.emf.ecore.xmi_2.10.2.v20150123-0348.jar" />
+    <stubModelEntry path="${module}/lib/org.eclipse.emf.ecore_2.10.2.v20150123-0348.jar" />
   </stubModelEntries>
   <sourcePath />
   <dependencies>
