@@ -9,6 +9,7 @@
   <dependencies>
     <dependency reexport="false">6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)</dependency>
     <dependency reexport="false">e6dc6717-1454-41ee-b1e1-a4ba4e611cc6(com.mbeddr.mpsutil.ecoreimporter.runtime)</dependency>
+    <dependency reexport="false">822a7acd-f487-45f5-bbb9-1ce595a1705f(com.mbeddr.mpsutil.ecoretransformationutils.stubs)</dependency>
   </dependencies>
   <languageVersions>
     <language slang="l:f3061a53-9226-4cc5-a443-f952ceaf5816:jetbrains.mps.baseLanguage" version="4" />
@@ -20,6 +21,7 @@
     <module reference="6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)" version="0" />
     <module reference="741de983-59c6-4cee-985b-3ee842651131(com.mbeddr.mpsutil.ecoreexporter.playground)" version="0" />
     <module reference="e6dc6717-1454-41ee-b1e1-a4ba4e611cc6(com.mbeddr.mpsutil.ecoreimporter.runtime)" version="0" />
+    <module reference="822a7acd-f487-45f5-bbb9-1ce595a1705f(com.mbeddr.mpsutil.ecoretransformationutils.stubs)" version="0" />
   </dependencyVersions>
 </solution>
 

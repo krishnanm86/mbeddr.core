@@ -4,16 +4,11 @@
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot path="${module}/models" />
     </modelRoot>
-    <modelRoot contentPath="${module}" type="java_classes">
-      <sourceRoot path="${module}/org.eclipse.emf.ecore_2.10.2.v20150123-0348.jar" />
-      <sourceRoot path="${module}/org.eclipse.emf.common_2.10.1.v20150123-0348.jar" />
-      <sourceRoot path="${module}/org.eclipse.emf.ecore.xmi_2.10.2.v20150123-0348.jar" />
-    </modelRoot>
   </models>
   <stubModelEntries>
-    <stubModelEntry path="${module}/org.eclipse.emf.ecore.xmi_2.10.2.v20150123-0348.jar" />
-    <stubModelEntry path="${module}/org.eclipse.emf.ecore_2.10.2.v20150123-0348.jar" />
-    <stubModelEntry path="${module}/org.eclipse.emf.common_2.10.1.v20150123-0348.jar" />
+    <stubModelEntry path="${mbeddr.github.core.home}/code/languages/com.mbeddr.mpsutil/solutions/com.mbeddr.mpsutil.ecoretransformationutils.stubs/org.eclipse.emf.common_2.10.1.v20150123-0348.jar" />
+    <stubModelEntry path="${mbeddr.github.core.home}/code/languages/com.mbeddr.mpsutil/solutions/com.mbeddr.mpsutil.ecoretransformationutils.stubs/org.eclipse.emf.ecore.xmi_2.10.2.v20150123-0348.jar" />
+    <stubModelEntry path="${mbeddr.github.core.home}/code/languages/com.mbeddr.mpsutil/solutions/com.mbeddr.mpsutil.ecoretransformationutils.stubs/org.eclipse.emf.ecore_2.10.2.v20150123-0348.jar" />
   </stubModelEntries>
   <sourcePath />
   <dependencies>
@@ -25,6 +20,7 @@
     <dependency reexport="false">c6420b75-4569-420d-aaf7-9bc590ad7b2a(com.mbeddr.mpsutil.comparator)</dependency>
     <dependency reexport="false">5da3f266-d744-4554-a337-854f76f37e5f(test.com.mbeddr.mpsutil.ecoreimporter.runtime)</dependency>
     <dependency reexport="false">ffbd903b-ad52-4445-bf75-2fdd816df24d(com.mbeddr.mpsutil.ecoreimporter.testing.runtime)</dependency>
+    <dependency reexport="false">822a7acd-f487-45f5-bbb9-1ce595a1705f(com.mbeddr.mpsutil.ecoretransformationutils.stubs)</dependency>
   </dependencies>
   <languageVersions>
     <language slang="l:3eada220-3310-4fd3-b794-ff924add7d8a:com.mbeddr.mpsutil.smodule" version="0" />
@@ -46,6 +42,7 @@
     <module reference="e6dc6717-1454-41ee-b1e1-a4ba4e611cc6(com.mbeddr.mpsutil.ecoreimporter.runtime)" version="0" />
     <module reference="ffbd903b-ad52-4445-bf75-2fdd816df24d(com.mbeddr.mpsutil.ecoreimporter.testing.runtime)" version="0" />
     <module reference="77948de3-6ef9-452d-b392-d01403e4086f(com.mbeddr.mpsutil.ecoreimporter.util)" version="0" />
+    <module reference="822a7acd-f487-45f5-bbb9-1ce595a1705f(com.mbeddr.mpsutil.ecoretransformationutils.stubs)" version="0" />
     <module reference="f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)" version="0" />
     <module reference="ed6d7656-532c-4bc2-81d1-af945aeb8280(jetbrains.mps.baseLanguage.blTypes)" version="0" />
     <module reference="fd392034-7849-419d-9071-12563d152375(jetbrains.mps.baseLanguage.closures)" version="0" />

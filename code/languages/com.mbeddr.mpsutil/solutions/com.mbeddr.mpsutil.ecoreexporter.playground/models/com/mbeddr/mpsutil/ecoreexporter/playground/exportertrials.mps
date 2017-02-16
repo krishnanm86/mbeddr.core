@@ -6,15 +6,15 @@
   </languages>
   <imports>
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
-    <import index="tz6t" ref="e6dc6717-1454-41ee-b1e1-a4ba4e611cc6/java:org.eclipse.emf.ecore.xmi.impl(com.mbeddr.mpsutil.ecoreimporter.runtime/)" />
     <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" />
-    <import index="62x7" ref="e6dc6717-1454-41ee-b1e1-a4ba4e611cc6/java:org.eclipse.emf.ecore.impl(com.mbeddr.mpsutil.ecoreimporter.runtime/)" />
     <import index="rpb" ref="r:1764e886-bde7-4513-8b69-527af62b45d0(com.mbeddr.mpsutil.ecoreimporter.runtime.importerruntime)" />
-    <import index="iuoz" ref="e6dc6717-1454-41ee-b1e1-a4ba4e611cc6/java:org.eclipse.emf.ecore(com.mbeddr.mpsutil.ecoreimporter.runtime/)" />
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
-    <import index="hu10" ref="e6dc6717-1454-41ee-b1e1-a4ba4e611cc6/java:org.eclipse.emf.common.util(com.mbeddr.mpsutil.ecoreimporter.runtime/)" />
-    <import index="roop" ref="e6dc6717-1454-41ee-b1e1-a4ba4e611cc6/java:org.eclipse.emf.ecore.resource(com.mbeddr.mpsutil.ecoreimporter.runtime/)" />
-    <import index="hulx" ref="e6dc6717-1454-41ee-b1e1-a4ba4e611cc6/java:org.eclipse.emf.ecore.resource.impl(com.mbeddr.mpsutil.ecoreimporter.runtime/)" />
+    <import index="iuoz" ref="822a7acd-f487-45f5-bbb9-1ce595a1705f/java:org.eclipse.emf.ecore(com.mbeddr.mpsutil.ecoretransformationutils.stubs/)" />
+    <import index="62x7" ref="822a7acd-f487-45f5-bbb9-1ce595a1705f/java:org.eclipse.emf.ecore.impl(com.mbeddr.mpsutil.ecoretransformationutils.stubs/)" />
+    <import index="roop" ref="822a7acd-f487-45f5-bbb9-1ce595a1705f/java:org.eclipse.emf.ecore.resource(com.mbeddr.mpsutil.ecoretransformationutils.stubs/)" />
+    <import index="hulx" ref="822a7acd-f487-45f5-bbb9-1ce595a1705f/java:org.eclipse.emf.ecore.resource.impl(com.mbeddr.mpsutil.ecoretransformationutils.stubs/)" />
+    <import index="tz6t" ref="822a7acd-f487-45f5-bbb9-1ce595a1705f/java:org.eclipse.emf.ecore.xmi.impl(com.mbeddr.mpsutil.ecoretransformationutils.stubs/)" />
+    <import index="hu10" ref="822a7acd-f487-45f5-bbb9-1ce595a1705f/java:org.eclipse.emf.common.util(com.mbeddr.mpsutil.ecoretransformationutils.stubs/)" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -149,7 +149,7 @@
         <node concept="3cpWs8" id="4ss4q8fJ6n0" role="3cqZAp">
           <node concept="3cpWsn" id="4ss4q8fJ6n1" role="3cpWs9">
             <property role="TrG5h" value="metaModel" />
-            <node concept="3uibUv" id="4ss4q8fKr_T" role="1tU5fm">
+            <node concept="3uibUv" id="6uQBSj6pNA5" role="1tU5fm">
               <ref role="3uigEE" to="iuoz:~EPackage" resolve="EPackage" />
             </node>
             <node concept="2YIFZM" id="4ss4q8fKS66" role="33vP2m">
@@ -419,7 +419,7 @@
                 <node concept="3cpWs8" id="4ss4q8fKX8n" role="3cqZAp">
                   <node concept="3cpWsn" id="4ss4q8fKX8o" role="3cpWs9">
                     <property role="TrG5h" value="resourceSet" />
-                    <node concept="3uibUv" id="4ss4q8fKX8p" role="1tU5fm">
+                    <node concept="3uibUv" id="6uQBSj6pULo" role="1tU5fm">
                       <ref role="3uigEE" to="roop:~ResourceSet" resolve="ResourceSet" />
                     </node>
                     <node concept="2ShNRf" id="4ss4q8fKXUc" role="33vP2m">
@@ -489,10 +489,10 @@
                       <node concept="liA8E" id="4ss4q8fLh16" role="2OqNvi">
                         <ref role="37wK5l" to="roop:~ResourceSet.createResource(org.eclipse.emf.common.util.URI):org.eclipse.emf.ecore.resource.Resource" resolve="createResource" />
                         <node concept="2YIFZM" id="4ss4q8fLhDr" role="37wK5m">
-                          <ref role="37wK5l" to="hu10:~URI.createURI(java.lang.String):org.eclipse.emf.common.util.URI" resolve="createURI" />
                           <ref role="1Pybhc" to="hu10:~URI" resolve="URI" />
+                          <ref role="37wK5l" to="hu10:~URI.createURI(java.lang.String):org.eclipse.emf.common.util.URI" resolve="createURI" />
                           <node concept="Xl_RD" id="4ss4q8fLhWJ" role="37wK5m">
-                            <property role="Xl_RC" value="file://C:/mbeddr.core/code/languages/com.mbeddr.mpsutil/solutions/test.com.mbeddr.mpsutil.ecoreimporter.runtime/ecoreexportertest2.xml" />
+                            <property role="Xl_RC" value="file://C:/mbeddr.core/code/languages/com.mbeddr.mpsutil/solutions/test.com.mbeddr.mpsutil.ecoreimporter.runtime/ecoreexportertes22.xml" />
                           </node>
                         </node>
                       </node>
@@ -554,7 +554,7 @@
                 </node>
               </node>
               <node concept="2ZW3vV" id="4ss4q8fJAcW" role="3clFbw">
-                <node concept="3uibUv" id="4ss4q8fKsSp" role="2ZW6by">
+                <node concept="3uibUv" id="6uQBSj6pQWV" role="2ZW6by">
                   <ref role="3uigEE" to="62x7:~EClassImpl" resolve="EClassImpl" />
                 </node>
                 <node concept="37vLTw" id="4ss4q8fJA1$" role="2ZW6bz">
