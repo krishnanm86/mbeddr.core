@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:0c6993d7-bc57-4b48-8eea-f32867c4e003(test.com.mbeddr.mpsutil.ecoreimporter.runtime.testLanguageMatchtc2.generator.template.main@generator)">
+<model ref="r:0c6993d7-bc57-4b48-8eea-f32867c4e003(test.com.mbeddr.mpsutil.ecoreimporter.runtime.testingFrameworkTestLanguageMatch.generator.template.main@generator)">
   <persistence version="9" />
   <languages>
-    <use id="417cb36b-55c0-4052-a46e-a6fb92801958" name="test.com.mbeddr.mpsutil.ecoreimporter.runtime.testLanguageMatch" version="-1" />
+    <use id="417cb36b-55c0-4052-a46e-a6fb92801958" name="test.com.mbeddr.mpsutil.ecoreimporter.runtime.testLanguageMatchtc2" version="-1" />
     <devkit ref="a2eb3a43-fcc2-4200-80dc-c60110c4862d(jetbrains.mps.devkit.templates)" />
   </languages>
   <imports />

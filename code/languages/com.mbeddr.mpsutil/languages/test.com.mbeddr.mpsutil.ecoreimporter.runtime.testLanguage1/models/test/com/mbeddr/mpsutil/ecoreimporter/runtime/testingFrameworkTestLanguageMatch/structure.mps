@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:253f9739-2e87-4b35-a98e-4f490eaa956e(test.com.mbeddr.mpsutil.ecoreimporter.runtime.testFailDifferentNumberOfChildrentc2.structure)">
+<model ref="r:03aba134-0b7a-4e08-94c5-25f2ebc4d5c8(test.com.mbeddr.mpsutil.ecoreimporter.runtime.testingFrameworkTestLanguageMatch.structure)">
   <persistence version="9" />
   <languages>
     <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="3" />
@@ -169,11 +169,6 @@
       <property role="IQ2nx" value="8807858324542504718" />
       <property role="TrG5h" value="newAttribute2Class2" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
-    </node>
-    <node concept="1TJgyi" id="6m31kJuAYIo" role="1TKVEl">
-      <property role="IQ2nx" value="7314696043195263896" />
-      <property role="TrG5h" value="newattrNoMatch3" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
     <node concept="PrWs8" id="7CVN7FEkFW$" role="PzmwI">
       <ref role="PrY4T" node="7CVN7FEkFW_" resolve="i_SuperClass2" />

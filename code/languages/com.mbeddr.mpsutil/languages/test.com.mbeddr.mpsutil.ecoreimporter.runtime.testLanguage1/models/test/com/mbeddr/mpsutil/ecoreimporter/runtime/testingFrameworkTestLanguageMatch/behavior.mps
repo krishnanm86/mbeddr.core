@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:cdc82ec0-d7c7-4810-8735-1c91f96f144a(test.com.mbeddr.mpsutil.ecoreimporter.runtime.testFailDifferentPropertyNametc2.behavior)">
+<model ref="r:dc839def-c866-475c-8d57-3beb26bda90e(test.com.mbeddr.mpsutil.ecoreimporter.runtime.testingFrameworkTestLanguageMatch.behavior)">
   <persistence version="9" />
   <languages>
     <use id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior" version="0" />

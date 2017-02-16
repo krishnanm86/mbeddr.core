@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<language namespace="test.com.mbeddr.mpsutil.ecoreimporter.runtime.testLanguageMatchtc2" uuid="417cb36b-55c0-4052-a46e-a6fb92801958" languageVersion="0" moduleVersion="0">
+<language namespace="test.com.mbeddr.mpsutil.ecoreimporter.runtime.testFailDifferentNumberOfChildren" uuid="c220e21b-ebd4-4924-84ab-4c2dac9c325f" languageVersion="0" moduleVersion="0">
   <models>
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="models" />
@@ -7,7 +7,7 @@
   </models>
   <accessoryModels />
   <generators>
-    <generator generatorUID="test.com.mbeddr.mpsutil.ecoreimporter.runtime.testLanguageMatchtc2#7314696043194888473" uuid="da51642e-8420-46e7-a3e5-3fd8be8c6d89">
+    <generator generatorUID="test.com.mbeddr.mpsutil.ecoreimporter.runtime.testFailDifferentNumberOfChildren#7314696043195263862" uuid="04c4ff03-2afd-4030-973b-57e6b77e48a9">
       <models>
         <modelRoot contentPath="${module}" type="default">
           <sourceRoot path="${module}/generator/template" />
@@ -34,7 +34,7 @@
         <language slang="l:13744753-c81f-424a-9c1b-cf8943bf4e86:jetbrains.mps.lang.sharedConcepts" version="0" />
         <language slang="l:7866978e-a0f0-4cc7-81bc-4d213d9375e1:jetbrains.mps.lang.smodel" version="4" />
         <language slang="l:9ded098b-ad6a-4657-bfd9-48636cfe8bc3:jetbrains.mps.lang.traceable" version="0" />
-        <language slang="l:417cb36b-55c0-4052-a46e-a6fb92801958:test.com.mbeddr.mpsutil.ecoreimporter.runtime.testLanguage1" version="-1" />
+        <language slang="l:c220e21b-ebd4-4924-84ab-4c2dac9c325f:test.com.mbeddr.mpsutil.ecoreimporter.runtime.testLanguageNoMatch" version="-1" />
       </languageVersions>
       <dependencyVersions>
         <module reference="3f233e7f-b8a6-46d2-a57f-795d56775243(Annotations)" version="0" />
@@ -44,8 +44,8 @@
         <module reference="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" version="0" />
         <module reference="d7eb0a2a-bd50-4576-beae-e4a89db35f20(jetbrains.mps.lang.scopes.runtime)" version="0" />
         <module reference="c72da2b9-7cce-4447-8389-f407dc1158b7(jetbrains.mps.lang.structure)" version="0" />
-        <module reference="417cb36b-55c0-4052-a46e-a6fb92801958(test.com.mbeddr.mpsutil.ecoreimporter.runtime.testLanguageMatchtc2)" version="0" />
-        <module reference="da51642e-8420-46e7-a3e5-3fd8be8c6d89(test.com.mbeddr.mpsutil.ecoreimporter.runtime.testLanguageMatchtc2#7314696043194888473)" version="0" />
+        <module reference="c220e21b-ebd4-4924-84ab-4c2dac9c325f(test.com.mbeddr.mpsutil.ecoreimporter.runtime.testFailDifferentNumberOfChildren)" version="0" />
+        <module reference="04c4ff03-2afd-4030-973b-57e6b77e48a9(test.com.mbeddr.mpsutil.ecoreimporter.runtime.testFailDifferentNumberOfChildren#7314696043195263862)" version="0" />
       </dependencyVersions>
       <mapping-priorities />
     </generator>
@@ -97,7 +97,7 @@
     <module reference="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" version="0" />
     <module reference="d7eb0a2a-bd50-4576-beae-e4a89db35f20(jetbrains.mps.lang.scopes.runtime)" version="0" />
     <module reference="c72da2b9-7cce-4447-8389-f407dc1158b7(jetbrains.mps.lang.structure)" version="0" />
-    <module reference="417cb36b-55c0-4052-a46e-a6fb92801958(test.com.mbeddr.mpsutil.ecoreimporter.runtime.testLanguageMatchtc2)" version="0" />
+    <module reference="c220e21b-ebd4-4924-84ab-4c2dac9c325f(test.com.mbeddr.mpsutil.ecoreimporter.runtime.testFailDifferentNumberOfChildren)" version="0" />
   </dependencyVersions>
   <extendedLanguages />
 </language>

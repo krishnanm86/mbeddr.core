@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:7e5671d7-6345-4a9a-b9c1-a9402c45fd77(test.com.mbeddr.mpsutil.ecoreimporter.runtime.testFailDifferentPropertyNametc2.generator.template.main@generator)">
+<model ref="r:7e5671d7-6345-4a9a-b9c1-a9402c45fd77(test.com.mbeddr.mpsutil.ecoreimporter.runtime.testFailDifferentPropertyName.generator.template.main@generator)">
   <persistence version="9" />
   <languages>
-    <use id="80007ac6-8cae-453d-b524-2c3a8572b02a" name="test.com.mbeddr.mpsutil.ecoreimporter.runtime.testlanguageNoMatch2" version="-1" />
+    <use id="80007ac6-8cae-453d-b524-2c3a8572b02a" name="test.com.mbeddr.mpsutil.ecoreimporter.runtime.testFailDifferentPropertyNametc2" version="-1" />
     <devkit ref="a2eb3a43-fcc2-4200-80dc-c60110c4862d(jetbrains.mps.devkit.templates)" />
   </languages>
   <imports />
