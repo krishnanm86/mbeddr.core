@@ -18,6 +18,7 @@
     <import index="tprs" ref="r:00000000-0000-4000-0000-011c895904a4(jetbrains.mps.ide.actions)" />
     <import index="dxuu" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:javax.swing(JDK/)" />
     <import index="rpb" ref="r:1764e886-bde7-4513-8b69-527af62b45d0(com.mbeddr.mpsutil.ecoreimporter.runtime.importerruntime)" />
+    <import index="n0xj" ref="r:801d492d-afa4-4a40-87c6-6ca9ffbc3fb3(com.mbeddr.mpsutil.ecoreimporter.ui.utils)" />
   </imports>
   <registry>
     <language id="28f9e497-3b42-4291-aeba-0a1039153ab1" name="jetbrains.mps.lang.plugin">
@@ -188,8 +189,8 @@
       <node concept="3clFbS" id="2CLKXjMmk72" role="2VODD2">
         <node concept="3clFbF" id="1a1uQDXH5v7" role="3cqZAp">
           <node concept="2YIFZM" id="5D0nJiXSYyl" role="3clFbG">
-            <ref role="37wK5l" to="rpb:1a1uQDXH4Ie" resolve="importEcoreFile" />
-            <ref role="1Pybhc" to="rpb:1a1uQDXH2Rp" resolve="EcoreFileImporter" />
+            <ref role="1Pybhc" to="n0xj:3zQAMCeVl7q" resolve="EcoreFileImporterUI" />
+            <ref role="37wK5l" to="n0xj:1a1uQDXH4Ie" resolve="importEcoreFile" />
             <node concept="2OqwBi" id="5D0nJiXSYym" role="37wK5m">
               <node concept="2WthIp" id="5D0nJiXSYyn" role="2Oq$k0" />
               <node concept="3gHZIF" id="5D0nJiXSYyo" role="2OqNvi">

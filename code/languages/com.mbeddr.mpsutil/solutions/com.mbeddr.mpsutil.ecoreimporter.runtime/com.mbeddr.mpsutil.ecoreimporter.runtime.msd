@@ -5,6 +5,11 @@
       <sourceRoot path="${module}/models" />
     </modelRoot>
   </models>
+  <stubModelEntries>
+    <stubModelEntry path="${mbeddr.github.core.home}/code/languages/com.mbeddr.mpsutil/solutions/com.mbeddr.mpsutil.ecoretransformationutils.stubs/org.eclipse.emf.common_2.10.1.v20150123-0348.jar" />
+    <stubModelEntry path="${mbeddr.github.core.home}/code/languages/com.mbeddr.mpsutil/solutions/com.mbeddr.mpsutil.ecoretransformationutils.stubs/org.eclipse.emf.ecore.xmi_2.10.2.v20150123-0348.jar" />
+    <stubModelEntry path="${mbeddr.github.core.home}/code/languages/com.mbeddr.mpsutil/solutions/com.mbeddr.mpsutil.ecoretransformationutils.stubs/org.eclipse.emf.ecore_2.10.2.v20150123-0348.jar" />
+  </stubModelEntries>
   <sourcePath />
   <dependencies>
     <dependency reexport="true">6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)</dependency>
@@ -13,6 +18,7 @@
     <dependency reexport="false">77948de3-6ef9-452d-b392-d01403e4086f(com.mbeddr.mpsutil.ecoreimporter.util)</dependency>
     <dependency reexport="false">86ef8290-12bb-4ca7-947f-093788f263a9(jetbrains.mps.lang.project)</dependency>
     <dependency reexport="false">c6420b75-4569-420d-aaf7-9bc590ad7b2a(com.mbeddr.mpsutil.comparator)</dependency>
+    <dependency reexport="false">5da3f266-d744-4554-a337-854f76f37e5f(test.com.mbeddr.mpsutil.ecoreimporter)</dependency>
     <dependency reexport="false">ffbd903b-ad52-4445-bf75-2fdd816df24d(com.mbeddr.mpsutil.ecoreimporter.testing.runtime)</dependency>
     <dependency reexport="false">822a7acd-f487-45f5-bbb9-1ce595a1705f(com.mbeddr.mpsutil.ecoretransformationutils.stubs)</dependency>
   </dependencies>
@@ -48,6 +54,7 @@
     <module reference="7866978e-a0f0-4cc7-81bc-4d213d9375e1(jetbrains.mps.lang.smodel)" version="1" />
     <module reference="c72da2b9-7cce-4447-8389-f407dc1158b7(jetbrains.mps.lang.structure)" version="0" />
     <module reference="9ded098b-ad6a-4657-bfd9-48636cfe8bc3(jetbrains.mps.lang.traceable)" version="0" />
+    <module reference="5da3f266-d744-4554-a337-854f76f37e5f(test.com.mbeddr.mpsutil.ecoreimporter)" version="0" />
   </dependencyVersions>
 </solution>
 

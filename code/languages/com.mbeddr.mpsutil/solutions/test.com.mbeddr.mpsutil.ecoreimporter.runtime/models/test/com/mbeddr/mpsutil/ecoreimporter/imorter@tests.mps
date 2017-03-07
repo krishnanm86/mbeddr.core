@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:351de29e-9de8-474a-88fe-d4df89596905(test.com.mbeddr.mpsutil.ecoreimporter.runtime.imorter@tests)">
+<model ref="r:351de29e-9de8-474a-88fe-d4df89596905(test.com.mbeddr.mpsutil.ecoreimporter.imorter@tests)">
   <persistence version="9" />
   <languages>
     <use id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test" version="1" />
@@ -516,7 +516,7 @@
     </node>
   </node>
   <node concept="2XOHcx" id="6m31kJuC8IJ">
-    <property role="2XOHcw" value="c:\\mbeddr.core\\code\\languages\\com.mbeddr.mpsutil" />
+    <property role="2XOHcw" value="${mbeddr.github.core.home}/code/languages/com.mbeddr.mpsutil" />
   </node>
 </model>
 
