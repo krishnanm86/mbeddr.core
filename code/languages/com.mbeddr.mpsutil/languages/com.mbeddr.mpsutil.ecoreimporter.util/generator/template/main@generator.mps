@@ -2,7 +2,6 @@
 <model ref="r:395ae0e9-e331-4b69-a7d7-6ac64eb2646b(com.mbeddr.mpsutil.ecoreimporter.util.generator.template.main@generator)">
   <persistence version="9" />
   <languages>
-    <use id="77948de3-6ef9-452d-b392-d01403e4086f" name="AnnotationLanguage" version="-1" />
     <devkit ref="a2eb3a43-fcc2-4200-80dc-c60110c4862d(jetbrains.mps.devkit.templates)" />
   </languages>
   <imports />
