@@ -69,6 +69,7 @@
       </concept>
       <concept id="1068498886292" name="jetbrains.mps.baseLanguage.structure.ParameterDeclaration" flags="ir" index="37vLTG" />
       <concept id="1225271177708" name="jetbrains.mps.baseLanguage.structure.StringType" flags="in" index="17QB3L" />
+      <concept id="1225271221393" name="jetbrains.mps.baseLanguage.structure.NPENotEqualsExpression" flags="nn" index="17QLQc" />
       <concept id="4972933694980447171" name="jetbrains.mps.baseLanguage.structure.BaseVariableDeclaration" flags="ng" index="19Szcq">
         <child id="5680397130376446158" name="type" index="1tU5fm" />
       </concept>
@@ -102,6 +103,9 @@
       <concept id="1206060495898" name="jetbrains.mps.baseLanguage.structure.ElsifClause" flags="ng" index="3eNFk2">
         <child id="1206060619838" name="condition" index="3eO9$A" />
         <child id="1206060644605" name="statementList" index="3eOfB_" />
+      </concept>
+      <concept id="1160998861373" name="jetbrains.mps.baseLanguage.structure.AssertStatement" flags="nn" index="1gVbGN">
+        <child id="1160998896846" name="condition" index="1gVkn0" />
       </concept>
       <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ng" index="1ndlxa">
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
@@ -159,6 +163,14 @@
               <node concept="Xl_RD" id="vOGyTeH9nX" role="37wK5m">
                 <property role="Xl_RC" value="C:\\Users\\knarasimhan\\workspace\\testEcoreModel\\exporterTest.ecore" />
               </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1gVbGN" id="60d$i5ss_a3" role="3cqZAp">
+          <node concept="17QLQc" id="60d$i5ssBls" role="1gVkn0">
+            <node concept="10Nm6u" id="60d$i5ssCfg" role="3uHU7w" />
+            <node concept="37vLTw" id="60d$i5ssAk3" role="3uHU7B">
+              <ref role="3cqZAo" node="4ss4q8fJ6n1" resolve="metaModel" />
             </node>
           </node>
         </node>
