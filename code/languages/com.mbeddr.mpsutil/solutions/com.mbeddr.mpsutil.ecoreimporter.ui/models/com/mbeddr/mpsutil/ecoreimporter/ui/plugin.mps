@@ -28,7 +28,6 @@
       <concept id="1203071646776" name="jetbrains.mps.lang.plugin.structure.ActionDeclaration" flags="ng" index="sE7Ow">
         <property id="1215865999894" name="mnemonic" index="ngHcd" />
         <property id="1205250923097" name="caption" index="2uzpH1" />
-        <child id="1203083196627" name="updateBlock" index="tmbBb" />
         <child id="1203083461638" name="executeFunction" index="tncku" />
         <child id="1217413222820" name="parameter" index="1NuT2Z" />
       </concept>
@@ -48,7 +47,6 @@
         <reference id="1203092736097" name="modifiedGroup" index="tU$_T" />
       </concept>
       <concept id="1205679047295" name="jetbrains.mps.lang.plugin.structure.ActionParameterDeclaration" flags="ig" index="2S4$dB" />
-      <concept id="1205681243813" name="jetbrains.mps.lang.plugin.structure.IsApplicableBlock" flags="in" index="2ScWuX" />
       <concept id="1214307303872" name="jetbrains.mps.lang.plugin.structure.GetComponentBlock" flags="in" index="2UmK3q" />
       <concept id="6547237850567458268" name="jetbrains.mps.lang.plugin.structure.BaseToolDeclaration" flags="ng" index="2XNcJY">
         <property id="2498620720770664572" name="position" index="2bmUCM" />
@@ -206,22 +204,6 @@
       <node concept="3Tm6S6" id="WAKHA7EAAJ" role="1B3o_S" />
       <node concept="1oajcY" id="WAKHA7EAAK" role="1oa70y" />
       <node concept="H_c77" id="WAKHA7Eyff" role="1tU5fm" />
-    </node>
-    <node concept="2ScWuX" id="1a1uQDXF_5p" role="tmbBb">
-      <node concept="3clFbS" id="1a1uQDXF_5q" role="2VODD2">
-        <node concept="3clFbF" id="1a1uQDXHlRm" role="3cqZAp">
-          <node concept="2YIFZM" id="5D0nJiXSYlH" role="3clFbG">
-            <ref role="37wK5l" to="rpb:1a1uQDXHl2c" resolve="isStructureModel" />
-            <ref role="1Pybhc" to="rpb:1a1uQDXH2Rp" resolve="EcoreFileImporter" />
-            <node concept="2OqwBi" id="5D0nJiXSYlI" role="37wK5m">
-              <node concept="2WthIp" id="5D0nJiXSYlJ" role="2Oq$k0" />
-              <node concept="3gHZIF" id="5D0nJiXSYlK" role="2OqNvi">
-                <ref role="2WH_rO" node="WAKHA7EAAI" resolve="currModel" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
     </node>
   </node>
 </model>

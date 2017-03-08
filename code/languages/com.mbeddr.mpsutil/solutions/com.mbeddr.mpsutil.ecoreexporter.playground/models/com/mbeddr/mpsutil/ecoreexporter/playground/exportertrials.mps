@@ -154,8 +154,8 @@
               <ref role="3uigEE" to="iuoz:~EPackage" resolve="EPackage" />
             </node>
             <node concept="2YIFZM" id="4ss4q8fKS66" role="33vP2m">
-              <ref role="37wK5l" to="rpb:WAKHA7EkR2" resolve="getEcoreModel" />
               <ref role="1Pybhc" to="rpb:WAKHA7EgZh" resolve="MetaModelImporter" />
+              <ref role="37wK5l" to="rpb:60d$i5snd0T" resolve="getEcoreModel" />
               <node concept="Xl_RD" id="vOGyTeH9nX" role="37wK5m">
                 <property role="Xl_RC" value="C:\\Users\\knarasimhan\\workspace\\testEcoreModel\\exporterTest.ecore" />
               </node>

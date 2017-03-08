@@ -26,9 +26,6 @@
         <property id="1070475926801" name="value" index="Xl_RC" />
       </concept>
       <concept id="1081236700938" name="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" flags="ig" index="2YIFZL" />
-      <concept id="1081236700937" name="jetbrains.mps.baseLanguage.structure.StaticMethodCall" flags="nn" index="2YIFZM">
-        <reference id="1144433194310" name="classConcept" index="1Pybhc" />
-      </concept>
       <concept id="1070533707846" name="jetbrains.mps.baseLanguage.structure.StaticFieldReference" flags="nn" index="10M0yZ">
         <reference id="1144433057691" name="classifier" index="1PxDUh" />
       </concept>
@@ -69,9 +66,6 @@
       </concept>
       <concept id="1068581242863" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" flags="nr" index="3cpWsn" />
       <concept id="1068581517677" name="jetbrains.mps.baseLanguage.structure.VoidType" flags="in" index="3cqZAl" />
-      <concept id="1160998861373" name="jetbrains.mps.baseLanguage.structure.AssertStatement" flags="nn" index="1gVbGN">
-        <child id="1160998896846" name="condition" index="1gVkn0" />
-      </concept>
       <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ng" index="1ndlxa">
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
         <child id="1068499141038" name="actualArgument" index="37wK5m" />
@@ -112,15 +106,6 @@
       <property role="od$2w" value="false" />
       <property role="2aFKle" value="false" />
       <node concept="3clFbS" id="1a1uQDXH4Ii" role="3clF47">
-        <node concept="1gVbGN" id="1a1uQDXHnGo" role="3cqZAp">
-          <node concept="2YIFZM" id="3zQAMCeVlp3" role="1gVkn0">
-            <ref role="1Pybhc" to="rpb:1a1uQDXH2Rp" resolve="EcoreFileImporter" />
-            <ref role="37wK5l" to="rpb:1a1uQDXHl2c" resolve="isStructureModel" />
-            <node concept="37vLTw" id="1a1uQDXHopH" role="37wK5m">
-              <ref role="3cqZAo" node="1a1uQDXH4Ig" resolve="currModel" />
-            </node>
-          </node>
-        </node>
         <node concept="3cpWs8" id="1a1uQDXH4Ij" role="3cqZAp">
           <node concept="3cpWsn" id="1a1uQDXH4Ik" role="3cpWs9">
             <property role="TrG5h" value="fileChooser" />
@@ -202,15 +187,32 @@
                 </node>
               </node>
             </node>
-            <node concept="3clFbF" id="3zQAMCeVmLJ" role="3cqZAp">
-              <node concept="2YIFZM" id="3zQAMCeVmR$" role="3clFbG">
-                <ref role="37wK5l" to="rpb:5D0nJiXT3P2" resolve="importEcoreFile" />
-                <ref role="1Pybhc" to="rpb:1a1uQDXH2Rp" resolve="EcoreFileImporter" />
-                <node concept="37vLTw" id="3zQAMCeVn6z" role="37wK5m">
-                  <ref role="3cqZAo" node="1a1uQDXH4Ig" resolve="currModel" />
+            <node concept="3cpWs8" id="60d$i5slz$i" role="3cqZAp">
+              <node concept="3cpWsn" id="60d$i5slz$j" role="3cpWs9">
+                <property role="TrG5h" value="fileImporter" />
+                <node concept="3uibUv" id="60d$i5slz$k" role="1tU5fm">
+                  <ref role="3uigEE" to="rpb:1a1uQDXH2Rp" resolve="EcoreFileImporter" />
                 </node>
-                <node concept="37vLTw" id="3zQAMCeVne4" role="37wK5m">
-                  <ref role="3cqZAo" node="1a1uQDXH4II" resolve="ecoreFilename" />
+                <node concept="2ShNRf" id="60d$i5slzDh" role="33vP2m">
+                  <node concept="1pGfFk" id="60d$i5sl$1u" role="2ShVmc">
+                    <ref role="37wK5l" to="rpb:60d$i5slx2z" resolve="EcoreFileImporter" />
+                    <node concept="37vLTw" id="60d$i5sl$4s" role="37wK5m">
+                      <ref role="3cqZAo" node="1a1uQDXH4Ig" resolve="currModel" />
+                    </node>
+                    <node concept="37vLTw" id="60d$i5sl$aH" role="37wK5m">
+                      <ref role="3cqZAo" node="1a1uQDXH4II" resolve="ecoreFilename" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="60d$i5sl$mL" role="3cqZAp">
+              <node concept="2OqwBi" id="60d$i5sl$vs" role="3clFbG">
+                <node concept="37vLTw" id="60d$i5sl$mJ" role="2Oq$k0">
+                  <ref role="3cqZAo" node="60d$i5slz$j" resolve="fileImporter" />
+                </node>
+                <node concept="liA8E" id="60d$i5sl$E2" role="2OqNvi">
+                  <ref role="37wK5l" to="rpb:60d$i5slwrM" resolve="importEcoreFile" />
                 </node>
               </node>
             </node>

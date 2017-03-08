@@ -618,23 +618,40 @@
                 <node concept="3clFbT" id="rt4C5o0Ymp" role="37wK5m">
                   <property role="3clFbU" value="true" />
                 </node>
-                <node concept="2YIFZM" id="rt4C5o0Ymq" role="37wK5m">
-                  <ref role="1Pybhc" to="tqvn:~TempModuleOptions" resolve="TempModuleOptions" />
+                <node concept="2YIFZM" id="60d$i5srx7j" role="37wK5m">
                   <ref role="37wK5l" to="tqvn:~TempModuleOptions.forDefaultModule():jetbrains.mps.smodel.tempmodel.TempModuleOptions" resolve="forDefaultModule" />
+                  <ref role="1Pybhc" to="tqvn:~TempModuleOptions" resolve="TempModuleOptions" />
                 </node>
               </node>
             </node>
           </node>
         </node>
-        <node concept="3clFbF" id="rt4C5o0Ymr" role="3cqZAp">
-          <node concept="2YIFZM" id="rt4C5o0Yms" role="3clFbG">
-            <ref role="1Pybhc" to="rpb:1a1uQDXH2Rp" resolve="EcoreFileImporter" />
-            <ref role="37wK5l" to="rpb:5D0nJiXT3P2" resolve="importEcoreFile" />
-            <node concept="37vLTw" id="rt4C5o0Ymt" role="37wK5m">
-              <ref role="3cqZAo" node="rt4C5o0Ymk" resolve="importedModel" />
+        <node concept="3cpWs8" id="60d$i5slUiO" role="3cqZAp">
+          <node concept="3cpWsn" id="60d$i5slUiP" role="3cpWs9">
+            <property role="TrG5h" value="fileImporter" />
+            <node concept="3uibUv" id="60d$i5slUiQ" role="1tU5fm">
+              <ref role="3uigEE" to="rpb:1a1uQDXH2Rp" resolve="EcoreFileImporter" />
             </node>
-            <node concept="37vLTw" id="rt4C5o0Ymu" role="37wK5m">
-              <ref role="3cqZAo" node="rt4C5o0YmB" resolve="ecoreFileName" />
+            <node concept="2ShNRf" id="60d$i5slVLB" role="33vP2m">
+              <node concept="1pGfFk" id="60d$i5slW2O" role="2ShVmc">
+                <ref role="37wK5l" to="rpb:60d$i5slx2z" resolve="EcoreFileImporter" />
+                <node concept="37vLTw" id="60d$i5slW6V" role="37wK5m">
+                  <ref role="3cqZAo" node="rt4C5o0Ymk" resolve="importedModel" />
+                </node>
+                <node concept="37vLTw" id="60d$i5slWfr" role="37wK5m">
+                  <ref role="3cqZAo" node="rt4C5o0YmB" resolve="ecoreFileName" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="60d$i5slZ2U" role="3cqZAp">
+          <node concept="2OqwBi" id="60d$i5sm0m7" role="3clFbG">
+            <node concept="37vLTw" id="60d$i5slZ2S" role="2Oq$k0">
+              <ref role="3cqZAo" node="60d$i5slUiP" resolve="fileImporter" />
+            </node>
+            <node concept="liA8E" id="60d$i5sm0Fe" role="2OqNvi">
+              <ref role="37wK5l" to="rpb:60d$i5slwrM" resolve="importEcoreFile" />
             </node>
           </node>
         </node>
